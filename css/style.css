@@ -1,10 +1,8 @@
 @font-face {
-  font-family: "Golos Text VF", sans-serif;
-  src: url("../fonts/golos-text_vf.woff");
-}
-@font-face {
-  font-family: "Golos Text VF", sans-serif;
-  src: url("../fonts/golos-text_vf.woff2");
+  font-family: "GolosTextWebVF";
+  src: url("../fonts/Golos-Text_VF.woff2") format("woff2"), url("../fonts/Golos-Text_VF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 * {
   margin: 0;
@@ -36,6 +34,7 @@ span {
 
 .container_card {
   max-width: 1142px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 
@@ -43,11 +42,97 @@ span {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 39px 0 33px;
-  border: 1px solid red;
 }
 
 body {
   background: #151C2C;
+}
+
+.mySwiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #D9D9D9;
+}
+.swiper-pagination .swiper-pagination-bullet {
+  transform: translateY(-22px);
+  margin: 0 11px !important;
+  height: 9px;
+  width: 9px;
+  background-color: #6C6C6C;
+}
+
+header .header_wrapper {
+  padding: 17px 0;
+  display: flex;
+  align-items: center;
+}
+header .header_wrapper .nav_link {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+header .header_wrapper .nav_item a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
+}
+header .header_wrapper .nav_item a svg {
+  margin-right: 7px;
+}
+header .header_wrapper .account {
+  display: flex;
+  align-items: center;
+}
+header .header_wrapper .account .search_icon {
+  margin-right: 29px;
+}
+header .header_wrapper .account .account_name p {
+  color: #fff;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 0.5; /* 150% */
+}
+header .header_wrapper .account .account_name h4 {
+  margin-top: 2px;
+  color: #fff;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+header .header_wrapper .account .account_icon {
+  margin-left: 16px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 2px solid var(--border-border-imput, #2A2533);
+  background: #3561FF;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
 }
 
 #index .jackpot {
@@ -86,26 +171,25 @@ body {
   line-height: 40.438px; /* 138.605% */
   text-transform: uppercase;
 }
-#index .main_menu {
+#index .main_menu_wrapper {
+  overflow: scroll !important;
   width: 100%;
-  overflow-x: hidden;
+}
+#index .main_menu {
   padding-top: 20px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #494C53;
-  stroke-width: 1px;
+  width: 1140px;
 }
 #index .main_menu .main_menu_link {
-  margin-right: 32px;
-  margin-left: 10px;
+  padding-right: 19px;
+  padding-left: 19px;
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: 0.5s linear;
-}
-#index .main_menu .main_menu_link:hover {
-  border-bottom: 2px #FFD333;
 }
 #index .main_menu .main_menu_link a {
   white-space: nowrap;
@@ -116,6 +200,20 @@ body {
   font-weight: 400;
   line-height: normal;
   padding-bottom: 13px;
+}
+#index .main_menu .main_menu_active {
+  border-bottom: 2px solid #FFD333;
+}
+#index .main_menu .main_menu_active a {
+  color: #fff;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14.83px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#index .main_menu_linkx::-webkit-scrollbar {
+  display: none;
 }
 #index .provider {
   margin-top: 20px;
@@ -302,5 +400,175 @@ body {
   margin-right: 80px;
   margin-bottom: 20px;
 }
+#index .logo_noactive {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 
-@im;/*# sourceMappingURL=style.css.map */
+footer {
+  padding-bottom: 97px;
+  padding-top: 55px;
+}
+footer .footer_wrapper {
+  display: flex;
+  align-items: start;
+}
+footer .footer_wrapper .network_messenger {
+  margin-top: 46px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+footer .footer_wrapper .footer_menu {
+  margin-left: auto;
+  margin-right: 165px;
+}
+footer .footer_wrapper .footer_menu .footer_link {
+  margin-bottom: 10px;
+}
+footer .footer_wrapper .footer_menu .footer_link a {
+  color: #585E73;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+footer .footer_wrapper .footer_menu_two .footer_menu_item {
+  margin-bottom: 10px;
+}
+footer .footer_wrapper .footer_menu_two .footer_menu_item a {
+  color: #585E73;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+footer .footer_text {
+  transform: translateY(-20px);
+  color: #585E73;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+@media only screen and (max-width: 1200px) {
+  header .header_wrapper .nav_link {
+    gap: 18px;
+  }
+  header .header_wrapper .account .search_icon {
+    margin-right: 12px;
+  }
+  #index .logo_active a {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  #index .logo_active a img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  header .header_wrapper .nav_link a {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  header .header_wrapper .nav_link .nav_item {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer .footer_wrapper .footer_menu {
+    margin-right: 60px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  #index .main_cards .card_wrapper {
+    flex-basis: 270px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 0 25px;
+  }
+  .container_card {
+    padding: 0 25px;
+  }
+  #index .main_cards {
+    padding-top: 34px;
+    justify-content: center;
+    gap: 11px;
+  }
+  #index .main_cards .card_wrapper {
+    margin-bottom: 20px;
+    flex-basis: 45%;
+  }
+  #index .main_cards .card_wrapper h4 {
+    font-size: 9px;
+  }
+  #index .main_cards .card_wrapper .card_img img {
+    border-radius: 10px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover {
+    border-radius: 10px;
+  }
+  #index .provider {
+    flex-direction: column;
+  }
+  #index .provider .provider_select {
+    margin-right: 0;
+    margin-bottom: 14px;
+    width: 100%;
+  }
+  #index .provider .provider_search {
+    width: 100%;
+  }
+  #index .jackpot .jackpot_main {
+    margin-right: 18px;
+    width: 158px;
+    height: 37px;
+    font-size: 20.175px;
+  }
+  #index .jackpot .jackpot_main_money {
+    font-size: 20px;
+  }
+  #index .online_casino h3 {
+    font-size: 26px;
+  }
+  #index .online_casino p {
+    text-align: left;
+    font-size: 16px;
+  }
+  #index .logo_active a {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+  }
+  #index .logo_active a img {
+    width: 100%;
+  }
+  #index .logo_noactive a {
+    width: 70px;
+  }
+  #index .logo_noactive a img {
+    width: 100%;
+  }
+  footer .footer_wrapper {
+    flex-direction: column;
+  }
+  footer .footer_wrapper .footer_menu {
+    margin-top: 49px;
+    margin-bottom: 59px;
+    margin-left: 0;
+  }
+  footer .footer_text {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
