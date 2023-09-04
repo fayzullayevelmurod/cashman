@@ -45,11 +45,50 @@ span {
 }
 
 body {
+  position: relative;
   background: #151C2C;
+}
+
+.bg_bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: -1;
+}
+.bg_bottom img {
+  height: 20%;
+  width: 100%;
+}
+
+.bg_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: -1;
+}
+.bg_top img {
+  width: 100%;
+}
+
+.bg_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.bg_right img {
+  width: 100%;
 }
 
 .mySwiper .swiper-wrapper .swiper-slide img {
   width: 100%;
+}
+.mySwiper .swiper-wrapper .media_slider {
+  display: none;
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
@@ -63,6 +102,11 @@ body {
   background-color: #6C6C6C;
 }
 
+header {
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(9.5px);
+          backdrop-filter: blur(9.5px);
+}
 header .header_wrapper {
   padding: 17px 0;
   display: flex;
@@ -75,6 +119,7 @@ header .header_wrapper .nav_link {
   gap: 44px;
 }
 header .header_wrapper .nav_item a {
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   color: #fff;
@@ -87,6 +132,22 @@ header .header_wrapper .nav_item a {
 }
 header .header_wrapper .nav_item a svg {
   margin-right: 7px;
+}
+header .header_wrapper .nav_item_active {
+  position: relative;
+}
+header .header_wrapper .nav_item_active::before {
+  box-shadow: -1px 1px 25px -5px rgba(255, 211, 51, 0.75);
+  -webkit-box-shadow: -1px 1px 25px -5px rgba(255, 211, 51, 0.75);
+  -moz-box-shadow: -1px 1px 25px -5px rgba(255, 211, 51, 0.75);
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 2px;
+  height: 2px;
+  background-color: #FFD333;
 }
 header .header_wrapper .account {
   display: flex;
@@ -134,7 +195,13 @@ header .header_wrapper .account .account_icon {
   font-weight: 400;
   line-height: 18px; /* 112.5% */
 }
+header .header_wrapper .header_burger {
+  display: none;
+}
 
+#index {
+  overflow: hidden;
+}
 #index .jackpot {
   padding: 20px 0;
   background: #1F2229;
@@ -212,7 +279,7 @@ header .header_wrapper .account .account_icon {
   font-weight: 700;
   line-height: normal;
 }
-#index .main_menu_linkx::-webkit-scrollbar {
+#index .main_menu_wrapper::-webkit-scrollbar {
   display: none;
 }
 #index .provider {
@@ -369,6 +436,118 @@ header .header_wrapper .account .account_icon {
   text-transform: uppercase;
   margin-top: 10px;
 }
+#index .recommended {
+  display: flex;
+  align-items: start;
+  gap: 26px;
+  justify-content: space-between;
+}
+#index .recommended .recommended_left {
+  width: 50%;
+}
+#index .recommended .recommended_left h4 {
+  color: #fff;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 49px; /* 125% */
+}
+#index .recommended .recommended_left .recommended_slider {
+  border-radius: 12px;
+  background: #11141B;
+  width: 100%;
+  padding: 30px 50px;
+  margin: 0 auto;
+}
+#index .recommended .recommended_left .recommended_slider .mySwiper .swiper-button-prev {
+  color: #FDFDFD;
+  width: 26px;
+}
+#index .recommended .recommended_left .recommended_slider .mySwiper .swiper-button-next {
+  color: #FDFDFD;
+  width: 26px;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper {
+  height: 212px;
+  width: 100%;
+  border-radius: 15px;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper img {
+  padding: 30px 50px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#index .recommended .recommended_right {
+  width: 50%;
+}
+#index .recommended .recommended_right h4 {
+  color: #fff;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 49px; /* 125% */
+}
+#index .recommended .recommended_right .recommended_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card {
+  padding: 9px 12px;
+  height: 120px;
+  display: flex;
+  align-items: start;
+  border-radius: 12px;
+  border: 1px solid #3561FF;
+  background: #1F2229;
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card img {
+  height: 100%;
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text {
+  margin-left: 23px;
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text h6 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 15.114px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.592px; /* 142.857% */
+  margin-bottom: 4px;
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text span {
+  color: #3561FF;
+  font-family: "Inter", sans-serif;
+  font-size: 14.96px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17.273px; /* 115.464% */
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p {
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Inter", sans-serif;
+  font-size: 14.96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.273px; /* 115.464% */
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card h5 {
+  margin-left: auto;
+  color: var(--text-text, #FFF);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 15.114px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.592px; /* 142.857% */
+}
 #index .online_casino {
   margin: 40px 0;
 }
@@ -479,36 +658,185 @@ footer .footer_text {
     font-size: 11px;
   }
 }
+@media only screen and (max-width: 970px) {
+  #index .recommended {
+    display: flex;
+    align-items: start;
+    gap: 26px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #index .recommended .recommended_left {
+    width: 100%;
+  }
+  #index .recommended .recommended_left .recommended_slider {
+    border-radius: 12px;
+    background: #11141B;
+    width: 100%;
+    padding: 30px 80px;
+    margin: 0 auto;
+  }
+  #index .recommended .recommended_left .mySwiper .swiper-wrapper {
+    height: 212px;
+    width: 100%;
+  }
+  #index .recommended .recommended_left .mySwiper .swiper-wrapper img {
+    height: 100%;
+    border-radius: 15px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  #index .recommended .recommended_right {
+    width: 100%;
+  }
+  #index .recommended .recommended_right h4 {
+    color: #fff;
+    font-family: "Golos Text VF", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 49px; /* 125% */
+  }
+  #index .recommended .recommended_right .recommended_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card {
+    padding: 9px 12px;
+    height: 120px;
+    display: flex;
+    align-items: start;
+    border-radius: 12px;
+    border: 1px solid #3561FF;
+    background: #1F2229;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card img {
+    height: 100%;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text {
+    margin-left: 23px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text h6 {
+    font-size: 15.114px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text span {
+    font-size: 14.96px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p {
+    margin-top: 4px;
+    font-size: 14.96px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card h5 {
+    font-size: 15.114px;
+  }
+}
 @media only screen and (max-width: 870px) {
+  .header_container {
+    padding: 0 18px;
+  }
   header .header_wrapper .nav_link .nav_item {
     display: none;
+  }
+  header .header_wrapper .header_burger {
+    margin-left: 12px;
+    display: block;
   }
 }
 @media only screen and (max-width: 768px) {
   footer .footer_wrapper .footer_menu {
     margin-right: 60px;
   }
+  .mySwiper .swiper-wrapper .media_slider {
+    display: block;
+  }
+  .mySwiper .swiper-wrapper .desktop_slider {
+    display: none;
+  }
+  #index .jackpot {
+    background-color: #090A0D;
+  }
 }
 @media only screen and (max-width: 620px) {
   #index .main_cards .card_wrapper {
     flex-basis: 270px;
   }
+  #index .main_cards .card_wrapper .card_img .card_hover button svg {
+    width: 20px;
+    height: 20px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link {
+    margin: 10px auto;
+    padding: 12px 0;
+    text-align: center;
+    display: block;
+    width: 150px;
+    font-size: 14.6px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link_two {
+    bottom: 50px;
+    margin: 10px auto;
+    padding: 12px 0;
+    text-align: center;
+    display: block;
+    width: 150px;
+    font-size: 14.6px;
+  }
 }
 @media only screen and (max-width: 576px) {
+  .bg_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 15%;
+    z-index: -1;
+  }
+  .bg_bottom img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .container {
     padding: 0 25px;
   }
   .container_card {
     padding: 0 25px;
   }
+  header .header_wrapper .header_logo img {
+    width: 107px;
+  }
+  header .header_wrapper .account .account_name p {
+    font-size: 8px;
+  }
+  header .header_wrapper .account .account_name h4 {
+    line-height: 4px;
+    font-size: 9px;
+  }
+  header .header_wrapper .account .account_icon {
+    font-size: 10px;
+    width: 26px;
+    height: 26px;
+    margin-left: 8px;
+    margin-right: 4px;
+  }
+  header .header_wrapper .account .account_down {
+    width: 20px;
+  }
+  header .header_wrapper .header_burger {
+    margin-left: 5px;
+  }
   #index .main_cards {
     padding-top: 34px;
-    justify-content: center;
+    justify-content: space-between;
     gap: 11px;
   }
   #index .main_cards .card_wrapper {
     margin-bottom: 20px;
-    flex-basis: 45%;
+    flex-basis: 48%;
   }
   #index .main_cards .card_wrapper h4 {
     font-size: 9px;
@@ -518,6 +846,27 @@ footer .footer_text {
   }
   #index .main_cards .card_wrapper .card_img .card_hover {
     border-radius: 10px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover button svg {
+    width: 20px;
+    height: 20px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link {
+    margin: 10px auto;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    width: 140px;
+    font-size: 14.6px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link_two {
+    bottom: 50px;
+    margin: 10px auto;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    width: 140px;
+    font-size: 14.6px;
   }
   #index .provider {
     flex-direction: column;
@@ -560,6 +909,40 @@ footer .footer_text {
   #index .logo_noactive a img {
     width: 100%;
   }
+  #index .recommended .recommended_left h4 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  #index .recommended .recommended_left .recommended_slider {
+    border-radius: 12px;
+    background: #11141B;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  #index .recommended .recommended_right h4 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card h5 {
+    max-width: 70px;
+    font-size: 10px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card img {
+    width: 100px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text {
+    margin-left: 10px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text h6 {
+    font-size: 13px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text span {
+    font-size: 12px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p {
+    font-size: 12px;
+  }
   footer .footer_wrapper {
     flex-direction: column;
   }
@@ -570,5 +953,28 @@ footer .footer_text {
   }
   footer .footer_text {
     display: none;
+  }
+}
+@media only screen and (max-width: 486px) {
+  #index .main_cards .card_wrapper .card_img .card_hover button svg {
+    width: 15px;
+    height: 15px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link {
+    margin: 10px auto;
+    padding: 4px 0;
+    text-align: center;
+    display: block;
+    width: 60%;
+    font-size: 8.6px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link_two {
+    bottom: 25px;
+    margin: 10px auto;
+    padding: 4px 0;
+    text-align: center;
+    display: block;
+    width: 60%;
+    font-size: 8.6px;
   }
 }/*# sourceMappingURL=style.css.map */

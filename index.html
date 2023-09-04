@@ -9,6 +9,7 @@
     <!-- select -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <!-- fonts link -->
+    <link rel="stylesheet" href="./fonts/inter/stylesheet.css">
     <link rel="stylesheet" href="./fonts/mulish/stylesheet.css">
     <link rel="stylesheet" href="./fonts/Golos-Text_VF.css">
     <!-- css file link -->
@@ -23,7 +24,7 @@
                     <img src="./images/logo.svg" alt="">
                 </a>
                 <ul class="nav_link">
-                    <li class="nav_item"><a href="#">
+                    <li class="nav_item nav_item_active"><a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <g filter="url(#filter0_d_78_708)">
                                 <path d="M16.8333 11.1667H16.8367M16.8333 13.8333H16.8367M16.8333 16.8333H16.8367M11.1667 11.1667H11.17M11.1667 13.8333H11.17M11.1667 16.8333H11.17M11.2 20H16.8C17.9201 20 18.4802 20 18.908 19.782C19.2843 19.5903 19.5903 19.2843 19.782 18.908C20 18.4802 20 17.9201 20 16.8V11.2C20 10.0799 20 9.51984 19.782 9.09202C19.5903 8.71569 19.2843 8.40973 18.908 8.21799C18.4802 8 17.9201 8 16.8 8H11.2C10.0799 8 9.51984 8 9.09202 8.21799C8.71569 8.40973 8.40973 8.71569 8.21799 9.09202C8 9.51984 8 10.0799 8 11.2V16.8C8 17.9201 8 18.4802 8.21799 18.908C8.40973 19.2843 8.71569 19.5903 9.09202 19.782C9.51984 20 10.0799 20 11.2 20ZM17 11.1667C17 11.2587 16.9254 11.3333 16.8333 11.3333C16.7413 11.3333 16.6667 11.2587 16.6667 11.1667C16.6667 11.0746 16.7413 11 16.8333 11C16.9254 11 17 11.0746 17 11.1667ZM17 13.8333C17 13.9254 16.9254 14 16.8333 14C16.7413 14 16.6667 13.9254 16.6667 13.8333C16.6667 13.7413 16.7413 13.6667 16.8333 13.6667C16.9254 13.6667 17 13.7413 17 13.8333ZM17 16.8333C17 16.9254 16.9254 17 16.8333 17C16.7413 17 16.6667 16.9254 16.6667 16.8333C16.6667 16.7413 16.7413 16.6667 16.8333 16.6667C16.9254 16.6667 17 16.7413 17 16.8333ZM11.3333 11.1667C11.3333 11.2587 11.2587 11.3333 11.1667 11.3333C11.0746 11.3333 11 11.2587 11 11.1667C11 11.0746 11.0746 11 11.1667 11C11.2587 11 11.3333 11.0746 11.3333 11.1667ZM11.3333 13.8333C11.3333 13.9254 11.2587 14 11.1667 14C11.0746 14 11 13.9254 11 13.8333C11 13.7413 11.0746 13.6667 11.1667 13.6667C11.2587 13.6667 11.3333 13.7413 11.3333 13.8333ZM11.3333 16.8333C11.3333 16.9254 11.2587 17 11.1667 17C11.0746 17 11 16.9254 11 16.8333C11 16.7413 11.0746 16.6667 11.1667 16.6667C11.2587 16.6667 11.3333 16.7413 11.3333 16.8333Z" stroke="#FFD333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
@@ -99,16 +100,33 @@
                         </a>
                     </div>
                 </ul>
+                <div class="header_burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+                        <path d="M12.3745 16.1534H24.3745M8.37451 10.8201H24.3745M8.37451 21.4867H24.3745" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
             </div>
         </div>
     </header>
     <!-- header end -->
+    <div class="bg_bottom">
+        <img src="./images/bg_bottom.png" alt="">
+    </div>
+    <div class="bg_top">
+        <img src="./images/bg_top.png" alt="">
+    </div>
+    <div class="bg_right">
+        <img src="./images/bg_right.png" alt="">
+    </div>
 
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="./images/home1.png" alt=""></div>
-          <div class="swiper-slide"><img src="./images/home1.png" alt=""></div>
-          <div class="swiper-slide"><img src="./images/home1.png" alt=""></div>
+          <div class="swiper-slide desktop_slider"><img src="./images/home1.png" alt=""></div>
+          <div class="swiper-slide desktop_slider"><img src="./images/home1.png" alt=""></div>
+          <div class="swiper-slide desktop_slider"><img src="./images/home1.png" alt=""></div>
+          <div class="swiper-slide media_slider"><img src="./images/home_media.png" alt=""></div>
+          <div class="swiper-slide media_slider"><img src="./images/home_media.png" alt=""></div>
+          <div class="swiper-slide media_slider"><img src="./images/home_media.png" alt=""></div>
         </div>
         <div class="swiper-pagination"></div>
     </div>
@@ -416,14 +434,49 @@
                     <h4>Популярное</h4>
                 </div>
             </div>
-            <!-- <div class="recommended">
+            <div class="recommended">
                 <div class="recommended_left">
                     <h4>Рекомендуем</h4>
+                    <div class="recommended_slider">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
+                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
+                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
+                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
+                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                          </div>
+                    </div>
                 </div>
                 <div class="recommended_right">
                     <h4>Недавние победители</h4>
+                    <div class="recommended_cards">
+                        <div class="recommended_card">
+                            <img src="./images/card5.png" alt="">
+                            <div class="recommended_text">
+                                <h6>Александр А.</h6>
+                                <span>$7125</span>
+                                <p>Игра: Hotline</p>
+                                <p>Испытай удачу!</p>
+                            </div>
+                            <h5>02/09/2023 09:56</h5>
+                        </div>
+                        <div class="recommended_card">
+                            <img src="./images/card4.png" alt="">
+                            <div class="recommended_text">
+                                <h6>Владимир А.</h6>
+                                <span>$2821</span>
+                                <p>Игра: Space</p>
+                                <p>Испытай удачу!</p>
+                            </div>
+                            <h5>02/09/2023 09:56</h5>
+                        </div>
+                    </div>
                 </div>
-            </div> -->
+            </div>
             <div class="online_casino">
                 <h3>Онлайн казино</h3>
                 <p>Благодаря бездепозитному игровому процессу и бесплатным тренировочным версиям ваших любимых игр казино и игровых автоматов легко убедиться, что вы готовы к крупному выигрышу на реальные деньги.</p>
@@ -562,6 +615,10 @@
             },
             pagination: {
                 el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
         });
     </script>
