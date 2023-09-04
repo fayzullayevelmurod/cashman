@@ -8,6 +8,21 @@
 // 		button.classList.toggle("clicked");
 // 	});
 // });
+
 $(document).ready(function(){
-	$('.select2').select2()
-})
+	$('.card_hover button').click(function(){
+		$(this).find('svg').toggleClass('active')
+	})
+
+	$('.header_burger').click(function(){
+		$('.burger_wrapper').toggleClass('active');
+		$('body').toggleClass('hidden');
+		$(this).toggleClass('active')
+	})
+
+	$('.account_icon, .account_down').click(function(){
+		$('.account_burger').toggleClass('active');
+		$('body').toggleClass('hidden2');
+		$('.account_down').toggleClass('active')
+	})
+});
