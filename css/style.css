@@ -104,43 +104,57 @@ body.hidden2 {
   display: block;
 }
 
+.container_account {
+  position: relative;
+}
+
 .account_burger {
   display: none;
-  position: fixed;
-  left: 0;
-  top: 62px;
+  position: absolute;
+  right: 0;
+  top: 73px;
   z-index: 11;
-  width: 100%;
+  width: 271px;
   height: 100%;
-  background: rgba(31, 34, 41, 0.95);
 }
 .account_burger .account_link {
-  padding: 12px 23px;
+  padding: 12px 18px;
   width: 100%;
-  border-radius: 0px 0px 15.941px 15.941px;
+  border-radius: 0px 0px 12px 12px;
   background: linear-gradient(134deg, rgba(31, 34, 41, 0) 31.52%, #3561FF 117.7%), rgba(0, 0, 0, 0.8);
-  -webkit-backdrop-filter: blur(12.6199245453px);
-          backdrop-filter: blur(12.6199245453px);
+  -webkit-backdrop-filter: blur(9.5px);
+          backdrop-filter: blur(9.5px);
   display: flex;
   align-items: start;
   flex-direction: column;
   justify-content: start;
 }
+.account_burger .account_link .account_menu {
+  display: flex;
+  align-items: center;
+}
 .account_burger .account_link .account_item {
   color: #FFF;
   font-family: "Golos Text VF", sans-serif;
-  font-size: 24px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 23.911px; /* 99.631% */
+  line-height: 14px; /* 99.631% */
   letter-spacing: 0.48px;
-  padding-bottom: 14px;
+  padding-bottom: 12px;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-bottom: 1px solid #494C53;
 }
 .account_burger .account_link .account_item svg {
-  margin-right: 14px;
+  width: 13px;
+  height: 13px;
+  margin-right: 11px;
+}
+.account_burger .account_link .account_item svg path {
+  stroke-width: 1.328px;
+  stroke: #FFF;
+  opacity: 0.8;
 }
 .account_burger .account_link .account_item h6 {
   color: #fff;
@@ -158,11 +172,24 @@ body.hidden2 {
   font-weight: 400;
   line-height: 21.383px; /* 152.739% */
 }
+.account_burger .account_link .account_item_name {
+  display: none;
+}
 .account_burger .account_link .account_item_active {
   color: #3561FF;
 }
+.account_burger .account_link .account_item_active svg path {
+  stroke-width: 1.328px;
+  stroke: #3561FF;
+  opacity: 0.8;
+}
+.account_burger .account_link .account_item:nth-child(7) {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 1px solid transparent;
+}
 .account_burger .account_network {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 60px;
   margin-top: 80px;
@@ -305,6 +332,7 @@ header .header_wrapper .account .account_name h4 {
   line-height: 18px; /* 128.571% */
 }
 header .header_wrapper .account .account_icon {
+  cursor: pointer;
   margin-left: 16px;
   margin-right: 10px;
   width: 40px;
@@ -322,6 +350,31 @@ header .header_wrapper .account .account_icon {
   font-style: normal;
   font-weight: 400;
   line-height: 18px; /* 112.5% */
+}
+header .header_wrapper .account .account_person {
+  white-space: nowrap;
+  display: none;
+  cursor: pointer;
+}
+header .header_wrapper .account .account_person h6 {
+  color: #fff;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+header .header_wrapper .account .account_person p {
+  color: #fff;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+  opacity: 0.5;
+}
+header .header_wrapper .account .account_person.active {
+  display: block;
 }
 header .header_wrapper .account .account_down svg:nth-child(1) {
   display: block;
@@ -349,6 +402,54 @@ header .header_wrapper .header_burger.active svg:nth-child(1) {
 }
 header .header_wrapper .header_burger.active svg:nth-child(2) {
   display: block;
+}
+header .header_wrapper .header_buttons {
+  display: flex;
+  align-items: center;
+}
+header .header_wrapper .header_buttons .header_btn_one {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 12px;
+  border: 1px solid #1B1D26;
+  background: #1F2229;
+  width: 162px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  transition: 0.3s linear;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+header .header_wrapper .header_buttons .header_btn_one:hover {
+  border-radius: 12px;
+  border: 1px solid #3561FF;
+}
+header .header_wrapper .header_buttons .header_btn_two {
+  transition: 0.3s linear;
+  border-radius: 12px;
+  background: #3561FF;
+  width: 162px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+header .header_wrapper .header_buttons .header_btn_two:hover {
+  border-radius: 12px;
+  background: #3561FF;
+  box-shadow: 0px 0px 25px 0px rgba(53, 97, 255, 0.55);
 }
 
 #index {
@@ -464,6 +565,7 @@ header .header_wrapper .header_burger.active svg:nth-child(2) {
   margin-right: 11px;
 }
 #index .provider .provider_search {
+  position: relative;
   width: 340px;
   height: 43px;
   display: flex;
@@ -473,21 +575,55 @@ header .header_wrapper .header_burger.active svg:nth-child(2) {
   background: #1F2229;
 }
 #index .provider .provider_search label {
+  width: 100%;
   padding: 8px;
   cursor: pointer;
 }
-#index .provider .provider_search input {
+#index .provider .provider_search label img {
+  width: 24px;
+  height: 24px;
+}
+#index .provider .provider_search label img:nth-child(1) {
+  display: block;
+}
+#index .provider .provider_search label img:nth-child(2) {
+  display: none;
+}
+#index .provider .provider_search #search {
+  border-radius: 12px;
+  padding-left: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid transparent;
   background-color: transparent;
-  width: 90%;
   color: #FFF;
   font-family: "Golos Text VF", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border: none;
   outline: none;
   padding-right: 8px;
+}
+#index .provider .provider_search.active {
+  height: 42px;
+}
+#index .provider .provider_search.active label {
+  padding: 0;
+}
+#index .provider .provider_search.active label img {
+  padding-left: 0;
+  width: 100%;
+  height: 100%;
+}
+#index .provider .provider_search.active label img:nth-child(1) {
+  display: none;
+}
+#index .provider .provider_search.active label img:nth-child(2) {
+  display: block;
 }
 #index .provider .select2-container--default {
   margin-right: 13px;
@@ -614,6 +750,7 @@ header .header_wrapper .header_burger.active svg:nth-child(2) {
   flex-wrap: wrap;
 }
 #index .main_cards .card_wrapper {
+  cursor: pointer;
   flex-basis: 200px;
   border: 1px solid transparent;
   margin-bottom: 36px;
@@ -920,12 +1057,119 @@ footer .footer_text {
   line-height: 140%; /* 22.4px */
 }
 
+@media only screen and (max-width: 1300px) {
+  header .header_wrapper .nav_link {
+    gap: 17px;
+  }
+}
 @media only screen and (max-width: 1200px) {
+  .body.hidden2 {
+    display: block;
+  }
+  .account_burger {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 62px;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 34, 41, 0.95);
+  }
+  .account_burger .account_link {
+    padding: 12px 23px;
+    width: 100%;
+    border-radius: 0px 0px 15.941px 15.941px;
+    background: linear-gradient(134deg, rgba(31, 34, 41, 0) 31.52%, #3561FF 117.7%), rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: blur(12.6199245453px);
+            backdrop-filter: blur(12.6199245453px);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .account_burger .account_link .account_item_name {
+    display: block;
+  }
+  .account_burger .account_link .account_menu {
+    display: flex;
+    align-items: center;
+  }
+  .account_burger .account_link .account_item {
+    color: #FFF;
+    font-family: "Golos Text VF", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.911px; /* 99.631% */
+    letter-spacing: 0.48px;
+    padding-bottom: 14px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #494C53;
+  }
+  .account_burger .account_link .account_item svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+  }
+  .account_burger .account_link .account_item svg path {
+    stroke-width: 1.328px;
+    stroke: #FFF;
+    opacity: 0.8;
+  }
+  .account_burger .account_link .account_item h6 {
+    color: #fff;
+    font-family: "Golos Text VF", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.383px; /* 118.797% */
+  }
+  .account_burger .account_link .account_item p {
+    color: #fff;
+    font-family: "Golos Text VF", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.383px; /* 152.739% */
+  }
+  .account_burger .account_link .account_item_active {
+    color: #3561FF;
+  }
+  .account_burger .account_link .account_item_active svg path {
+    stroke-width: 1.328px;
+    stroke: #3561FF;
+    opacity: 0.8;
+  }
+  .account_burger .account_network {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 80px;
+  }
   header .header_wrapper .nav_link {
     gap: 18px;
   }
   header .header_wrapper .account .search_icon {
     margin-right: 12px;
+  }
+  header .header_wrapper .account .account_person.active {
+    display: none;
+  }
+  header .header_wrapper .header_buttons .header_btn_one {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  header .header_wrapper .header_buttons .header_btn_two {
+    font-size: 10px;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
   }
   #index .logo_active a {
     margin-left: 40px;
@@ -1111,6 +1355,9 @@ footer .footer_text {
   header .header_wrapper .header_burger {
     margin-left: 5px;
   }
+  #index .select-selected {
+    margin-bottom: 12px;
+  }
   #index .main_cards {
     padding-top: 34px;
     justify-content: space-between;
@@ -1160,6 +1407,7 @@ footer .footer_text {
   }
   #index .provider .provider_search {
     width: 100%;
+    height: 30%;
   }
   #index .jackpot .jackpot_main {
     margin-right: 18px;
@@ -1263,5 +1511,19 @@ footer .footer_text {
     display: block;
     width: 60%;
     font-size: 8.6px;
+  }
+  header .header_wrapper .header_buttons .header_btn_one {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  header .header_wrapper .header_buttons .header_btn_two {
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

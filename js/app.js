@@ -23,6 +23,11 @@ $(document).ready(function(){
 	$('.account_icon, .account_down').click(function(){
 		$('.account_burger').toggleClass('active');
 		$('body').toggleClass('hidden2');
-		$('.account_down').toggleClass('active')
+		$('.account_down').toggleClass('active');
+		$('.account_person').toggleClass('active')
+	})
+
+	$('.provider_search input').on('focus',function(){
+		$('.provider_search').toggleClass('active');
 	})
 });
