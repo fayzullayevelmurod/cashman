@@ -742,6 +742,27 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
 #index .select-items div:hover, #index .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
+#index .game_title {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+#index .game_title h3 {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  margin-bottom: 16px;
+}
+#index .game_title p {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
 #index .main_cards {
   padding-top: 40px;
   display: flex;
@@ -805,9 +826,14 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  border-radius: 18.26px;
-  background: transparent;
-  border: 1px solid #3561FF;
+  border-radius: 12px;
+  background: #3561FF;
+  transition: 0.3s linear;
+}
+#index .main_cards .card_wrapper .card_hover .card_link:hover {
+  border-radius: 12px;
+  background: #3561FF;
+  box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.8);
 }
 #index .main_cards .card_wrapper .card_hover .card_link_two {
   position: absolute;
@@ -825,8 +851,14 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  border-radius: 18.26px;
-  background: #3561FF;
+  border-radius: 12px;
+  background: transparent;
+  border: 1px solid #3561FF;
+  transition: 0.3s linear;
+}
+#index .main_cards .card_wrapper .card_hover .card_link_two:hover {
+  border-radius: 12px;
+  border: 1px solid #3561FF;
 }
 #index .main_cards .card_wrapper .card_img {
   position: relative;
@@ -1007,6 +1039,157 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   flex-wrap: wrap;
 }
 
+#game_map .logo_active {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#game_map .logo_active a {
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+#game_map .logo_noactive {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#promotions .promotion_main {
+  margin-top: 67px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#promotions .promotion_main h3 {
+  color: #D79730;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px; /* 121.053% */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#promotions .promotion_main p {
+  margin: 0 auto;
+  max-width: 793px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+  margin-bottom: 40px;
+}
+#promotions .promotion_main .promotion_btns button {
+  cursor: pointer;
+  margin: 0 auto;
+  border: none;
+  height: 40px;
+  width: 249px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  border-radius: 12px;
+  background: linear-gradient(0deg, #C99C38 0%, #C99C38 100%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(254, 204, 53, 0.5) 0%, rgba(185, 135, 76, 0.5) 100%), radial-gradient(70.71% 70.71% at 50% 50%, #FFFFD9 0%, #B9874C 100%);
+  transition: 0.3s linear;
+}
+#promotions .promotion_main .promotion_btns button:hover {
+  border-radius: 12px;
+  background: linear-gradient(0deg, #C99C38 0%, #C99C38 100%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(254, 204, 53, 0.5) 0%, rgba(185, 135, 76, 0.5) 100%), radial-gradient(70.71% 70.71% at 50% 50%, #FFFFD9 0%, #B9874C 100%);
+  box-shadow: 0px 0px 8px 0px rgba(201, 156, 56, 0.8);
+}
+#promotions .promotion_line svg {
+  width: 100%;
+}
+#promotions .promotion_cards .promotion_card_title {
+  margin-top: 33px;
+  text-align: center;
+}
+#promotions .promotion_cards .promotion_card_title h2 {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px; /* 121.053% */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#promotions .promotion_cards .promotion_card_title p {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
+#promotions .promotion_cards .promotion_cards_wrapper {
+  margin-bottom: 27px;
+  margin-top: 40px;
+  gap: 14px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
+  max-width: 32.3%;
+  border-radius: 12px;
+  border: 1px solid #2E3138;
+  background: #1F2229;
+  padding: 6px 6px 12px 6px;
+  transition: 0.3s linear;
+  text-align: center;
+}
+#promotions .promotion_cards .promotion_cards_wrapper .promotion_card:hover {
+  border: 1px solid #2E3138;
+  background: #11141B;
+}
+#promotions .promotion_cards .promotion_cards_wrapper .promotion_card img {
+  width: 100%;
+  border-radius: 10px;
+}
+#promotions .promotion_cards .promotion_cards_wrapper .promotion_card h5 {
+  margin: 10px 0px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14.764px; /* 123.034% */
+}
+#promotions .promotion_cards .promotion_cards_wrapper .promotion_card .card_btn button {
+  transition: 0.3s linear;
+  cursor: pointer;
+  width: 160px;
+  height: 30px;
+  border: none;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 15.96px;
+  background: #3561FF;
+}
+#promotions .promotion_cards .promotion_cards_wrapper .promotion_card .card_btn button:hover {
+  background: #3561FF;
+  box-shadow: 0px 0px 18px 0px rgba(53, 97, 255, 0.95);
+}
+
 footer {
   padding-bottom: 97px;
   padding-top: 55px;
@@ -1019,7 +1202,24 @@ footer .footer_wrapper .network_messenger {
   margin-top: 46px;
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 20px;
+}
+footer .footer_wrapper .network_messenger .network_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: transparent;
+  transition: 0.3s linear;
+}
+footer .footer_wrapper .network_messenger .network_link:hover {
+  background: #11141B;
+}
+footer .footer_wrapper .network_messenger .network_link a svg {
+  width: 24px;
+  height: 24px;
 }
 footer .footer_wrapper .footer_menu {
   margin-left: auto;
@@ -1035,6 +1235,10 @@ footer .footer_wrapper .footer_menu .footer_link a {
   font-style: normal;
   font-weight: 400;
   line-height: 140%; /* 22.4px */
+  transition: 0.3s linear;
+}
+footer .footer_wrapper .footer_menu .footer_link a:hover {
+  color: #3561FF;
 }
 footer .footer_wrapper .footer_menu_two .footer_menu_item {
   margin-bottom: 10px;
@@ -1046,6 +1250,11 @@ footer .footer_wrapper .footer_menu_two .footer_menu_item a {
   font-style: normal;
   font-weight: 400;
   line-height: 140%; /* 22.4px */
+  line-height: 140%; /* 22.4px */
+  transition: 0.3s linear;
+}
+footer .footer_wrapper .footer_menu_two .footer_menu_item a:hover {
+  color: #3561FF;
 }
 footer .footer_text {
   transform: translateY(-20px);
@@ -1258,6 +1467,14 @@ footer .footer_text {
     font-size: 15.114px;
   }
 }
+@media only screen and (max-width: 923px) {
+  #promotions .promotion_cards .promotion_cards_wrapper {
+    justify-content: center;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
+    max-width: 49%;
+  }
+}
 @media only screen and (max-width: 870px) {
   .header_container {
     padding: 0 18px;
@@ -1282,6 +1499,16 @@ footer .footer_text {
   }
   #index .jackpot {
     background-color: #090A0D;
+  }
+}
+@media only screen and (max-width: 719px) {
+  #promotions .promotion_cards .promotion_cards_wrapper {
+    gap: 12px;
+    justify-content: center;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
+    max-width: 100%;
+    width: 75%;
   }
 }
 @media only screen and (max-width: 620px) {
@@ -1357,6 +1584,17 @@ footer .footer_text {
   }
   #index .select-selected {
     margin-bottom: 12px;
+  }
+  #index .game_title {
+    margin-bottom: 0px;
+  }
+  #index .game_title h3 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  #index .game_title p {
+    font-size: 16px;
+    line-height: 140%;
   }
   #index .main_cards {
     padding-top: 34px;
@@ -1477,6 +1715,65 @@ footer .footer_text {
     margin-bottom: 14px;
     width: 100%;
     margin-right: 0;
+  }
+  #promotions .promotion_main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #promotions .promotion_main h3 {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  #promotions .promotion_main p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 30px;
+  }
+  #promotions .promotion_main .promotion_btns button {
+    border-radius: 12px;
+    width: 230px;
+    height: 40px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+  #promotions .promotion_cards .promotion_card_title {
+    margin-top: 30px;
+  }
+  #promotions .promotion_cards .promotion_card_title h2 {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  #promotions .promotion_cards .promotion_card_title p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper {
+    margin-bottom: 0px;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
+    padding: 5px 5px 10px 5px;
+    max-width: 100%;
+    width: 100%;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 94px;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card .card_btn button {
+    border-radius: 12px;
+    width: 133px;
+    height: 37px;
   }
   footer .footer_wrapper {
     flex-direction: column;

@@ -261,7 +261,7 @@
                             </svg>
                         Помощь
                     </a></li>
-                    <!-- <div class="account">
+                    <div class="account">
                         <a class="search_icon" href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none">
                                 <path d="M11.5773 12.7778L13.7996 15M11.5773 7.88889C11.5773 10.5889 9.38851 12.7778 6.68845 12.7778C3.98839 12.7778 1.79956 10.5889 1.79956 7.88889C1.79956 5.18883 3.98839 3 6.68845 3C9.38851 3 11.5773 5.18883 11.5773 7.88889Z" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
@@ -286,12 +286,8 @@
                                 <path d="M6.79443 12.8687L10.9051 8.75796C11.2401 8.42302 11.7831 8.42302 12.118 8.75796L16.2287 12.8687" stroke="#3561FF" stroke-width="1.2865" stroke-linecap="round"/>
                               </svg>
                         </a>
-                    </div> -->
+                    </div>
                 </ul>
-                <div class="header_buttons">
-                    <a class="header_btn_one" href="#">Войти</a>
-                    <a class="header_btn_two" href="#">Регистрация</a>
-                </div>
                 <div class="header_burger">
                     <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
                         <path d="M12.3745 16.1534H24.3745M8.37451 10.8201H24.3745M8.37451 21.4867H24.3745" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -313,365 +309,99 @@
     <div class="bg_right">
         <img src="./images/bg_right.png" alt="">
     </div>
-
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide desktop_slider"><img src="./images/home1.png" alt=""></div>
-          <div class="swiper-slide desktop_slider"><img src="./images/home1.png" alt=""></div>
-          <div class="swiper-slide desktop_slider"><img src="./images/home1.png" alt=""></div>
-          <div class="swiper-slide media_slider"><img src="./images/home_media.png" alt=""></div>
-          <div class="swiper-slide media_slider"><img src="./images/home_media.png" alt=""></div>
-          <div class="swiper-slide media_slider"><img src="./images/home_media.png" alt=""></div>
-        </div>
-        <div class="swiper-pagination"></div>
-    </div>
-
-    <div id="index">
-        <div class="jackpot">
-            <h3 class="jackpot_main">Джекпот</h3>
-            <span class="jackpot_main_money">$240,958.23</span>
-        </div>
+    <section id="game_map">
         <div class="container_card">
-            <div class="main_menu_wrapper">
-                <ul class="main_menu">
-                    <li class="main_menu_link main_menu_active"><a href="#">Все игры</a></li>
-                    <li class="main_menu_link"><a href="#">Популярное</a></li>
-                    <li class="main_menu_link"><a href="#">Новинки</a></li>
-                    <li class="main_menu_link"><a href="#">Слоты</a></li>
-                    <li class="main_menu_link"><a href="#">Казино Live</a></li>
-                    <li class="main_menu_link"><a href="#">Настольные игры</a></li>
-                    <li class="main_menu_link"><a href="#">Видео покер</a></li>
-                    <li class="main_menu_link"><a href="#">Казуальная игра</a></li>
-                    <li class="main_menu_link"><a href="#">Джекпот</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="container_card">
-            <div class="provider">
-               <div class="tt-select">
-                    <select class="provider_select_main" name="select2" id="select2">
-                        <option value="1">Провайдеры</option>
-                        <option value="2">Провайдеры 2</option>
-                        <option value="3">Провайдеры 3</option>
-                        <option value="4">Провайдеры 4</option>
-                    </select>
-               </div>
-                <div class="provider_search">
-                    <label for="search">
-                        <img src="./images/search_icon.svg" alt="">
-                        <img src="./images/search_icon2.svg" alt="">
-                    </label>
-                    <input id="search" type="text" placeholder="Поиск игры">
+            <div class="game_map_wrapper">
+                <div class="game_img">
+                    <img src="./images/game-map.png" alt="">
+                    <button class="game_map_btn" type="button" role="button">Играть</button>
                 </div>
-            </div>
-            <div class="main_cards">
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card1.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
+                <div class="game_text">
+                    <h4>BLACKJACK MULTIHAND</h4>
+                    <div class="game_stars">
+                        <div class="game_star_block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M11.333 2.38457C11.2196 2.15653 10.9869 2.01233 10.7323 2.01233C10.4776 2.01233 10.2449 2.15653 10.1316 2.38457L7.80084 7.07437L2.5872 7.82669C2.33396 7.86323 2.12356 8.04066 2.0448 8.2841C1.96604 8.52754 2.03263 8.79459 2.21647 8.97254L5.98629 12.6217L5.09656 17.7731C5.05314 18.0245 5.15609 18.2788 5.36218 18.4292C5.56828 18.5795 5.84183 18.6 6.06798 18.4819L10.7323 16.0468L15.3966 18.4819C15.6227 18.6 15.8963 18.5795 16.1024 18.4292C16.3085 18.2788 16.4114 18.0245 16.368 17.7731L15.4783 12.6217L19.2481 8.97254C19.4319 8.79459 19.4985 8.52754 19.4197 8.2841C19.341 8.04066 19.1306 7.86323 18.8773 7.82669L13.6637 7.07437L11.333 2.38457Z" fill="#F9C143"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M11.333 2.38457C11.2196 2.15653 10.9869 2.01233 10.7323 2.01233C10.4776 2.01233 10.2449 2.15653 10.1316 2.38457L7.80084 7.07437L2.5872 7.82669C2.33396 7.86323 2.12356 8.04066 2.0448 8.2841C1.96604 8.52754 2.03263 8.79459 2.21647 8.97254L5.98629 12.6217L5.09656 17.7731C5.05314 18.0245 5.15609 18.2788 5.36218 18.4292C5.56828 18.5795 5.84183 18.6 6.06798 18.4819L10.7323 16.0468L15.3966 18.4819C15.6227 18.6 15.8963 18.5795 16.1024 18.4292C16.3085 18.2788 16.4114 18.0245 16.368 17.7731L15.4783 12.6217L19.2481 8.97254C19.4319 8.79459 19.4985 8.52754 19.4197 8.2841C19.341 8.04066 19.1306 7.86323 18.8773 7.82669L13.6637 7.07437L11.333 2.38457Z" fill="#F9C143"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M11.333 2.38457C11.2196 2.15653 10.9869 2.01233 10.7323 2.01233C10.4776 2.01233 10.2449 2.15653 10.1316 2.38457L7.80084 7.07437L2.5872 7.82669C2.33396 7.86323 2.12356 8.04066 2.0448 8.2841C1.96604 8.52754 2.03263 8.79459 2.21647 8.97254L5.98629 12.6217L5.09656 17.7731C5.05314 18.0245 5.15609 18.2788 5.36218 18.4292C5.56828 18.5795 5.84183 18.6 6.06798 18.4819L10.7323 16.0468L15.3966 18.4819C15.6227 18.6 15.8963 18.5795 16.1024 18.4292C16.3085 18.2788 16.4114 18.0245 16.368 17.7731L15.4783 12.6217L19.2481 8.97254C19.4319 8.79459 19.4985 8.52754 19.4197 8.2841C19.341 8.04066 19.1306 7.86323 18.8773 7.82669L13.6637 7.07437L11.333 2.38457Z" fill="#F9C143"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M11.333 2.38457C11.2196 2.15653 10.9869 2.01233 10.7323 2.01233C10.4776 2.01233 10.2449 2.15653 10.1316 2.38457L7.80084 7.07437L2.5872 7.82669C2.33396 7.86323 2.12356 8.04066 2.0448 8.2841C1.96604 8.52754 2.03263 8.79459 2.21647 8.97254L5.98629 12.6217L5.09656 17.7731C5.05314 18.0245 5.15609 18.2788 5.36218 18.4292C5.56828 18.5795 5.84183 18.6 6.06798 18.4819L10.7323 16.0468L15.3966 18.4819C15.6227 18.6 15.8963 18.5795 16.1024 18.4292C16.3085 18.2788 16.4114 18.0245 16.368 17.7731L15.4783 12.6217L19.2481 8.97254C19.4319 8.79459 19.4985 8.52754 19.4197 8.2841C19.341 8.04066 19.1306 7.86323 18.8773 7.82669L13.6637 7.07437L11.333 2.38457Z" fill="#F9C143"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M11.8701 2.38457C11.7567 2.15653 11.524 2.01233 11.2694 2.01233C11.0147 2.01233 10.782 2.15653 10.6687 2.38457L8.33795 7.07437L3.12431 7.82669C2.87107 7.86323 2.66067 8.04066 2.58191 8.2841C2.50315 8.52754 2.56974 8.79459 2.75358 8.97254L6.5234 12.6217L5.63367 17.7731C5.59025 18.0245 5.6932 18.2788 5.89929 18.4292C6.10539 18.5795 6.37894 18.6 6.60509 18.4819L11.2694 16.0468L15.9337 18.4819C16.1598 18.6 16.4334 18.5795 16.6395 18.4292C16.8456 18.2788 16.9485 18.0245 16.9051 17.7731L16.0154 12.6217L19.7852 8.97254C19.969 8.79459 20.0356 8.52754 19.9569 8.2841C19.8781 8.04066 19.6677 7.86323 19.4145 7.82669L14.2008 7.07437L11.8701 2.38457Z" fill="white" fill-opacity="0.6"/>
+                            </svg>
                         </div>
+                        <p>4.1 out of 5 stars</p>
                     </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card2.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg  xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
+                    <p>Оригинальная американская игра в казино «Блэкджек» предлагает игрокам ощущение классической карточной игры, пытаясь побить карты дилера, не превысив 21. Игрокам раздаются по две карты лицом вверх. Дилеру также сдаются две карты: одна открытая (верхняя) и одна скрытая (нижняя). Стоимость карт со 2 по 10 равна их стоимости в пунктах. Валет, дама и король, также известные как лицевые карты, стоят десять. Тузы могут стоить как один, так и одиннадцать очков. Ценность руки представляет собой сумму значений указанных карт. Игроки также могут брать дополнительные карты, чтобы улучшить свои руки. Рука с тузом, равным 11, называется «мягкой», что означает, что рука не проиграет, если взять дополнительную карту; Значение туза станет единицей, чтобы рука не превышала 21. В противном случае рука будет «твердой».
+                    </p>
+                    <h5>Провайдер: <span>Rival</span></h5>
+                    <h5>Платформа: <span>UNIFIED</span></h5>
+                    <div class="game_bottom">
+                        <button class="game_bottom" type="button" role="button">Оставить отзыв об игре</button>
+                        <h6>Поделитесь своим мнением с другими игроками</h6>
                     </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card3.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card4.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card5.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card1.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card2.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card3.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card4.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card5.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card1.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card2.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card3.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card4.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card5.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card1.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card2.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card3.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card4.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-                <div class="card_wrapper">
-                    <div class="card_img">
-                        <img src="./images/card5.png" alt="">
-                        <div class="card_hover">
-                            <button type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg></button>
-                            <a class="card_link" href="#">Играть</a>
-                            <a class="card_link_two" href="#">Демо</a>
-                        </div>
-                    </div>
-                    <h4>Популярное</h4>
-                </div>
-            </div>
-            <div class="recommended">
-                <div class="recommended_left">
-                    <h4>Рекомендуем</h4>
-                    <div class="recommended_slider">
-                        <div class="swiper mySwiper2">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
-                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
-                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
-                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
-                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
+                    <h6>Отзывы</h6>
+                    <div class="game_card">
+                        <div class="game_card_left">
+                            <div class="game_left_star">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.95356 1.9048C8.86402 1.72464 8.68019 1.61072 8.479 1.61072C8.27782 1.61072 8.09398 1.72464 8.00444 1.9048L6.16307 5.60991L2.04411 6.20427C1.84404 6.23314 1.67782 6.37331 1.61559 6.56564C1.55337 6.75797 1.60598 6.96894 1.75122 7.10953L4.72951 9.99247L4.02659 14.0623C3.99229 14.2609 4.07362 14.4618 4.23644 14.5806C4.39926 14.6994 4.61538 14.7155 4.79405 14.6223L8.479 12.6984L12.164 14.6223C12.3426 14.7155 12.5587 14.6994 12.7216 14.5806C12.8844 14.4618 12.9657 14.2609 12.9314 14.0623L12.2285 9.99247L15.2068 7.10953C15.352 6.96894 15.4046 6.75797 15.3424 6.56564C15.2802 6.37331 15.114 6.23314 14.9139 6.20427L10.7949 5.60991L8.95356 1.9048Z" fill="#F9C143"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                                    <path d="M9.43012 1.9048C9.34059 1.72464 9.15675 1.61072 8.95557 1.61072C8.75438 1.61072 8.57055 1.72464 8.48101 1.9048L6.63963 5.60991L2.52067 6.20427C2.3206 6.23314 2.15438 6.37331 2.09215 6.56564C2.02993 6.75797 2.08254 6.96894 2.22778 7.10953L5.20607 9.99247L4.50316 14.0623C4.46885 14.2609 4.55019 14.4618 4.71301 14.5806C4.87583 14.6994 5.09194 14.7155 5.27061 14.6223L8.95557 12.6984L12.6405 14.6223C12.8192 14.7155 13.0353 14.6994 13.1981 14.5806C13.3609 14.4618 13.4423 14.2609 13.408 14.0623L12.7051 9.99247L15.6834 7.10953C15.8286 6.96894 15.8812 6.75797 15.819 6.56564C15.7568 6.37331 15.5905 6.23314 15.3905 6.20427L11.2715 5.60991L9.43012 1.9048Z" fill="white" fill-opacity="0.6"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                                    <path d="M9.43012 1.9048C9.34059 1.72464 9.15675 1.61072 8.95557 1.61072C8.75438 1.61072 8.57055 1.72464 8.48101 1.9048L6.63963 5.60991L2.52067 6.20427C2.3206 6.23314 2.15438 6.37331 2.09215 6.56564C2.02993 6.75797 2.08254 6.96894 2.22778 7.10953L5.20607 9.99247L4.50316 14.0623C4.46885 14.2609 4.55019 14.4618 4.71301 14.5806C4.87583 14.6994 5.09194 14.7155 5.27061 14.6223L8.95557 12.6984L12.6405 14.6223C12.8192 14.7155 13.0353 14.6994 13.1981 14.5806C13.3609 14.4618 13.4423 14.2609 13.408 14.0623L12.7051 9.99247L15.6834 7.10953C15.8286 6.96894 15.8812 6.75797 15.819 6.56564C15.7568 6.37331 15.5905 6.23314 15.3905 6.20427L11.2715 5.60991L9.43012 1.9048Z" fill="white" fill-opacity="0.6"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                                    <path d="M9.43012 1.9048C9.34059 1.72464 9.15675 1.61072 8.95557 1.61072C8.75438 1.61072 8.57055 1.72464 8.48101 1.9048L6.63963 5.60991L2.52067 6.20427C2.3206 6.23314 2.15438 6.37331 2.09215 6.56564C2.02993 6.75797 2.08254 6.96894 2.22778 7.10953L5.20607 9.99247L4.50316 14.0623C4.46885 14.2609 4.55019 14.4618 4.71301 14.5806C4.87583 14.6994 5.09194 14.7155 5.27061 14.6223L8.95557 12.6984L12.6405 14.6223C12.8192 14.7155 13.0353 14.6994 13.1981 14.5806C13.3609 14.4618 13.4423 14.2609 13.408 14.0623L12.7051 9.99247L15.6834 7.10953C15.8286 6.96894 15.8812 6.75797 15.819 6.56564C15.7568 6.37331 15.5905 6.23314 15.3905 6.20427L11.2715 5.60991L9.43012 1.9048Z" fill="white" fill-opacity="0.6"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                                    <path d="M9.43012 1.9048C9.34059 1.72464 9.15675 1.61072 8.95557 1.61072C8.75438 1.61072 8.57055 1.72464 8.48101 1.9048L6.63963 5.60991L2.52067 6.20427C2.3206 6.23314 2.15438 6.37331 2.09215 6.56564C2.02993 6.75797 2.08254 6.96894 2.22778 7.10953L5.20607 9.99247L4.50316 14.0623C4.46885 14.2609 4.55019 14.4618 4.71301 14.5806C4.87583 14.6994 5.09194 14.7155 5.27061 14.6223L8.95557 12.6984L12.6405 14.6223C12.8192 14.7155 13.0353 14.6994 13.1981 14.5806C13.3609 14.4618 13.4423 14.2609 13.408 14.0623L12.7051 9.99247L15.6834 7.10953C15.8286 6.96894 15.8812 6.75797 15.819 6.56564C15.7568 6.37331 15.5905 6.23314 15.3905 6.20427L11.2715 5.60991L9.43012 1.9048Z" fill="white" fill-opacity="0.6"/>
+                                </svg>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                          </div>
-                    </div>
-                </div>
-                <div class="recommended_right">
-                    <h4>Недавние победители</h4>
-                    <div class="recommended_cards">
-                        <div class="recommended_card">
-                            <img src="./images/card5.png" alt="">
-                            <div class="recommended_text">
-                                <h6>Александр А.</h6>
-                                <span>$7125</span>
-                                <p>Игра: Hotline</p>
-                                <p>Испытай удачу!</p>
-                            </div>
-                            <h5>02/09/2023 09:56</h5>
+                            <h5>Брэд Р.</h5>
+                            <h6>16 июня 2021 г</h6>
                         </div>
-                        <div class="recommended_card">
-                            <img src="./images/card4.png" alt="">
-                            <div class="recommended_text">
-                                <h6>Владимир А.</h6>
-                                <span>$2821</span>
-                                <p>Игра: Space</p>
-                                <p>Испытай удачу!</p>
-                            </div>
-                            <h5>02/09/2023 09:56</h5>
+                        <div class="game_card_right">
+                            <b>Ничего хорошего 1 звезда</b>
+                            <p>Это одна из самых сомнительных игр в блэкджек, в которые я когда-либо играл. Процессор получает буквально в 3 раза больше пушов и блэкджеков, чем любой живой дилер.</p>
                         </div>
                     </div>
+                    <div class="game_card">
+                        <div class="game_card_left">
+                            <div class="game_left_star">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.95356 1.9048C8.86402 1.72464 8.68019 1.61072 8.479 1.61072C8.27782 1.61072 8.09398 1.72464 8.00444 1.9048L6.16307 5.60991L2.04411 6.20427C1.84404 6.23314 1.67782 6.37331 1.61559 6.56564C1.55337 6.75797 1.60598 6.96894 1.75122 7.10953L4.72951 9.99247L4.02659 14.0623C3.99229 14.2609 4.07362 14.4618 4.23644 14.5806C4.39926 14.6994 4.61538 14.7155 4.79405 14.6223L8.479 12.6984L12.164 14.6223C12.3426 14.7155 12.5587 14.6994 12.7216 14.5806C12.8844 14.4618 12.9657 14.2609 12.9314 14.0623L12.2285 9.99247L15.2068 7.10953C15.352 6.96894 15.4046 6.75797 15.3424 6.56564C15.2802 6.37331 15.114 6.23314 14.9139 6.20427L10.7949 5.60991L8.95356 1.9048Z" fill="#F9C143"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.95356 1.9048C8.86402 1.72464 8.68019 1.61072 8.479 1.61072C8.27782 1.61072 8.09398 1.72464 8.00444 1.9048L6.16307 5.60991L2.04411 6.20427C1.84404 6.23314 1.67782 6.37331 1.61559 6.56564C1.55337 6.75797 1.60598 6.96894 1.75122 7.10953L4.72951 9.99247L4.02659 14.0623C3.99229 14.2609 4.07362 14.4618 4.23644 14.5806C4.39926 14.6994 4.61538 14.7155 4.79405 14.6223L8.479 12.6984L12.164 14.6223C12.3426 14.7155 12.5587 14.6994 12.7216 14.5806C12.8844 14.4618 12.9657 14.2609 12.9314 14.0623L12.2285 9.99247L15.2068 7.10953C15.352 6.96894 15.4046 6.75797 15.3424 6.56564C15.2802 6.37331 15.114 6.23314 14.9139 6.20427L10.7949 5.60991L8.95356 1.9048Z" fill="#F9C143"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.95356 1.9048C8.86402 1.72464 8.68019 1.61072 8.479 1.61072C8.27782 1.61072 8.09398 1.72464 8.00444 1.9048L6.16307 5.60991L2.04411 6.20427C1.84404 6.23314 1.67782 6.37331 1.61559 6.56564C1.55337 6.75797 1.60598 6.96894 1.75122 7.10953L4.72951 9.99247L4.02659 14.0623C3.99229 14.2609 4.07362 14.4618 4.23644 14.5806C4.39926 14.6994 4.61538 14.7155 4.79405 14.6223L8.479 12.6984L12.164 14.6223C12.3426 14.7155 12.5587 14.6994 12.7216 14.5806C12.8844 14.4618 12.9657 14.2609 12.9314 14.0623L12.2285 9.99247L15.2068 7.10953C15.352 6.96894 15.4046 6.75797 15.3424 6.56564C15.2802 6.37331 15.114 6.23314 14.9139 6.20427L10.7949 5.60991L8.95356 1.9048Z" fill="#F9C143"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.95356 1.9048C8.86402 1.72464 8.68019 1.61072 8.479 1.61072C8.27782 1.61072 8.09398 1.72464 8.00444 1.9048L6.16307 5.60991L2.04411 6.20427C1.84404 6.23314 1.67782 6.37331 1.61559 6.56564C1.55337 6.75797 1.60598 6.96894 1.75122 7.10953L4.72951 9.99247L4.02659 14.0623C3.99229 14.2609 4.07362 14.4618 4.23644 14.5806C4.39926 14.6994 4.61538 14.7155 4.79405 14.6223L8.479 12.6984L12.164 14.6223C12.3426 14.7155 12.5587 14.6994 12.7216 14.5806C12.8844 14.4618 12.9657 14.2609 12.9314 14.0623L12.2285 9.99247L15.2068 7.10953C15.352 6.96894 15.4046 6.75797 15.3424 6.56564C15.2802 6.37331 15.114 6.23314 14.9139 6.20427L10.7949 5.60991L8.95356 1.9048Z" fill="#F9C143"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.95356 1.9048C8.86402 1.72464 8.68019 1.61072 8.479 1.61072C8.27782 1.61072 8.09398 1.72464 8.00444 1.9048L6.16307 5.60991L2.04411 6.20427C1.84404 6.23314 1.67782 6.37331 1.61559 6.56564C1.55337 6.75797 1.60598 6.96894 1.75122 7.10953L4.72951 9.99247L4.02659 14.0623C3.99229 14.2609 4.07362 14.4618 4.23644 14.5806C4.39926 14.6994 4.61538 14.7155 4.79405 14.6223L8.479 12.6984L12.164 14.6223C12.3426 14.7155 12.5587 14.6994 12.7216 14.5806C12.8844 14.4618 12.9657 14.2609 12.9314 14.0623L12.2285 9.99247L15.2068 7.10953C15.352 6.96894 15.4046 6.75797 15.3424 6.56564C15.2802 6.37331 15.114 6.23314 14.9139 6.20427L10.7949 5.60991L8.95356 1.9048Z" fill="#F9C143"/>
+                                </svg>
+                            </div>
+                            <h5>Джошуа Р.</h5>
+                            <h6>23 мая 2021 г</h6>
+                        </div>
+                        <div class="game_card_right">
+                            <b>Шанс на победу 1 из 17...</b>
+                            <p>Ужасная игра – очень полосатая – проиграно 111 из 124 раздач. Дилер вытащил 71 блэкджек. Проиграет от 12 до 14 раздач подряд. Совершенно несправедливо..</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="online_casino">
-                <h3>Онлайн казино</h3>
-                <p>Благодаря бездепозитному игровому процессу и бесплатным тренировочным версиям ваших любимых игр казино и игровых автоматов легко убедиться, что вы готовы к крупному выигрышу на реальные деньги.</p>
             </div>
             <div class="logo_active">
                 <a href="#"><img src="./images/logo_active1.svg" alt=""></a>
@@ -714,7 +444,7 @@
                 <a class="noactive_link" href="#"><img src="./images/logo_noactive27.svg" alt=""></a>
             </div>
         </div>
-    </div>
+    </section>
     <footer>
         <div class="container_card">
             <a class="footer_logo" href="#">
@@ -723,9 +453,23 @@
             <div class="footer_wrapper">
                 <ul class="network_messenger">
                     <li class="network_link"><a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M0 24L1.70151 17.843C0.656031 16.0367 0.106998 13.9882 0.109683 11.9036C0.0975751 5.33459 5.45638 0 12.0423 0C15.2388 0 18.2401 1.23368 20.5 3.48408C21.6139 4.58719 22.4969 5.89939 23.0976 7.34465C23.6984 8.7899 24.0051 10.3395 23.9999 11.9036C23.9999 18.4598 18.6411 23.7944 12.0545 23.7944C10.0495 23.7944 8.09304 23.2981 6.3431 22.343L0 24ZM6.623 20.2018L6.98767 20.4195C8.51827 21.3211 10.2639 21.7973 12.0423 21.7985C17.5108 21.7985 21.9708 17.3594 21.9708 11.9149C21.9708 9.27811 20.9381 6.78665 19.0663 4.92408C18.1459 4.00264 17.0514 3.27164 15.8459 2.77321C14.6404 2.27479 13.3477 2.01879 12.0423 2.01997C6.56175 2.02068 2.10321 6.45979 2.10321 11.9043C2.10321 13.7669 2.62598 15.594 3.62239 17.1666L3.85315 17.5416L2.84464 21.1944L6.62372 20.2025L6.623 20.2018Z" fill="#3561FF"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.06523 6.91994C8.84658 6.42363 8.60371 6.41158 8.39716 6.41158C8.21483 6.39953 8.01968 6.39953 7.81314 6.39953C7.61941 6.39953 7.29107 6.47185 7.01188 6.77459C6.73198 7.07663 5.96704 7.79061 5.96704 9.254C5.96704 10.7181 7.0361 12.1333 7.1821 12.3269C7.3274 12.5204 9.24756 15.6167 12.2859 16.8149C14.8129 17.8068 15.3236 17.6132 15.8706 17.5523C16.4168 17.492 17.6326 16.839 17.8876 16.1371C18.1305 15.4479 18.1305 14.8431 18.0578 14.7219C17.9852 14.6014 17.7779 14.5283 17.4866 14.3709C17.1825 14.2263 15.7246 13.5003 15.4454 13.4031C15.1655 13.3067 14.971 13.2585 14.7766 13.5485C14.5821 13.8512 14.0109 14.5163 13.8293 14.7098C13.6584 14.9034 13.4768 14.9275 13.1848 14.7822C12.8813 14.6375 11.9213 14.3227 10.7789 13.3067C9.89142 12.5197 9.29599 11.5406 9.11366 11.2506C8.94415 10.9478 9.08945 10.7904 9.24756 10.6451C9.38146 10.5125 9.55169 10.2948 9.69769 10.1254C9.84299 9.95521 9.89142 9.82263 10.0011 9.62907C10.098 9.43551 10.0495 9.254 9.97688 9.10936C9.90353 8.97607 9.33303 7.51196 9.06523 6.91923V6.91994Z" fill="#3561FF"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+                            <g filter="url(#filter0_d_100_2348)">
+                                <path d="M7 31L8.70151 24.843C7.65603 23.0367 7.107 20.9882 7.10968 18.9036C7.09758 12.3346 12.4564 7 19.0423 7C22.2388 7 25.2402 8.23368 27.5 10.4841C28.6139 11.5872 29.4969 12.8994 30.0976 14.3446C30.6984 15.7899 31.0051 17.3395 30.9999 18.9036C30.9999 25.4598 25.6411 30.7944 19.0545 30.7944C17.0495 30.7944 15.093 30.2981 13.3431 29.343L7 31ZM13.623 27.2018L13.9877 27.4195C15.5183 28.3211 17.2639 28.7973 19.0423 28.7985C24.5108 28.7985 28.9708 24.3594 28.9708 18.9149C28.9708 16.2781 27.9381 13.7866 26.0663 11.9241C25.1459 11.0026 24.0514 10.2716 22.8459 9.77321C21.6404 9.27479 20.3477 9.01879 19.0423 9.01997C13.5618 9.02068 9.10321 13.4598 9.10321 18.9043C9.10321 20.7669 9.62598 22.594 10.6224 24.1666L10.8532 24.5416L9.84464 28.1944L13.6237 27.2025L13.623 27.2018Z" fill="#3561FF"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0652 13.9199C15.8466 13.4236 15.6037 13.4116 15.3972 13.4116C15.2148 13.3995 15.0197 13.3995 14.8131 13.3995C14.6194 13.3995 14.2911 13.4718 14.0119 13.7746C13.732 14.0766 12.967 14.7906 12.967 16.254C12.967 17.7181 14.0361 19.1333 14.1821 19.3269C14.3274 19.5204 16.2476 22.6167 19.2859 23.8149C21.8129 24.8068 22.3236 24.6132 22.8706 24.5523C23.4168 24.492 24.6326 23.839 24.8876 23.1371C25.1305 22.4479 25.1305 21.8431 25.0578 21.7219C24.9852 21.6014 24.7779 21.5283 24.4866 21.3709C24.1825 21.2263 22.7246 20.5003 22.4454 20.4031C22.1655 20.3067 21.971 20.2585 21.7766 20.5485C21.5822 20.8512 21.0109 21.5163 20.8293 21.7098C20.6584 21.9034 20.4768 21.9275 20.1848 21.7822C19.8813 21.6375 18.9213 21.3227 17.7789 20.3067C16.8914 19.5197 16.296 18.5406 16.1137 18.2506C15.9442 17.9478 16.0895 17.7904 16.2476 17.6451C16.3815 17.5125 16.5517 17.2948 16.6977 17.1254C16.843 16.9552 16.8914 16.8226 17.0011 16.6291C17.098 16.4355 17.0495 16.254 16.9769 16.1094C16.9035 15.9761 16.333 14.5127 16.0652 13.9199Z" fill="#3561FF"/>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_100_2348" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset/>
+                                <feGaussianBlur stdDeviation="3.5"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.207843 0 0 0 0 0.380392 0 0 0 0 1 0 0 0 0.95 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_100_2348"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_100_2348" result="shape"/>
+                                </filter>
+                            </defs>
                         </svg>
                     </a></li>
                     <li class="network_link"><a href="#">
@@ -738,38 +482,25 @@
                             <path d="M7.4 18.6C3.4597 14.6597 1.67578 11.0365 1.16317 9.86506C1.04934 9.60494 1 9.32524 1 9.0413V6.22941C1 5.59289 1.25286 4.98244 1.70294 4.53235L3.53824 2.69706C4.4755 1.7598 5.99509 1.7598 6.93235 2.69706L9.4911 5.25581C10.3001 6.06476 10.4256 7.33225 9.79097 8.28414L8.8314 9.7235C8.35366 10.4401 8.29379 11.3589 8.72529 12.1042C9.2686 13.0427 10.0755 14.3108 10.8824 15.1176C11.6892 15.9245 12.9573 16.7314 13.8958 17.2747C14.6411 17.7062 15.5599 17.6463 16.2765 17.1686L17.7159 16.209C18.6678 15.5744 19.9352 15.6999 20.7442 16.5089L23.3029 19.0676C24.2402 20.0049 24.2402 21.5245 23.3029 22.4618L21.4676 24.2971C21.0176 24.7471 20.4071 25 19.7706 25H16.9587C16.6748 25 16.3951 24.9507 16.1349 24.8368C14.9635 24.3242 11.3403 22.5403 7.4 18.6Z" stroke="#3561FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </a></li>
-                    <li class="network_link">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <path d="M23.933 7.05204C23.8754 5.77422 23.669 4.89992 23.3761 4.13611C23.0689 3.34828 22.6608 2.67574 21.9934 2.01281C21.3261 1.34988 20.6588 0.931946 19.8714 0.629304C19.1081 0.331465 18.2343 0.129704 16.9572 0.0720576C15.6754 0.0144115 15.2673 0 12.0122 0C8.7524 0 8.34431 0.0144115 7.06726 0.0720576C5.7902 0.129704 4.91643 0.336269 4.15308 0.629304C3.36092 0.93675 2.68878 1.34508 2.02625 2.01281C1.36372 2.68054 0.946035 3.34828 0.643574 4.13611C0.350716 4.89992 0.144274 5.77422 0.0866628 7.05204C0.0290513 8.33467 0.0146484 8.743 0.0146484 12C0.0146484 15.2618 0.0290513 15.6701 0.0866628 16.948C0.144274 18.2258 0.350716 19.1001 0.643574 19.8639C0.950836 20.6517 1.35892 21.3243 2.02625 21.9872C2.68878 22.6549 3.36092 23.0681 4.14827 23.3707C4.91163 23.6685 5.7854 23.8703 7.06246 23.9279C8.34431 23.9856 8.7524 24 12.0074 24C15.2673 24 15.6754 23.9856 16.9524 23.9279C18.2295 23.8703 19.1033 23.6637 19.8666 23.3707C20.654 23.0633 21.3261 22.6549 21.9886 21.9872C22.6512 21.3195 23.0689 20.6517 23.3713 19.8639C23.669 19.1001 23.8706 18.2258 23.9282 16.948C23.9858 15.6653 24.0002 15.257 24.0002 12C24.0002 8.743 23.9906 8.32986 23.933 7.05204ZM21.7774 16.8519C21.7246 18.024 21.5278 18.6629 21.3645 19.0809C21.1485 19.6381 20.8844 20.0416 20.4619 20.4644C20.0395 20.8871 19.641 21.1417 19.0793 21.3675C18.6568 21.5308 18.0182 21.7278 16.8516 21.7806C15.589 21.8383 15.2097 21.8527 12.0026 21.8527C8.7956 21.8527 8.41633 21.8383 7.15368 21.7806C5.98224 21.7278 5.34371 21.5308 4.92603 21.3675C4.36912 21.1513 3.96584 20.8871 3.54335 20.4644C3.12087 20.0416 2.86642 19.6429 2.64077 19.0809C2.47754 18.6581 2.2807 18.0192 2.22789 16.8519C2.17028 15.5885 2.15588 15.209 2.15588 12C2.15588 8.79103 2.17028 8.41153 2.22789 7.14812C2.2807 5.97598 2.47754 5.33707 2.64077 4.91914C2.85682 4.36189 3.12087 3.95837 3.54335 3.53563C3.96584 3.11289 4.36432 2.85829 4.92603 2.63251C5.34852 2.46918 5.98704 2.27222 7.15368 2.21938C8.41633 2.16173 8.7956 2.14732 12.0026 2.14732C15.2097 2.14732 15.589 2.16173 16.8516 2.21938C18.0231 2.27222 18.6616 2.46918 19.0793 2.63251C19.6362 2.84868 20.0395 3.11289 20.4619 3.53563C20.8844 3.95837 21.1389 4.35709 21.3645 4.91914C21.5278 5.34187 21.7246 5.98079 21.7774 7.14812C21.835 8.41153 21.8494 8.79103 21.8494 12C21.8494 15.209 21.8302 15.5885 21.7774 16.8519Z" fill="#3561FF"/>
-                                <path d="M12.0023 5.83203C8.59364 5.83203 5.83789 8.59424 5.83789 12.0002C5.83789 15.4109 8.59844 18.1683 12.0023 18.1683C15.4062 18.1683 18.1668 15.4013 18.1668 12.0002C18.1668 8.58944 15.411 5.83203 12.0023 5.83203ZM12.0023 16.0018C9.79388 16.0018 8.00312 14.2099 8.00312 12.0002C8.00312 9.7904 9.79388 7.99856 12.0023 7.99856C14.2108 7.99856 16.0015 9.7904 16.0015 12.0002C16.0015 14.2099 14.2108 16.0018 12.0023 16.0018Z" fill="#3561FF"/>
-                                <path d="M18.4071 7.0327C19.2025 7.0327 19.8474 6.38747 19.8474 5.59154C19.8474 4.79562 19.2025 4.15039 18.4071 4.15039C17.6116 4.15039 16.9668 4.79562 16.9668 5.59154C16.9668 6.38747 17.6116 7.0327 18.4071 7.0327Z" fill="#3561FF"/>
-                                <path d="M0 12C0 15.2618 0.0144029 15.6701 0.0720144 16.948C0.129626 18.2258 0.336067 19.1001 0.628926 19.8639C0.936187 20.6517 1.34427 21.3243 2.0116 21.9872C2.67413 22.6501 3.34627 23.0681 4.13363 23.3707C4.89698 23.6685 5.77075 23.8703 7.04781 23.9279C8.32967 23.9856 8.73775 24 11.9928 24C15.2527 24 15.6607 23.9856 16.9378 23.9279C18.2148 23.8703 19.0886 23.6637 19.852 23.3707C20.6393 23.0633 21.3115 22.6549 21.974 21.9872C22.6365 21.3243 23.0542 20.6517 23.3567 19.8639C23.6543 19.1001 23.856 18.2258 23.9136 16.948C23.9712 15.6653 23.9856 15.257 23.9856 12C23.9856 8.73819 23.9712 8.32986 23.9136 7.05204C23.856 5.77422 23.6495 4.89992 23.3567 4.13611C23.0494 3.34828 22.6413 2.67574 21.974 2.01281C21.3163 1.34508 20.6441 0.931946 19.8568 0.629304C19.0934 0.331465 18.2196 0.129704 16.9426 0.0720576C15.6607 0.0144115 15.2527 0 11.9976 0C8.73775 0 8.32967 0.0144115 7.05261 0.0720576C5.77555 0.129704 4.90178 0.336269 4.13843 0.629304C3.35107 0.93675 2.67894 1.34508 2.0164 2.01281C1.35387 2.68054 0.936187 3.34828 0.633727 4.13611C0.336067 4.89992 0.129626 5.77422 0.0720144 7.05204C0.0144029 8.32986 0 8.73819 0 12ZM2.16523 12C2.16523 8.79584 2.17964 8.41153 2.23725 7.14812C2.29006 5.97598 2.4869 5.33707 2.65013 4.91914C2.86617 4.36189 3.13023 3.95837 3.55271 3.53563C3.97519 3.11289 4.37367 2.85829 4.93539 2.63251C5.35787 2.46918 5.9964 2.27222 7.16303 2.21938C8.42568 2.16173 8.80496 2.14732 12.012 2.14732C15.219 2.14732 15.5983 2.16173 16.861 2.21938C18.0324 2.27222 18.6709 2.46918 19.0886 2.63251C19.6455 2.84868 20.0488 3.11289 20.4713 3.53563C20.8938 3.95837 21.1482 4.35709 21.3739 4.91914C21.5371 5.34187 21.7339 5.98079 21.7868 7.14812C21.8444 8.41153 21.8588 8.79103 21.8588 12C21.8588 15.209 21.8444 15.5885 21.7868 16.8519C21.7339 18.024 21.5371 18.6629 21.3739 19.0809C21.1578 19.6381 20.8938 20.0416 20.4713 20.4644C20.0488 20.8871 19.6503 21.1417 19.0886 21.3675C18.6661 21.5308 18.0276 21.7278 16.861 21.7806C15.5983 21.8383 15.219 21.8527 12.012 21.8527C8.80496 21.8527 8.42568 21.8383 7.16303 21.7806C5.9916 21.7278 5.35307 21.5308 4.93539 21.3675C4.37848 21.1513 3.97519 20.8871 3.55271 20.4644C3.13023 20.0416 2.87578 19.6429 2.65013 19.0809C2.4869 18.6581 2.29006 18.0192 2.23725 16.8519C2.17483 15.5885 2.16523 15.2042 2.16523 12Z" fill="#3561FF"/>
-                            </svg>
-                        </a>
-                    </li>
                 </ul>
                 <ul class="footer_menu">
                     <li class="footer_link">
-                        <a href="#">Games</a>
+                        <a href="#">Игры</a>
                     </li>
                     <li class="footer_link">
-                        <a href="#">Promotions</a>
+                        <a href="#">Акции</a>
                     </li>
                     <li class="footer_link">
-                        <a href="#">Rewards</a>
+                        <a href="#">Награды</a>
+                    </li>
+                    <li class="footer_link">
+                        <a href="#">Крипто</a>
                     </li>
                     <li class="footer_link">
                         <a href="#">VIP</a>
                     </li>
-                    <li class="footer_link">
-                        <a href="#">Banking</a>
-                    </li>
                 </ul>
                 <ul class="footer_menu_two">
-                    <li class="footer_menu_item">
-                        <a href="#">Help</a>
-                    </li>
                     <li class="footer_menu_item">
                         <a href="#">Privacy policy</a>
                     </li>
@@ -781,6 +512,9 @@
                     </li>
                     <li class="footer_menu_item">
                         <a href="#">Contacts</a>
+                    </li>
+                    <li class="footer_menu_item">
+                        <a href="#">Помощь</a>
                     </li>
                 </ul>
             </div>
@@ -795,91 +529,5 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <!-- js file link -->
     <script src="./js/app.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            // loop: true,
-            autoplay: {
-                delay: 5000,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-            },
-        });
-        var swiper = new Swiper(".mySwiper2", {
-            slidePerView: 1,
-            spaceBetween: 0,
-            // loop: true,
-            autoplay: {
-                delay: 5000,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-
-        var x, i, j, selElmnt, a, b, c;
-        x = document.getElementsByClassName("tt-select");
-
-        for (i = 0; i < x.length; i++) {
-            selElmnt = x[i].getElementsByTagName("select")[0];
-            a = document.createElement("DIV");
-            a.setAttribute("class", "select-selected");
-            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
-            x[i].appendChild(a);
-            b = document.createElement("DIV");
-            b.setAttribute("class", "select-items select-hide");
-            for (j = 0; j < selElmnt.length; j++) {
-                /*for each option in the original select element,
-                create a new DIV that will act as an option item:*/
-                c = document.createElement("DIV");
-                c.innerHTML = selElmnt.options[j].innerHTML;
-                c.addEventListener("click", function(e) {
-                    var y, i, k, s, h;
-                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-                    h = this.parentNode.previousSibling;
-                    for (i = 0; i < s.length; i++) {
-                        if (s.options[i].innerHTML == this.innerHTML) {
-                            s.selectedIndex = i;
-                            h.innerHTML = this.innerHTML;
-                            y = this.parentNode.getElementsByClassName("same-as-selected");
-                            for (k = 0; k < y.length; k++) {
-                                y[k].removeAttribute("class");
-                            }
-                            this.setAttribute("class", "same-as-selected");
-                            break;
-                        }
-                    }
-                    h.click();
-                });
-                b.appendChild(c);
-            }
-            x[i].appendChild(b);
-            a.addEventListener("click", function(e) {
-                e.stopPropagation();
-                closeAllSelect(this);
-                this.nextSibling.classList.toggle("select-hide");
-                this.classList.toggle("select-arrow-active");
-            });
-        }
-        function closeAllSelect(elmnt) {
-            var x, y, i, arrNo = [];
-            x = document.getElementsByClassName("select-items");
-            y = document.getElementsByClassName("select-selected");
-            for (i = 0; i < y.length; i++) {
-                if (elmnt == y[i]) {
-                    arrNo.push(i)
-                } else {
-                    y[i].classList.remove("select-arrow-active");
-                }
-            }
-            for (i = 0; i < x.length; i++) {
-                if (arrNo.indexOf(i)) {
-                    x[i].classList.add("select-hide");
-                }
-            }
-        }
-        document.addEventListener("click", closeAllSelect);
-    </script>
 </body>
 </html>

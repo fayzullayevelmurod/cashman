@@ -148,7 +148,7 @@
         }
     }
 }
-@media only screen and (max-width:970px){
+@media only screen and (max-width: 970px){
     #index{
         .recommended{
             display: flex;
@@ -225,6 +225,18 @@
         }
     }
 }
+@media only screen and (max-width: 923px){
+    #promotions{
+        .promotion_cards{
+            .promotion_cards_wrapper{
+                justify-content: center;
+                .promotion_card{
+                    max-width: 49%;
+                }
+            }
+        }
+    }
+}
 @media only screen and (max-width: 870px){
     .header_container{
         padding: 0 18px;
@@ -264,6 +276,20 @@
     #index{
         .jackpot{
             background-color: #090A0D;
+        }
+    }
+}
+@media only screen and (max-width: 719px){
+    #promotions{
+        .promotion_cards{
+            .promotion_cards_wrapper{
+                gap: 12px;
+                justify-content: center;
+                .promotion_card{
+                    max-width: 100%;
+                    width: 75%;
+                }
+            }
         }
     }
 }
@@ -360,6 +386,17 @@
     #index{
         .select-selected{
             margin-bottom: 12px;
+        }
+        .game_title{
+            margin-bottom: 0px;
+            h3{
+                font-size: 26px;
+                line-height: 40px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 140%;
+            }
         }
         .main_cards{
             padding-top: 34px;
@@ -504,6 +541,72 @@
             margin-right: 0;
         }
     }  
+    #promotions{
+        .promotion_main{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            h3{
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 40px;
+                margin-bottom: 16px;
+            }
+            p{
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%;
+                margin-bottom: 30px;
+            }
+            .promotion_btns{
+                button{
+                    border-radius: 12px;
+                    width: 230px;   
+                    height: 40px;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.28px;
+                }
+            }
+        }
+        .promotion_cards{
+            .promotion_card_title{
+                margin-top: 30px;
+                h2{
+                    font-size: 26px;
+                    line-height: 40px;
+                    margin-bottom: 16px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+            }
+            .promotion_cards_wrapper{
+                margin-bottom: 0px;
+                .promotion_card{
+                    padding: 5px 5px 10px 5px;
+                    max-width: 100%;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                        object-fit: contain;
+                        height: 94px;
+                    }
+                    .card_btn{
+                        button{
+                            border-radius: 12px;
+                            width: 133px;
+                            height: 37px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     footer{
         .footer_wrapper{
             flex-direction: column;

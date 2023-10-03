@@ -640,9 +640,6 @@ header{
                 line-height: normal;
                 outline: none;
                 padding-right: 8px;
-                &:focus{
-                    // border: 1px solid #3561FF;
-                }
             }
         }
         .provider_search.active{
@@ -792,6 +789,27 @@ header{
     .select-items div:hover, .same-as-selected {
         background-color: rgba(0, 0, 0, 0.1);
     }
+    .game_title{
+        margin-top: 32px;
+        margin-bottom: 40px;
+        h3{
+            color: #FFF;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px; /* 125% */
+            margin-bottom: 16px;
+        }
+        p{
+            color: #FFF;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 28px */
+        }
+    }
     .main_cards{
         padding-top: 40px;
         // gap: 35px;
@@ -855,9 +873,14 @@ header{
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
-                    border-radius: 18.26px;
-                    background: transparent;
-                    border: 1px solid #3561FF;
+                    border-radius: 12px;
+                    background: #3561FF;
+                    transition: .3s linear;
+                    &:hover{
+                        border-radius: 12px;
+                        background: #3561FF;
+                        box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.80);
+                    }
                 }
                 .card_link_two{
                     position: absolute;
@@ -875,8 +898,14 @@ header{
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
-                    border-radius: 18.26px;
-                    background: #3561FF;
+                    border-radius: 12px;
+                    background: transparent;
+                    border: 1px solid #3561FF;
+                    transition: .3s linear;
+                    &:hover{
+                        border-radius: 12px;
+                        border: 1px solid #3561FF;
+                    }
                 }
             }
             .card_img{
@@ -1068,6 +1097,171 @@ header{
         // }
     }
 }
+#game_map{
+    .logo_active{
+        padding: 40px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        a{
+            margin-right: 80px;
+            margin-bottom: 20px;
+        }
+    }
+    .logo_noactive{
+        margin: 40px 0;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        // .noactive_link{
+        //     border: 1px solid red;
+        // }
+    }
+}
+#promotions{
+    .promotion_main{
+        margin-top: 67px;
+        margin-bottom: 40px;
+        text-align: center;
+        h3{
+            color: #D79730;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 46px; /* 121.053% */
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        p{
+            margin: 0 auto;
+            max-width: 793px;
+            color: #FFF;
+            text-align: center;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 19.6px */
+            margin-bottom: 40px;
+        }
+        .promotion_btns{
+            button{
+                cursor: pointer;
+                margin: 0 auto;
+                border: none;
+                height: 40px;
+                width: 249px;
+                color: #FFF;
+                text-align: center;
+                font-family: 'Golos Text VF',sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.28px;
+                text-transform: uppercase;
+                border-radius: 12px;
+                background: linear-gradient(0deg, #C99C38 0%, #C99C38 100%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(254, 204, 53, 0.50) 0%, rgba(185, 135, 76, 0.50) 100%), radial-gradient(70.71% 70.71% at 50% 50%, #FFFFD9 0%, #B9874C 100%);
+                transition: .3s linear;
+                &:hover{
+                    border-radius: 12px;
+                    background: linear-gradient(0deg, #C99C38 0%, #C99C38 100%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(254, 204, 53, 0.50) 0%, rgba(185, 135, 76, 0.50) 100%), radial-gradient(70.71% 70.71% at 50% 50%, #FFFFD9 0%, #B9874C 100%);
+                    box-shadow: 0px 0px 8px 0px rgba(201, 156, 56, 0.80);
+                }
+            }
+        }
+    }
+    .promotion_line{
+        svg{
+            width: 100%;
+        }
+    }
+    .promotion_cards{
+        .promotion_card_title{
+            margin-top: 33px;
+            text-align: center;
+            h2{
+                color: #FFF;
+                font-family: 'Golos Text VF',sans-serif;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 46px; /* 121.053% */
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            p{
+                color: #FFF;
+                font-family: 'Golos Text VF',sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%; /* 19.6px */
+            }
+        }
+        .promotion_cards_wrapper{
+            margin-bottom: 27px;
+            margin-top: 40px;
+            gap: 14px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .promotion_card{
+                max-width: 32.3%;
+                border-radius: 12px;
+                border: 1px solid #2E3138;
+                background: #1F2229;
+                padding: 6px 6px 12px 6px;
+                transition: .3s linear;
+                text-align: center;
+                &:hover{
+                    border: 1px solid #2E3138;
+                    background: #11141B;
+                }
+                img{
+                    width: 100%;
+                    border-radius: 10px;
+                }
+                h5{
+                    margin: 10px 0px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: 'Golos Text VF',sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 14.764px; /* 123.034% */
+                }
+                .card_btn{
+                    button{
+                        transition: .3s linear;
+                        cursor: pointer;
+                        width: 160px;
+                        height: 30px;
+                        border: none;
+                        color: #FFF ;
+                        font-family: 'Golos Text VF',sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        border-radius: 15.96px;
+                        background: #3561FF;
+                        &:hover{
+                            background: #3561FF;
+                            box-shadow: 0px 0px 18px 0px rgba(53, 97, 255, 0.95);
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
 footer{
     padding-bottom: 97px;
     padding-top: 55px;
@@ -1078,7 +1272,26 @@ footer{
             margin-top: 46px;
             display: flex;
             align-items: center;
-            gap: 32px;
+            gap: 20px;
+            .network_link{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 44px;
+                height: 44px;
+                border-radius: 12px;
+                background-color: transparent;
+                transition: .3s linear;
+                &:hover{
+                    background: #11141B;
+                }
+                a{
+                    svg{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
         }
         .footer_menu{
             margin-left: auto;
@@ -1092,6 +1305,10 @@ footer{
                     font-style: normal;
                     font-weight: 400;
                     line-height: 140%; /* 22.4px */
+                    transition: .3s linear;
+                    &:hover{
+                        color: #3561FF;
+                    }
                 }
             }
         }
@@ -1105,6 +1322,11 @@ footer{
                     font-style: normal;
                     font-weight: 400;
                     line-height: 140%; /* 22.4px */
+                    line-height: 140%; /* 22.4px */
+                    transition: .3s linear;
+                    &:hover{
+                        color: #3561FF;
+                    }
                 }
             }
         }
