@@ -180,9 +180,25 @@ body.hidden2{
                 line-height: 21.383px; /* 152.739% */
             }
         }
-        .account_item_name{
-            display: none;
-        }
+            .account_item_name{
+                h6{
+                    color: #FFF;
+                    font-family: 'Golos Text VF',sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px; /* 128.571% */
+                }
+                p{
+                    color: #FFF;
+                    font-family: 'Golos Text VF',sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px; /* 150% */
+                    opacity: 0.5;
+                }
+            }
         
         .account_item_active{
             color: #3561FF;
@@ -278,9 +294,12 @@ header{
             margin-left: auto;
             display: flex;
             align-items: center;
-            gap: 44px;
+            gap: 34px;
+            position: relative;
         }
         .nav_item{
+            padding: 0 10px;
+            // border: 1px solid red;
             a{
                 display: flex;
                 align-items: center;
@@ -294,10 +313,14 @@ header{
                 svg{
                     margin-right: 7px;
                 }
+                .nav_item_svg_media{
+                    display: none;
+                }
             }
 
         }
         .nav_item_active{
+            padding: 0 10px;
             position: relative;
             &::before{
                 display: none;
@@ -316,8 +339,28 @@ header{
             }
             img{
                 position: absolute;
-                bottom: -10px;
-                left: -6px;
+                bottom: -17px;
+                width: 120%;
+                left: -11px;
+                height: 100%;
+            }
+            .nav_item_svg{
+                display: none;
+            }
+            .nav_item_svg1{
+                display: none;
+            }
+            .nav_item_svg_media{
+                margin-right: 0;
+                display: block !important;
+                stroke-width: 1.5px;
+                stroke: #FFD333;
+                filter: drop-shadow(0px 0px 7px rgba(255, 211, 51, 0.95));
+            }
+            svg{
+                stroke-width: 1.5px;
+                stroke: #FFD333;
+                filter: drop-shadow(0px 0px 7px rgba(255, 211, 51, 0.95));
             }
         }
         .account{
@@ -359,7 +402,7 @@ header{
                 justify-content: center;
                 border-radius: 100px;
                 border: 2px solid var(--border-border-imput, #2A2533);
-                background: #3561FF;
+                background: transparent;
                 color: #FFF;
                 text-align: center;
                 font-family: 'Golos Text VF',sans-serif;

@@ -172,8 +172,22 @@ body.hidden2 {
   font-weight: 400;
   line-height: 21.383px; /* 152.739% */
 }
-.account_burger .account_link .account_item_name {
-  display: none;
+.account_burger .account_link .account_item_name h6 {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+.account_burger .account_link .account_item_name p {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+  opacity: 0.5;
 }
 .account_burger .account_link .account_item_active {
   color: #3561FF;
@@ -266,7 +280,11 @@ header .header_wrapper .nav_link {
   margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 44px;
+  gap: 34px;
+  position: relative;
+}
+header .header_wrapper .nav_item {
+  padding: 0 10px;
 }
 header .header_wrapper .nav_item a {
   display: flex;
@@ -282,7 +300,11 @@ header .header_wrapper .nav_item a {
 header .header_wrapper .nav_item a svg {
   margin-right: 7px;
 }
+header .header_wrapper .nav_item a .nav_item_svg_media {
+  display: none;
+}
 header .header_wrapper .nav_item_active {
+  padding: 0 10px;
   position: relative;
 }
 header .header_wrapper .nav_item_active::before {
@@ -301,8 +323,28 @@ header .header_wrapper .nav_item_active::before {
 }
 header .header_wrapper .nav_item_active img {
   position: absolute;
-  bottom: -10px;
-  left: -6px;
+  bottom: -17px;
+  width: 120%;
+  left: -11px;
+  height: 100%;
+}
+header .header_wrapper .nav_item_active .nav_item_svg {
+  display: none;
+}
+header .header_wrapper .nav_item_active .nav_item_svg1 {
+  display: none;
+}
+header .header_wrapper .nav_item_active .nav_item_svg_media {
+  margin-right: 0;
+  display: block !important;
+  stroke-width: 1.5px;
+  stroke: #FFD333;
+  filter: drop-shadow(0px 0px 7px rgba(255, 211, 51, 0.95));
+}
+header .header_wrapper .nav_item_active svg {
+  stroke-width: 1.5px;
+  stroke: #FFD333;
+  filter: drop-shadow(0px 0px 7px rgba(255, 211, 51, 0.95));
 }
 header .header_wrapper .account {
   display: flex;
@@ -342,7 +384,7 @@ header .header_wrapper .account .account_icon {
   justify-content: center;
   border-radius: 100px;
   border: 2px solid var(--border-border-imput, #2A2533);
-  background: #3561FF;
+  background: transparent;
   color: #FFF;
   text-align: center;
   font-family: "Golos Text VF", sans-serif;
@@ -1728,6 +1770,8 @@ footer .footer_text {
     margin-bottom: 16px;
   }
   #promotions .promotion_main p {
+    max-width: 314px;
+    margin: 0 auto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1766,9 +1810,7 @@ footer .footer_text {
   }
   #promotions .promotion_cards .promotion_cards_wrapper .promotion_card img {
     width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
-    height: 94px;
+    height: 124px;
   }
   #promotions .promotion_cards .promotion_cards_wrapper .promotion_card .card_btn button {
     border-radius: 12px;
@@ -1822,5 +1864,9 @@ footer .footer_text {
     width: 80px;
     height: 30px;
     border-radius: 10px;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card img {
+    width: 100%;
+    height: 94px;
   }
 }/*# sourceMappingURL=style.css.map */
