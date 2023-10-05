@@ -137,6 +137,24 @@
         }
     }
 }
+@media only screen and (max-width: 1150px){
+    .header_container{
+        padding: 0 18px;
+    }
+    header{
+        .header_wrapper{
+            .nav_link{
+                .nav_item{
+                    display: none;
+                }
+            }
+            .header_burger{
+                margin-left: 12px;
+                display: block;
+            }
+        }
+    }
+}
 @media only screen and (max-width: 992px){
     header{
         .header_wrapper{
@@ -233,24 +251,6 @@
                 .promotion_card{
                     max-width: 49%;
                 }
-            }
-        }
-    }
-}
-@media only screen and (max-width: 870px){
-    .header_container{
-        padding: 0 18px;
-    }
-    header{
-        .header_wrapper{
-            .nav_link{
-                .nav_item{
-                    display: none;
-                }
-            }
-            .header_burger{
-                margin-left: 12px;
-                display: block;
             }
         }
     }

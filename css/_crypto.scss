@@ -1,0 +1,315 @@
+#crypto{
+    .crypto_main{
+        img{
+            object-fit: cover;
+            width: 100%;
+            min-height: 120px;
+        }
+    }
+    .crypto_text{
+        text-align: center;
+        h6{
+            margin-top: 44px;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 29.08px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36.449px; /* 125.341% */
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.23) -14.2%, #FFF 45.19%, rgba(255, 255, 255, 0.20) 113.92%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h1{
+            margin-bottom: 39px;
+            margin-top: 37px;
+            color: #FFF;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 46px; /* 121.053% */
+            text-transform: uppercase;
+            .crypto_blue{
+                color: #1AA1CF;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 46px;
+                text-transform: uppercase;
+            }
+            .crypto_coral{
+                color: #D89831;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 46px;
+                text-transform: uppercase;
+            }
+        }
+        p{
+            max-width: 678px;
+            margin: 0 auto;
+            color: #FFF;
+            text-align: center;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 19.6px */
+            margin-bottom: 26px;
+        }
+        .one_text{
+            max-width: 625px;
+        }
+        .two_text{
+            max-width: 610px;
+        }
+    }
+    .crypto_cards_title{
+        margin-top: 23px;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #FFF;
+        font-family: 'Golos Text VF',sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46px;
+        text-transform: uppercase;
+        .crypto_blue{
+            color: #1AA1CF;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 46px; /* 121.053% */
+            text-transform: uppercase;
+        }
+        .crypto_coral{
+            color: #D89831;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 46px;
+            text-transform: uppercase;
+        }
+    }
+    .crypto_cards{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        .crypto_card{
+            padding: 10px;
+            max-width: 171px;
+            text-align: center;
+            .crypto_card_img{
+                img{
+                    width: 100%;
+                }
+            }
+            h3{
+                color: #D89831;
+                font-family: 'Golos Text VF',sans-serif;
+                font-size: 21.466px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26.94px; /* 125.5% */
+                margin-top: 15px;
+            }
+            p{
+                margin-top: 9px;
+                color: #FFF;
+                font-family: 'Mulish',sans-serif;
+                font-size: 12.021px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 15.086px; /* 125.5% */
+            }
+        }
+    }
+    .crypto_card_bottom{
+        margin-top: 21px;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Mulish',sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17.57px; /* 125.5% */
+    }
+    .crypto_btns{
+        margin-top: 41px;
+        text-align: center;
+        button{
+            cursor: pointer;
+            border: none;
+            width: 197px;
+            height: 40px;
+            border-radius: 12px;
+            background: #3561FF;
+            color: var(--text-text-bold, #FFF);
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            transition: .3s linear;
+            &:hover{
+                background: #3561FF;
+                box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.80);
+            }
+        }
+    }
+    .crypto_content{
+        margin-top: 60px;
+        h2{
+            color: #FFF;
+            text-align: center;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 46px; /* 121.053% */
+            text-transform: uppercase;
+        }
+        h6{
+            margin-bottom: 30px;
+            margin-top: 20px;
+            color: #FFF;
+            text-align: center;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 33.6px */
+            .blue{
+                color: #1AA1CF;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 140%;
+            }
+            .coral{
+                color: #D89831;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 140%;
+            }
+        }
+        .crypto_content_cards{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 30px;
+            .crypto_content_card{
+                padding: 28px 30px;
+                text-align: center;
+                max-width: 225px;
+                border-radius: 12px;
+                background: linear-gradient(141deg, rgba(21, 28, 44, 0.00) 37.35%, #D89831 131.01%), #182032;
+                .crypto_content_img{
+                    margin-bottom: 12px;
+                    svg{
+                        width: 68px;
+                        height: 68px;
+                    }
+                }
+                h4{
+                    margin-bottom: 10px;
+                    color: rgba(255, 255, 255, 0.90);
+                    text-align: center;
+                    font-family: 'Golos Text VF',sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 17.57px; /* 109.812% */
+                }
+                p{
+                    color: #FFF;
+                    font-family: 'Golos Text VF',sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 17.57px;
+                }
+            }
+        }
+        .crypto_cards_bottom{
+            margin: 0 auto 68px auto;
+            max-width: 758px;
+            color: #FFF;
+            text-align: center;
+            font-family: 'Mulish',sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 19.6px */
+        }
+    }
+    .crypto_now{
+        text-align: center;
+        h2{
+            margin-bottom: 30px;
+            color: #FFF;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 46px; /* 121.053% */
+            text-transform: uppercase;
+        }
+        h5{
+            max-width: 790px;
+            margin: 0 auto 19px auto;
+            color: #13A0CE;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%; /* 28.8px */
+        }
+        img{
+            margin-top: 20px;
+        }
+        .crypto_btn{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .crypto_now_btn{
+            margin: 0 auto;
+            cursor: pointer;
+            border: none;
+            width: 249px;
+            height: 40px;
+            border-radius: 12px;
+            background: #3561FF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--text-text-bold, #FFF);
+            text-align: center;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            transition: .3s linear;
+            &:hover{
+                background: #3561FF;
+                box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.80);
+            }
+        }
+        p{
+            max-width: 740px;
+            margin: 0 auto 10px auto;
+            color: #FFF;
+            font-family: 'Golos Text VF',sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 19.6px */
+        }
+    }
+}
