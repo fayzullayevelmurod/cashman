@@ -1,0 +1,64 @@
+.help {
+    .title {
+        color: #FFF;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        margin: 40px 0;
+    }
+
+    .accordions {
+        margin-bottom: 60px;
+        
+        .accordion {
+            .accordion_head {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 24px;
+                background: transparent;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #2E3138;
+
+                span {
+                    color:#FFF;
+                    font-family: "Golos Text VF", sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 140%;
+                }
+
+                svg {
+                    transition: .3s ease all;
+                }
+            }
+
+            .accordion_head.active {
+                svg {
+                    transform: rotateZ(180deg);
+                    
+                    path {
+                        stroke: #3561FF;
+                    }
+                }
+            }
+
+            .accordion_content {
+                color:#FFF;
+                font-family: "Golos Text VF", sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                padding: 24px;
+                line-height: 140%;
+                border-bottom: 1px solid #2E3138;
+                background: linear-gradient(270deg, rgba(31, 34, 41, 0.00) 0%, #1F2229 52.08%);
+            }
+        }
+    }
+}
