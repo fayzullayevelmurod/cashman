@@ -1,0 +1,366 @@
+.promotions_home {
+    background: url('../images/discount_home_bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .home_left {
+            .title {
+                color: #FFF;
+                font-family: "Golos Text VF", sans-serif;
+                font-size: 51.84px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 57px;
+                text-transform: uppercase;
+                padding-top: 64px;
+                padding-bottom: 15px;
+                border-bottom: 0.75px solid rgba(255, 255, 255, 0.20);
+                margin-bottom: 12px;
+            }
+
+            .description {
+                color: #FFF;
+                font-family: 'Mulish', sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 19.5px;
+                margin-bottom: 12px;
+                max-width: 611px;
+            }
+
+            .subtitle {
+                color: #FFF;
+                font-family: "Mulish", sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 19.5px;
+                margin-bottom: 12px;
+            }
+
+            .link {
+                border-radius: 12px;
+                background: #C99C38;
+                height: 40px;
+                width: 240px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #FFF;
+                text-align: center;
+                font-family: "Golos Text VF", sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32.143px;
+            }
+        }
+    }
+}
+
+.promotions_deposit {
+    margin-top: 60px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 59px;
+    }
+
+    .deposit_left {
+        width: calc(100% - 326px - 66px);
+
+        .title {
+            color: #FFF;
+            font-family: "Golos Text VF", sans-serif;
+            font-size: 34.5px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 37.95px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+    
+            span {
+                color: #C99C38;
+                font-family: "Golos Text VF", sans-serif;
+                font-size: 34.5px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 37.95px;
+                text-transform: uppercase;
+            }
+        }
+    
+        .description {
+            color: #FFF;
+            font-family: "Golos Text VF", sans-serif;
+            font-size: 12.75px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            margin-bottom: 24px;
+        }
+
+        .datas {
+            display: flex;
+            align-items: center;
+            border-top: 0.75px solid rgba(255, 255, 255, 0.20);
+
+            .data {
+                color: rgba(255, 255, 255, 0.50);
+                font-family: "Golos Text VF", sans-serif;
+                font-size: 12.75px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18.214px;
+                min-width: 228px;
+                padding: 5.625px 6px 6.585px 6px;
+            }
+
+            .value {
+                color: #FFF;
+                font-family: "Golos Text VF", sans-serif;
+                font-size: 12.75px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18.214px;
+                padding: 5.625px 6px 6.585px 6px;
+            }
+        }
+
+        .link {
+            margin-top: 24px;
+            border-radius: 12px;
+            background: #3561FF;
+            width: 144px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFF;
+            font-family: "Golos Text VF", sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 17.143px;
+        }
+    }
+}
+
+.promotions_deposit2 {
+    margin-top: 75px;
+
+    .container {
+        flex-direction: row-reverse;
+        gap: 81px;
+    }
+
+    .deposit_left {
+        width: calc(100% - 81px - 315px);
+    }
+}
+
+.promotions_subtitle {
+    position: relative;
+
+    .title {
+        color: #FFF;
+        text-align: center;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        padding-bottom: 40px;
+        margin: 0 auto;
+        margin-top: 58px;
+        max-width: 868px;
+    }
+
+    .line {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 860px) {
+    .promotions_home {
+        .container {
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 31px;
+
+            .home_left {
+                width: 100%;
+
+                .title {
+                    text-align: center;
+                }
+                
+                .description {
+                    max-width: 100%;
+                    text-align: center;
+                }
+
+                .subtitle {
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .link {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .promotions_deposit {
+        .container {
+            flex-direction: column;
+            gap: 12px;
+
+            .deposit_left {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .promotions_home {
+        background: url('../images/promotions_home_bg_mobile.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .container {
+            gap: 17px;
+
+            .home_left {
+                .title {
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30.631px;
+                    padding-top: 0;
+                    padding-bottom: 28px;
+                    margin-bottom: 18px;
+                }
+
+                .description {
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 19.5px;
+                    margin-bottom: 11px;
+                }
+
+                .subtitle {
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 19.5px;
+                    text-decoration-line: underline;
+                    margin-bottom: 21px;
+                }
+
+                .link {
+                    width: 240px;
+                    height: 40px;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.28px;
+                }
+            }
+
+            .home_right {
+                padding-top: 13px;
+
+                img {
+                    width: 297px;
+                }
+            }
+        }
+    }
+
+    .promotions_deposit {
+        .deposit_left {
+            .title {
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 37.95px;
+                margin-bottom: 20px;
+
+                span {
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 37.95px;
+                }
+            }
+
+            .description {
+                font-size: 12.75px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%;
+                margin-bottom: 24px;
+            }
+
+            .datas {
+                .data {
+                    min-width: 121px;
+                    width: 121px;
+                    padding: 5.625px 6px 6.585px 6px;
+                    font-size: 12.75px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18.214px;
+                }
+
+                .value {
+                    font-size: 12.75px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18.214px;
+                }
+            }
+        }
+
+        .deposit_right {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .promotions_deposit2 {
+        margin-top: 40px;
+    }
+
+    .promotions_subtitle {
+        margin-top: 40px;
+
+        .title {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            padding-bottom: 40px;
+        }
+    }
+}

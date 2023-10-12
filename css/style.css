@@ -2546,4 +2546,1447 @@ footer .footer_text {
     width: 100%;
     height: 94px;
   }
+}
+.promotions_home {
+  background: url("../images/discount_home_bg.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promotions_home .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.promotions_home .container .home_left .title {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 51.84px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  text-transform: uppercase;
+  padding-top: 64px;
+  padding-bottom: 15px;
+  border-bottom: 0.75px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 12px;
+}
+.promotions_home .container .home_left .description {
+  color: #FFF;
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-bottom: 12px;
+  max-width: 611px;
+}
+.promotions_home .container .home_left .subtitle {
+  color: #FFF;
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.5px;
+  margin-bottom: 12px;
+}
+.promotions_home .container .home_left .link {
+  border-radius: 12px;
+  background: #C99C38;
+  height: 40px;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.143px;
+}
+
+.promotions_deposit {
+  margin-top: 60px;
+}
+.promotions_deposit .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 59px;
+}
+.promotions_deposit .deposit_left {
+  width: calc(100% - 326px - 66px);
+}
+.promotions_deposit .deposit_left .title {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 34.5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37.95px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.promotions_deposit .deposit_left .title span {
+  color: #C99C38;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 34.5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37.95px;
+  text-transform: uppercase;
+}
+.promotions_deposit .deposit_left .description {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12.75px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 24px;
+}
+.promotions_deposit .deposit_left .datas {
+  display: flex;
+  align-items: center;
+  border-top: 0.75px solid rgba(255, 255, 255, 0.2);
+}
+.promotions_deposit .deposit_left .datas .data {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12.75px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.214px;
+  min-width: 228px;
+  padding: 5.625px 6px 6.585px 6px;
+}
+.promotions_deposit .deposit_left .datas .value {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12.75px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.214px;
+  padding: 5.625px 6px 6.585px 6px;
+}
+.promotions_deposit .deposit_left .link {
+  margin-top: 24px;
+  border-radius: 12px;
+  background: #3561FF;
+  width: 144px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17.143px;
+}
+
+.promotions_deposit2 {
+  margin-top: 75px;
+}
+.promotions_deposit2 .container {
+  flex-direction: row-reverse;
+  gap: 81px;
+}
+.promotions_deposit2 .deposit_left {
+  width: calc(100% - 81px - 315px);
+}
+
+.promotions_subtitle {
+  position: relative;
+}
+.promotions_subtitle .title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  margin-top: 58px;
+  max-width: 868px;
+}
+.promotions_subtitle .line {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media (max-width: 860px) {
+  .promotions_home .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 31px;
+  }
+  .promotions_home .container .home_left {
+    width: 100%;
+  }
+  .promotions_home .container .home_left .title {
+    text-align: center;
+  }
+  .promotions_home .container .home_left .description {
+    max-width: 100%;
+    text-align: center;
+  }
+  .promotions_home .container .home_left .subtitle {
+    width: 100%;
+    text-align: center;
+  }
+  .promotions_home .container .home_left .link {
+    margin: 0 auto;
+  }
+  .promotions_deposit .container {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .promotions_deposit .container .deposit_left {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .promotions_home {
+    background: url("../images/promotions_home_bg_mobile.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .promotions_home .container {
+    gap: 17px;
+  }
+  .promotions_home .container .home_left .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.631px;
+    padding-top: 0;
+    padding-bottom: 28px;
+    margin-bottom: 18px;
+  }
+  .promotions_home .container .home_left .description {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-bottom: 11px;
+  }
+  .promotions_home .container .home_left .subtitle {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-decoration-line: underline;
+    margin-bottom: 21px;
+  }
+  .promotions_home .container .home_left .link {
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+  .promotions_home .container .home_right {
+    padding-top: 13px;
+  }
+  .promotions_home .container .home_right img {
+    width: 297px;
+  }
+  .promotions_deposit .deposit_left .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37.95px;
+    margin-bottom: 20px;
+  }
+  .promotions_deposit .deposit_left .title span {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37.95px;
+  }
+  .promotions_deposit .deposit_left .description {
+    font-size: 12.75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 24px;
+  }
+  .promotions_deposit .deposit_left .datas .data {
+    min-width: 121px;
+    width: 121px;
+    padding: 5.625px 6px 6.585px 6px;
+    font-size: 12.75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.214px;
+  }
+  .promotions_deposit .deposit_left .datas .value {
+    font-size: 12.75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.214px;
+  }
+  .promotions_deposit .deposit_right {
+    width: 100%;
+  }
+  .promotions_deposit .deposit_right img {
+    width: 100%;
+  }
+  .promotions_deposit2 {
+    margin-top: 40px;
+  }
+  .promotions_subtitle {
+    margin-top: 40px;
+  }
+  .promotions_subtitle .title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding-bottom: 40px;
+  }
+}
+.program_home img {
+  width: 100%;
+}
+.program_home .mobile {
+  display: none;
+}
+
+.program_detail {
+  margin-top: 56px;
+}
+.program_detail .title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.program_detail .description {
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+.program_detail .desctiption2 {
+  margin-bottom: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D89831;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  gap: 16px;
+}
+.program_detail .desctiption2 span {
+  color: #2BABDA;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.program_detail .cards_container_mobile {
+  display: none;
+}
+.program_detail .mobile {
+  display: none;
+}
+.program_detail .lists_head_wrapper {
+  margin-bottom: 22.14px;
+}
+.program_detail .lists_head_wrapper .lists_head {
+  display: flex;
+  gap: 20px;
+  width: 950px;
+  margin-right: 0;
+  margin-left: auto;
+}
+.program_detail .lists_head_wrapper .lists_head .head_item {
+  width: 175px;
+  display: flex;
+  align-items: flex-start;
+  padding: 8.35px 0;
+  padding-right: 2px;
+  justify-content: space-between;
+}
+.program_detail .lists_head_wrapper .lists_head .head_item .item_title {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 11.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.339px;
+}
+.program_detail .lists_head_wrapper .lists_head .head_item .item_title span {
+  color: #ECA26C;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 13.907px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.417px;
+  text-transform: uppercase;
+  display: block;
+}
+.program_detail .cards_container {
+  max-width: 1143.18px;
+  margin: 0 auto;
+}
+.program_detail .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8.69px;
+}
+.program_detail .cards .card_items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 11.3px;
+}
+.program_detail .cards .card_items .card_item {
+  border-radius: 10.431px;
+  border: 0.834px solid #393939;
+  background: #2E2E2E;
+  width: calc(16.6666666667% - 1.8833333333px);
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.program_detail .cards .card_items .card_item .card_item_title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 10.431px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.313px;
+  text-transform: uppercase;
+  padding: 0px 8px;
+}
+.program_detail .cards .card_items .card_item .card_item_in {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.61px;
+}
+.program_detail .cards .card_items .card_item .card_item_in .card_item_title {
+  color: #000;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 13.907px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.program_detail .cards .card_items .card_item .card_item_in span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8.69px;
+  color: #FFE0BC;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 11.3px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.program_detail .cards .card_items .card_item .card_bronze {
+  background: #C67C48;
+}
+.program_detail .cards .card_items .card_item .card_silver {
+  background: #7C9FD4;
+}
+.program_detail .cards .card_items .card_item .card_gold {
+  background: #D49E34;
+}
+.program_detail .cards .card_items .card_item .card_plantium {
+  background: #BBBBBB;
+}
+.program_detail .cards .card_items .card_item .card_diamond {
+  background: #45FFFF;
+}
+.program_detail .cards .card_items .card_item .card_diamond span {
+  color: #535353;
+}
+
+.program_works {
+  margin-bottom: 39.62px;
+  margin-top: 88px;
+}
+.program_works .title {
+  margin-bottom: 21px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48.706px;
+  text-transform: uppercase;
+}
+.program_works .description {
+  margin: 0 auto;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 849px;
+}
+
+.program_perks .main_title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 1.9px;
+}
+.program_perks .line {
+  width: 100%;
+  margin-top: 37px;
+  margin-bottom: 24px;
+}
+.program_perks .perks_item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.program_perks .perks_item .texts {
+  width: 560px;
+}
+.program_perks .perks_item .texts .title {
+  color: #D79730;
+  font-family: "Mulish", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 64.588px;
+  margin-bottom: 26px;
+}
+.program_perks .perks_item .texts .description {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.program_perks .program_perks_1 {
+  max-width: 949px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.program_players .main_title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48.706px;
+  text-transform: uppercase;
+  margin-bottom: 21.18px;
+  margin-top: 36px;
+}
+.program_players .description {
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14.824px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 21.18px;
+  max-width: 893px;
+}
+.program_players .title {
+  color: #D79730;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48.706px;
+  text-transform: uppercase;
+  margin-bottom: 61px;
+}
+.program_players .link {
+  border-radius: 12px;
+  background: #C99C38;
+  width: 366px;
+  height: 40px;
+  display: flex;
+  margin: 0 auto 29px;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  .program_home img {
+    display: none;
+  }
+  .program_home .mobile {
+    display: block;
+  }
+  .program_detail .mobile {
+    width: 100%;
+    display: block;
+  }
+  .program_detail .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+  .program_detail .description {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 56px;
+  }
+  .program_detail .desctiption2 {
+    display: none;
+  }
+  .program_detail .cards_container_mobile {
+    display: block;
+    position: relative;
+  }
+  .program_detail .cards_container_mobile .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .lists_head_wrapper {
+    display: none;
+  }
+  .cards_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #151C2C;
+    overflow-x: scroll;
+    display: none !important;
+    align-items: center;
+    padding: 24px;
+    padding-top: 24px;
+  }
+  .cards_container::-webkit-scrollbar {
+    display: none;
+  }
+  .cards_container .close {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    font-size: 30px;
+    color: #000;
+    font-family: "Golos Text VF", sans-serif;
+    background: #839cee;
+    z-index: 5;
+  }
+  .cards_container .cards {
+    min-width: 1143px;
+    min-height: 548px;
+  }
+  .cards_container.active {
+    display: flex !important;
+  }
+  body.program_detail_active {
+    overflow: hidden;
+  }
+  .program_works {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .program_works .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  .program_works .description {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .program_perks .main_title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  .program_perks .line {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .program_perks .perks_item {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+  .program_perks .perks_item .texts {
+    width: 100%;
+  }
+  .program_perks .perks_item .texts .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  .program_perks .perks_item .texts .description {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .program_perks .program_perks_1 {
+    flex-direction: column;
+  }
+  .program_players .main_title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  .program_players .description {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 30px;
+  }
+  .program_players .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+  .program_players .link {
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+}
+@media (max-height: 580px) and (max-width: 992px) {
+  .program_detail .cards_container {
+    display: block;
+  }
+}
+.banking_tab .title {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.banking_tab .tab_head {
+  border-radius: 30px;
+  border: 1px solid #2A2E37;
+  background: linear-gradient(180deg, #2A2F38 0%, #1F2229 100%);
+  padding: 10px 24.5px 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.banking_tab .tab_head .tab_head_item {
+  border-radius: 27px;
+  width: calc(25% - 27px);
+  padding: 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.banking_tab .tab_head .tab_head_item svg path {
+  stroke: #fff;
+  opacity: 1;
+}
+.banking_tab .tab_head .tab_head_item span {
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+.banking_tab .tab_head .tab_head_item.active {
+  opacity: 1;
+  background: linear-gradient(180deg, #3561FF 0%, #2544B2 100%);
+}
+.banking_tab .card_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.banking_tab .card_modal .modal_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+}
+.banking_tab .card_modal .modal_content {
+  position: relative;
+  border-radius: 12px;
+  background: linear-gradient(132deg, rgba(31, 34, 41, 0) 54.97%, #3561FF 117.58%), #1F2229;
+  width: 360px;
+  padding: 23px 39px 26px 33px;
+}
+.banking_tab .card_modal .modal_content .modal_close {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.banking_tab .card_modal .modal_content .description {
+  color: #FFF;
+  font-family: Golos Text VF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  opacity: 0.9;
+}
+.banking_tab .card_modal .modal_content .description_1 {
+  margin-bottom: 16px;
+}
+.banking_tab .card_modal .modal_content .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px 0;
+}
+@keyframes modalActive {
+  0% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.banking_tab .card_modal.active {
+  display: flex;
+  animation: modalActive 0.2s linear 1;
+}
+@keyframes modalNoActive {
+  0% {
+    display: flex;
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    display: flex;
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
+.banking_tab .card_modal.noActive {
+  display: none;
+  animation: modalNoActive 0.1s linear 1;
+}
+.banking_tab .tab_content {
+  display: none;
+}
+.banking_tab .tab_content .card_list {
+  margin-top: 35px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.banking_tab .tab_content .card_list .card_list_item {
+  border-radius: 7.358px;
+  border: 1px solid #2E3138;
+  background: #1D273D;
+  height: 141px;
+  width: calc(20% - 19.2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.banking_tab .tab_content .card_list .card_list_item.active {
+  border-radius: 7.358px;
+  border: 1px solid #3561FF;
+  background: #1D273D;
+  box-shadow: 0px 0px 25px 0px rgba(53, 97, 255, 0.55);
+}
+.banking_tab .tab_content .form_1 {
+  margin: 0 auto;
+  margin-top: 34px;
+  max-width: 912px;
+}
+.banking_tab .tab_content .form_1 .inputs {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banking_tab .tab_content .form_1 .inputs input {
+  border-radius: 12px;
+  border: 1px solid #2A2E37;
+  background: #1F2229;
+  width: calc(50% - 12px);
+  padding: 12px 20px;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+}
+.banking_tab .tab_content .form_1 .inputs input:focus {
+  border: 1px solid #3561FF;
+  background: #1F2229;
+}
+.banking_tab .tab_content .form_1 .form_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banking_tab .tab_content .form_1 .form_bottom .text {
+  padding-left: 3px;
+}
+.banking_tab .tab_content .form_1 .form_bottom .text .text_title {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.143px;
+}
+.banking_tab .tab_content .form_1 .form_bottom .text .small_text {
+  color: #CECECE;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.banking_tab .tab_content .form_1 .form_bottom .text .small_text span {
+  color: #CECECE;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.banking_tab .tab_content .form_1 .form_bottom .link {
+  border-radius: 12px;
+  background: #C99C38;
+  width: 366px;
+  height: 60px;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+.banking_tab .tab_content .form_1 .form_bottom .link:hover {
+  background: linear-gradient(0deg, #C99C38 0%, #C99C38 100%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(254, 204, 53, 0.5) 0%, rgba(185, 135, 76, 0.5) 100%), radial-gradient(70.71% 70.71% at 50% 50%, #FFFFD9 0%, #B9874C 100%);
+  box-shadow: 0px 0px 8px 0px rgba(201, 156, 56, 0.8);
+}
+.banking_tab .tab_content .form_2 .inputs {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.banking_tab .tab_content .form_2 .inputs .form_control {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: calc(33.3333333333% - 16px);
+}
+.banking_tab .tab_content .form_2 .inputs .form_control label {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.banking_tab .tab_content .form_2 .inputs .form_control input {
+  border-radius: 12px;
+  border: 1px solid #2A2E37;
+  background: #1F2229;
+  padding: 12px 20px;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100%;
+}
+.banking_tab .tab_content .form_2 .inputs .form_control input:focus {
+  border: 1px solid #3561FF;
+  background: #1F2229;
+}
+.banking_tab .tab_content .form_2 .link {
+  border-radius: 12px;
+  background: #C99C38;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  width: 366px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+}
+.banking_tab .tab_content .form_2 .link:hover {
+  background: linear-gradient(0deg, #C99C38 0%, #C99C38 100%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(254, 204, 53, 0.5) 0%, rgba(185, 135, 76, 0.5) 100%), radial-gradient(70.71% 70.71% at 50% 50%, #FFFFD9 0%, #B9874C 100%);
+  box-shadow: 0px 0px 8px 0px rgba(201, 156, 56, 0.8);
+}
+.banking_tab .tab_content .table_1 .title {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+.banking_tab .tab_content .table_1 .description {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 40px;
+}
+.banking_tab .tab_content .table_1 .description span {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.banking_tab .tab_content .table_1 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+.banking_tab .tab_content .table_1 table tbody tr, .banking_tab .tab_content .table_1 table thead tr {
+  border-bottom: 1px solid #2A2E37;
+}
+.banking_tab .tab_content .table_1 table tbody tr td, .banking_tab .tab_content .table_1 table thead tr td {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding: 13px 0;
+}
+.banking_tab .tab_content .table_1 table thead tr {
+  border-radius: 12px 12px 0px 0px;
+  border-bottom: 1px solid #2A2E37;
+  background: linear-gradient(0deg, #1F2229 0%, #1F2229 100%), #D9D9D9;
+}
+.banking_tab .tab_content .table_1 .description2 {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 40px;
+}
+.banking_tab .tab_content .table_1 .description2 span {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.banking_tab .tab_content .form_3 {
+  margin-top: 40px;
+}
+.banking_tab .tab_content .form_3 .inputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.banking_tab .tab_content .form_3 .inputs .form_control {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: calc(33.3333333333% - 16px);
+}
+.banking_tab .tab_content .form_3 .inputs .form_control label {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.banking_tab .tab_content .form_3 .inputs .form_control input {
+  height: 43px;
+  border-radius: 12px;
+  border: 1px solid #2A2E37;
+  background: #1F2229;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 12px 20px;
+  outline: none;
+}
+.banking_tab .tab_content .form_3 .inputs .form_control input:focus {
+  border: 1px solid #3561FF;
+}
+.banking_tab .tab_content .form_3 .inputs .form_control .select2 .selection {
+  width: 100%;
+  border-radius: 6.41px;
+  background: linear-gradient(180deg, #2A2F38 0%, #1F2229 100%);
+}
+.banking_tab .tab_content .form_3 .inputs .form_control .select2 .select2-selection__rendered {
+  background-color: transparent;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 20px;
+}
+.banking_tab .tab_content .form_3 .inputs .form_control .select2-container--open .selection .select2-selection__rendered {
+  color: #3561FF;
+}
+.banking_tab .tab_content .form_3 .inputs .form_control .select2-container--default .select2-selection--single {
+  background: transparent;
+  height: 43px;
+  border: none;
+}
+.banking_tab .tab_content .form_3 .inputs .form_control .select2-selection--single .select2-selection__arrow {
+  top: 12px;
+  right: 20px;
+}
+.banking_tab .tab_content .form_3 .inputs .form_control .select2-selection--single .select2-selection__arrow b {
+  display: none;
+}
+.banking_tab .tab_content .form_3 .link {
+  border-radius: 12px;
+  background: #C99C38;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  width: 366px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  margin: 40px auto;
+}
+.banking_tab .tab_content_4 .title {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 40px 0;
+}
+.banking_tab .tab_content_4 .inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.banking_tab .tab_content_4 .inputs input {
+  width: calc(33.3333333333% - 16px);
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 12px;
+  border: 1px solid #2A2E37;
+  background: #1F2229;
+  padding: 12px 20px;
+  outline: none;
+}
+.banking_tab .tab_content_4 .inputs input:focus {
+  border: 1px solid #3561FF;
+}
+.banking_tab .tab_content_4 .inputs .link {
+  width: calc(33.3333333333% - 16px);
+  border-radius: 12px;
+  background: #C99C38;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 366px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banking_tab .tab_content_4 .inputs .link:hover {
+  box-shadow: 0px 0px 8px 0px rgba(201, 156, 56, 0.8);
+}
+.banking_tab .tab_content_4 .table_2 table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.banking_tab .tab_content_4 .table_2 table thead tr {
+  border-radius: 12px 12px 0px 0px;
+  background: linear-gradient(0deg, #1F2229 0%, #1F2229 100%), #D9D9D9;
+}
+.banking_tab .tab_content_4 .table_2 table thead tr td {
+  color: #fff !important;
+}
+.banking_tab .tab_content_4 .table_2 table tr {
+  border-bottom: 1px solid #2A2E37;
+}
+.banking_tab .tab_content_4 .table_2 table tr td {
+  width: 20%;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 13px 0 13px 69px;
+}
+.banking_tab .tab_content_4 .table_2 table tr td:last-child {
+  color: #3561FF;
+}
+.banking_tab .tab_content_4 .show_link {
+  border-radius: 12px;
+  background: #3561FF;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 366px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto 40px;
+}
+.banking_tab .tab_content_4 .show_link:hover {
+  box-shadow: 0px 0px 18px 0px rgba(53, 97, 255, 0.95);
+}
+.banking_tab .tab_content.active {
+  display: block;
+}
+
+.select2-dropdown {
+  border: none;
+  border-radius: 0 0 6.41px 6.41px;
+}
+
+.select2-results__option {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 0;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable,
+.select2-container--default .select2-results__option--selected {
+  background: transparent;
+}
+
+.select2-container .select2-search {
+  display: none;
+}
+.select2-container .select2-results__option--disabled {
+  display: none;
+}
+
+.select2-container--open .select2-dropdown {
+  border-radius: 6.41px;
+  background: linear-gradient(180deg, #1F2229 0%, #2A2F38 100%);
+}
+
+.help .title {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 40px 0;
+}
+.help .accordions {
+  margin-bottom: 60px;
+}
+.help .accordions .accordion .accordion_head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2E3138;
+}
+.help .accordions .accordion .accordion_head span {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.help .accordions .accordion .accordion_head svg {
+  transition: 0.3s ease all;
+}
+.help .accordions .accordion .accordion_head.active svg {
+  transform: rotateZ(180deg);
+}
+.help .accordions .accordion .accordion_head.active svg path {
+  stroke: #3561FF;
+}
+.help .accordions .accordion .accordion_content {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 24px;
+  line-height: 140%;
+  border-bottom: 1px solid #2E3138;
+  background: linear-gradient(270deg, rgba(31, 34, 41, 0) 0%, #1F2229 52.08%);
 }/*# sourceMappingURL=style.css.map */

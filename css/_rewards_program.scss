@@ -1,0 +1,571 @@
+.program_home {
+    img {
+        width: 100%;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+.program_detail {
+    margin-top: 56px;
+
+    .title {
+        color: #FFF;
+        text-align: center;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        color: #FFF;
+        text-align: center;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+
+    .desctiption2 {
+        margin-bottom: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #D89831;
+        font-family: "Mulish", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        gap: 16px;
+
+        span {
+            color: #2BABDA;
+            font-family: "Mulish", sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+        }
+    }
+
+    .cards_container_mobile {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .lists_head_wrapper {
+        margin-bottom: 22.14px;
+
+        .lists_head {
+            display: flex;
+            gap: 20px;
+            width: 950px;
+            margin-right: 0;
+            margin-left: auto;
+
+            .head_item {
+                width: 175px;
+                display: flex;
+                align-items: flex-start;
+                padding: 8.35px 0;
+                padding-right: 2px;
+                justify-content: space-between;
+
+                .item_title {
+                    color: #FFF;
+                    font-family: "Golos Text VF", sans-serif;
+                    font-size: 11.3px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 120%;
+                    letter-spacing: 0.339px;
+
+                    span {
+                        color: #ECA26C;
+                        font-family: "Golos Text VF", sans-serif;
+                        font-size: 13.907px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 120%;
+                        letter-spacing: 0.417px;
+                        text-transform: uppercase;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .cards_container {
+        max-width: 1143.18px;
+        margin: 0 auto;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 8.69px;
+
+        .card_items {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 11.3px;
+
+            .card_item {
+                border-radius: 10.431px;
+                border: 0.834px solid #393939;
+                background: #2E2E2E;
+                width: calc(100% / 6 - ( 11.3px / 6));
+                height: 47px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                overflow: hidden;
+
+                .card_item_title {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Golos Text VF", sans-serif;
+                    font-size: 10.431px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 130%;
+                    letter-spacing: 0.313px;
+                    text-transform: uppercase;
+                    padding: 0px 8px;
+                }
+
+                .card_item_in {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 2.61px;
+
+                    .card_item_title {
+                        color: #000;
+                        font-family: "Golos Text VF", sans-serif;
+                        font-size: 13.907px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 120%;
+                        text-transform: uppercase;
+                    }
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 8.69px;
+                        color: #FFE0BC;
+                        text-align: center;
+                        font-family: "Golos Text VF", sans-serif;
+                        font-size: 11.3px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 120%;
+                    }
+                }
+
+                .card_bronze {
+                    background: #C67C48;
+                }
+
+                .card_silver {
+                    background: #7C9FD4;
+                }
+
+                .card_gold {
+                    background: #D49E34;
+                }
+
+                .card_plantium {
+                    background: #BBBBBB;
+                }
+
+                .card_diamond {
+                    background: #45FFFF;
+
+                    span {
+                        color: #535353;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.program_works {
+    margin-bottom: 39.62px;
+    margin-top: 88px;
+
+    .title {
+        margin-bottom: 21px;
+        color: #FFF;
+        text-align: center;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48.706px;
+        text-transform: uppercase;
+    }
+
+    .description {
+        margin: 0 auto;
+        color: #FFF;
+        text-align: center;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        max-width: 849px;
+    }
+}
+
+.program_perks {
+    .main_title {
+        color: #FFF;
+        text-align: center;
+        font-family: "Mulish", sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 1.9px;
+    }
+
+    .line {
+        width: 100%;
+        margin-top: 37px;
+        margin-bottom: 24px;
+    }
+
+    .perks_item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .texts {
+            width: 560px;
+
+            .title {
+                color: #D79730;
+                font-family: "Mulish", sans-serif;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 64.588px;
+                margin-bottom: 26px;
+            }
+
+            .description {
+                color: #FFF;
+                font-family: "Golos Text VF", sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 130%;
+            }
+        }
+        
+    }
+
+    .program_perks_1 {
+        max-width: 949px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+.program_players {
+    .main_title {
+        color: #FFF;
+        text-align: center;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48.706px;
+        text-transform: uppercase;
+        margin-bottom: 21.18px;
+        margin-top: 36px;
+    }
+
+    .description {
+        color: #FFF;
+        text-align: center;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 14.824px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 21.18px;
+        max-width: 893px;
+    }
+
+    .title {
+        color: #D79730;
+        text-align: center;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48.706px;
+        text-transform: uppercase;
+        margin-bottom: 61px;
+    }
+
+    .link {
+        border-radius: 12px;
+        background: #C99C38;
+        width: 366px;
+        height: 40px;
+        display: flex;
+        margin: 0 auto 29px;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        font-family: "Golos Text VF", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 992px) {
+    .program_home {
+        img {
+            display: none;
+        }
+
+        .mobile {
+            display: block;
+        }
+    }
+
+    .program_detail {
+        .mobile {
+            width: 100%;
+            display: block;
+        }
+
+        .title {
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+            margin-bottom: 30px;
+        }
+
+        .description {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            margin-bottom: 56px;
+        }
+
+        .desctiption2 {
+            display: none;
+        }
+
+        .cards_container_mobile {
+            display: block;
+            position: relative;
+
+            .icon {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .lists_head_wrapper {
+        display: none;
+    }
+
+    .cards_container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #151C2C;
+        overflow-x: scroll;
+        display: none !important;
+        align-items: center;
+        padding: 24px;
+        padding-top: 24px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .close {
+            position: fixed;
+            top: 24px;
+            right: 24px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+            font-size: 30px;
+            color: #000;
+            font-family: "Golos Text VF", sans-serif;
+            background: #839cee;
+            z-index: 5;
+        }
+
+        .cards {
+            min-width: 1143px;
+            min-height: 548px;
+        }
+    }
+
+    .cards_container.active {
+        display: flex !important;
+    }
+
+    body.program_detail_active {
+        overflow: hidden;
+    }
+
+    .program_works {
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+        .title {
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+            margin-bottom: 16px;
+        }
+
+        .description {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+        }
+    }
+
+    .program_perks {
+        .main_title {
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+        }
+
+        .line {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .perks_item {
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+
+            .texts {
+                width: 100%;
+
+                .title {
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 40px;
+                    margin-bottom: 16px;
+                }
+
+                .description {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                }
+            }
+        }
+
+        .program_perks_1 {
+            flex-direction: column;
+        }
+    }
+
+    .program_players {
+        .main_title {
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+            margin-bottom: 16px;
+        }
+
+        .description {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            margin-bottom: 30px;
+        }
+
+        .title {
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            margin-bottom: 30px;
+        }
+        
+        .link {
+            width: 240px;
+            height: 40px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.28px;
+        }
+    }
+}
+
+@media (max-height: 580px) and (max-width: 992px) {
+    .program_detail {
+        .cards_container {
+            display: block;
+        }
+    }
+}
