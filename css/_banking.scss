@@ -97,7 +97,7 @@
 
             .description {
                 color: #FFF;
-                font-family: Golos Text VF;
+                font-family: "Golos Text VF", sans-serif;
                 font-size: 13px;
                 font-style: normal;
                 font-weight: 400;
@@ -380,6 +380,7 @@
 
                 tbody, thead {
                     tr {
+                        border: none;
                         border-bottom: 1px solid #2A2E37;
 
                         td {
@@ -391,6 +392,7 @@
                             line-height: normal;
                             text-align: center;
                             padding: 13px 0;
+                            border: none;
                         }
                     }
                 }
@@ -697,4 +699,360 @@
 .select2-container--open .select2-dropdown {
     border-radius: 6.41px;
     background: linear-gradient(180deg, #1F2229 0%, #2A2F38 100%);
+}
+
+@media (max-width: 1100px) {
+    .banking_tab {
+        .tab_content {
+            .card_list {
+                .card_list_item {
+                    width: calc(100% / 4 - (72px / 4));
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .banking_tab {
+        .tab_content {
+            .card_list {
+                .card_list_item {
+                    width: calc(100% / 3 - (48px / 3));
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .banking_tab {
+        .title {
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            padding-left: 13px;
+            margin-bottom: 27px;
+        }
+
+        .tab_head {
+            padding: 6px 10px 6px 14px;
+            border-radius: 17px;
+            gap: 12px;
+
+            .tab_head_item {
+                padding: 0;
+                width: calc(100% / 4 - (36px / 4));
+                height: 60px;
+                border-radius: 15px;
+                
+                svg {
+                    height: 32px;
+                    width: auto;
+                }
+
+                span {
+                    display: none;
+                }
+            }
+        }
+
+        .tab_content {
+            .form_1 {
+                .inputs {
+                    flex-direction: column;
+                    gap: 24px;
+
+                    input {
+                        width: 100%;
+                        border-radius: 12px;
+                        padding: 12px 20px;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                    }
+                }
+
+                .form_bottom {
+                    flex-direction: column;
+                    gap: 24px;
+
+                    .text {
+                        width: 100%;
+                    }
+                    .link {
+                        width: 100%;
+                        height: 60px;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        border-radius: 12px;
+                    }
+                }
+            }
+
+            .form_2 {
+                .inputs {
+                    flex-direction: column;
+                    gap: 24px;
+
+                    .form_control {
+                        width: 100%;
+                        gap: 12px;
+
+                        label {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            opacity: 0.9;
+                        }
+
+                        input {
+                            border-radius: 12px;
+                            padding: 12px 20px;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .link {
+                    width: 100%;
+                    border-radius: 12px;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.36px;
+                    height: 60px;
+                }
+            }
+
+            .table_1 {
+                .title {
+                    width: 100%;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%;
+                    margin-bottom: 16px;
+                    padding-left: 0;
+                }
+
+                .description {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                    margin-bottom: 40px;
+
+                    span {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 140%;
+                    }
+                }
+
+                table {
+                    thead {
+                        tr {
+                            td {
+                                width: calc(100% / 4);
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                padding-left: 4.5px;
+                                padding-right: 4.5px;
+                            }
+                        }
+                    }
+
+                    tbody {
+                        tr {
+                            td {
+                                width: calc(100% / 4);
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                padding-left: 4.5px;
+                                padding-right: 4.5px;
+                            }
+                        }
+                    }
+                }
+
+                .descrip2 {
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+
+                    span {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 140%;
+                    }
+                }
+            }
+
+            .form_3 {
+                .inputs {
+                    flex-direction: column;
+                    gap: 24px;
+
+                    .form_control {
+                        width: 100%;
+                        gap: 12px;
+                        
+
+                        label {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                    }
+                }
+
+                .link {
+                    width: 100%;
+                    border-radius: 12px;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0.36px;
+                    height: 60px;
+                }
+            }
+        }
+
+        .tab_content_4 {
+            .title {
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 40px;
+            }
+
+            .inputs {
+                flex-direction: column;
+                gap: 24px;
+
+
+                input {
+                    width: 100%;
+                    border-radius: 12px;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding: 12px 20px;
+                }
+
+                .link {
+                    width: 100%;
+                    height: 60px;
+                    border-radius: 12px;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+
+            .table_2 {
+                table {
+                    thead {
+                        tr {
+                            td {
+                                width: calc(100% / 5);
+                                padding-left: 4.5px;
+                                padding-right: 4.5px;
+                                text-align: center;
+                                font-size: 10px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                    }
+
+                    tbody {
+                        tr {
+                            td {
+                                width: calc(100% / 5);
+                                padding-left: 4.5px;
+                                padding-right: 4.5px;
+                                text-align: center;
+                                font-size: 10px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .show_link {
+                width: 100%;
+                height: 60px;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                border-radius: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .banking_tab {
+        .tab_content {
+            .card_list {
+                gap: 25px;
+
+                .card_list_item {
+                    width: calc(100% / 2 - (25px / 2));
+                    height: 96px;
+                    border-radius: 5px;
+
+                    img {
+                        transform: scale(.7);
+                    }
+                }
+            }
+        }
+
+        .card_modal {
+            .modal_content {
+                width: calc(100% - 48px);
+                padding: 20px 33px 18px 28px;
+    
+                .modal_close {
+                    top: 6px;
+                    right: 6px;
+                }
+    
+                .description {
+                    font-size: 11px;
+                    opacity: 0.9;
+                }
+    
+                .description_1 {
+                    margin-bottom: 16px;
+                }
+    
+                .links {
+                    gap: 17px;
+                }
+            }
+        }
+    }
 }

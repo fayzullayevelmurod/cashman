@@ -1985,568 +1985,6 @@ footer .footer_text {
   line-height: 140%; /* 19.6px */
 }
 
-@media only screen and (max-width: 1300px) {
-  header .header_wrapper .nav_link {
-    gap: 17px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .body.hidden2 {
-    display: block;
-  }
-  .account_burger {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 62px;
-    z-index: 11;
-    width: 100%;
-    height: 100%;
-    background: rgba(31, 34, 41, 0.95);
-  }
-  .account_burger .account_link {
-    padding: 12px 23px;
-    width: 100%;
-    border-radius: 0px 0px 15.941px 15.941px;
-    background: linear-gradient(134deg, rgba(31, 34, 41, 0) 31.52%, #3561FF 117.7%), rgba(0, 0, 0, 0.8);
-    -webkit-backdrop-filter: blur(12.6199245453px);
-            backdrop-filter: blur(12.6199245453px);
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    justify-content: start;
-  }
-  .account_burger .account_link .account_item_name {
-    display: block;
-  }
-  .account_burger .account_link .account_menu {
-    display: flex;
-    align-items: center;
-  }
-  .account_burger .account_link .account_item {
-    color: #FFF;
-    font-family: "Golos Text VF", sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23.911px; /* 99.631% */
-    letter-spacing: 0.48px;
-    padding-bottom: 14px;
-    width: 100%;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #494C53;
-  }
-  .account_burger .account_link .account_item svg {
-    width: 20px;
-    height: 20px;
-    margin-right: 14px;
-  }
-  .account_burger .account_link .account_item svg path {
-    stroke-width: 1.328px;
-    stroke: #FFF;
-    opacity: 0.8;
-  }
-  .account_burger .account_link .account_item h6 {
-    color: #fff;
-    font-family: "Golos Text VF", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21.383px; /* 118.797% */
-  }
-  .account_burger .account_link .account_item p {
-    color: #fff;
-    font-family: "Golos Text VF", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21.383px; /* 152.739% */
-  }
-  .account_burger .account_link .account_item_active {
-    color: #3561FF;
-  }
-  .account_burger .account_link .account_item_active svg path {
-    stroke-width: 1.328px;
-    stroke: #3561FF;
-    opacity: 0.8;
-  }
-  .account_burger .account_network {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    margin-top: 80px;
-  }
-  header .header_wrapper .nav_link {
-    gap: 18px;
-  }
-  header .header_wrapper .account .search_icon {
-    margin-right: 12px;
-  }
-  header .header_wrapper .account .account_person.active {
-    display: none;
-  }
-  header .header_wrapper .header_buttons .header_btn_one {
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 10px;
-    width: 90px;
-    height: 35px;
-    border-radius: 10px;
-  }
-  header .header_wrapper .header_buttons .header_btn_two {
-    font-size: 10px;
-    width: 90px;
-    height: 35px;
-    border-radius: 10px;
-  }
-  #index .logo_active a {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-  #index .logo_active a img {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 1150px) {
-  .header_container {
-    padding: 0 18px;
-  }
-  header .header_wrapper .nav_link .nav_item {
-    display: none;
-  }
-  header .header_wrapper .header_burger {
-    margin-left: 12px;
-    display: block;
-  }
-}
-@media only screen and (max-width: 992px) {
-  header .header_wrapper .nav_link a {
-    font-size: 11px;
-  }
-}
-@media only screen and (max-width: 970px) {
-  #index .recommended {
-    display: flex;
-    align-items: start;
-    gap: 26px;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  #index .recommended .recommended_left {
-    width: 100%;
-  }
-  #index .recommended .recommended_left .recommended_slider {
-    border-radius: 12px;
-    background: #11141B;
-    width: 100%;
-    padding: 30px 80px;
-    margin: 0 auto;
-  }
-  #index .recommended .recommended_left .mySwiper .swiper-wrapper {
-    height: 212px;
-    width: 100%;
-  }
-  #index .recommended .recommended_left .mySwiper .swiper-wrapper img {
-    height: 100%;
-    border-radius: 15px;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-  #index .recommended .recommended_right {
-    width: 100%;
-  }
-  #index .recommended .recommended_right h4 {
-    color: #fff;
-    font-family: "Golos Text VF", sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    margin-bottom: 49px; /* 125% */
-  }
-  #index .recommended .recommended_right .recommended_cards {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card {
-    padding: 9px 12px;
-    height: 120px;
-    display: flex;
-    align-items: start;
-    border-radius: 12px;
-    border: 1px solid #3561FF;
-    background: #1F2229;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card img {
-    height: 100%;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text {
-    margin-left: 23px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text h6 {
-    font-size: 15.114px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text span {
-    font-size: 14.96px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p {
-    margin-top: 4px;
-    font-size: 14.96px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card h5 {
-    font-size: 15.114px;
-  }
-}
-@media only screen and (max-width: 923px) {
-  #promotions .promotion_cards .promotion_cards_wrapper {
-    justify-content: center;
-  }
-  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
-    max-width: 49%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  footer .footer_wrapper .footer_menu {
-    margin-right: 60px;
-  }
-  .mySwiper .swiper-wrapper .media_slider {
-    display: block;
-  }
-  .mySwiper .swiper-wrapper .desktop_slider {
-    display: none;
-  }
-  #index .jackpot {
-    background-color: #090A0D;
-  }
-}
-@media only screen and (max-width: 719px) {
-  #promotions .promotion_cards .promotion_cards_wrapper {
-    gap: 12px;
-    justify-content: center;
-  }
-  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
-    max-width: 100%;
-    width: 75%;
-  }
-}
-@media only screen and (max-width: 620px) {
-  #index .main_cards .card_wrapper {
-    flex-basis: 270px;
-  }
-  #index .main_cards .card_wrapper .card_img .card_hover button svg {
-    width: 20px;
-    height: 20px;
-  }
-  #index .main_cards .card_wrapper .card_img .card_hover .card_link {
-    margin: 10px auto;
-    padding: 12px 0;
-    text-align: center;
-    display: block;
-    width: 150px;
-    font-size: 14.6px;
-  }
-  #index .main_cards .card_wrapper .card_img .card_hover .card_link_two {
-    bottom: 50px;
-    margin: 10px auto;
-    padding: 12px 0;
-    text-align: center;
-    display: block;
-    width: 150px;
-    font-size: 14.6px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .bg_bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    height: 15%;
-    z-index: -1;
-  }
-  .bg_bottom img {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .container {
-    padding: 0 25px;
-  }
-  .container_card {
-    padding: 0 25px;
-  }
-  header .header_wrapper .header_logo img {
-    width: 107px;
-  }
-  header .header_wrapper .account .account_name p {
-    font-size: 8px;
-  }
-  header .header_wrapper .account .account_name h4 {
-    line-height: 4px;
-    font-size: 9px;
-  }
-  header .header_wrapper .account .account_icon {
-    font-size: 10px;
-    width: 26px;
-    height: 26px;
-    margin-left: 8px;
-    margin-right: 4px;
-  }
-  header .header_wrapper .account .account_down {
-    width: 20px;
-  }
-  header .header_wrapper .header_burger {
-    margin-left: 5px;
-  }
-  #index .select-selected {
-    margin-bottom: 12px;
-  }
-  #index .game_title {
-    margin-bottom: 0px;
-  }
-  #index .game_title h3 {
-    font-size: 26px;
-    line-height: 40px;
-  }
-  #index .game_title p {
-    font-size: 16px;
-    line-height: 140%;
-  }
-  #index .main_cards {
-    padding-top: 34px;
-    justify-content: space-between;
-    gap: 11px;
-  }
-  #index .main_cards .card_wrapper {
-    margin-bottom: 20px;
-    flex-basis: 48%;
-  }
-  #index .main_cards .card_wrapper h4 {
-    font-size: 9px;
-  }
-  #index .main_cards .card_wrapper .card_img img {
-    border-radius: 10px;
-  }
-  #index .main_cards .card_wrapper .card_img .card_hover {
-    border-radius: 10px;
-  }
-  #index .main_cards .card_wrapper .card_img .card_hover button svg {
-    width: 20px;
-    height: 20px;
-  }
-  #index .main_cards .card_wrapper .card_img .card_hover .card_link {
-    margin: 10px auto;
-    padding: 10px 0;
-    text-align: center;
-    display: block;
-    width: 140px;
-    font-size: 14.6px;
-  }
-  #index .main_cards .card_wrapper .card_img .card_hover .card_link_two {
-    bottom: 50px;
-    margin: 10px auto;
-    padding: 10px 0;
-    text-align: center;
-    display: block;
-    width: 140px;
-    font-size: 14.6px;
-  }
-  #index .provider {
-    flex-direction: column;
-  }
-  #index .provider .provider_select {
-    margin-right: 0;
-    margin-bottom: 14px;
-    width: 100%;
-  }
-  #index .provider .provider_search {
-    width: 100%;
-    height: 30%;
-  }
-  #index .jackpot .jackpot_main {
-    margin-right: 18px;
-    width: 158px;
-    height: 37px;
-    font-size: 20.175px;
-  }
-  #index .jackpot .jackpot_main_money {
-    font-size: 20px;
-  }
-  #index .online_casino h3 {
-    font-size: 26px;
-  }
-  #index .online_casino p {
-    text-align: left;
-    font-size: 16px;
-  }
-  #index .logo_active a {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 100px;
-  }
-  #index .logo_active a img {
-    width: 100%;
-  }
-  #index .logo_noactive a {
-    width: 70px;
-  }
-  #index .logo_noactive a img {
-    width: 100%;
-  }
-  #index .recommended .recommended_left h4 {
-    font-size: 26px;
-    margin-bottom: 30px;
-  }
-  #index .recommended .recommended_left .recommended_slider {
-    border-radius: 12px;
-    background: #11141B;
-    width: 100%;
-    padding: 10px;
-    margin: 0 auto;
-  }
-  #index .recommended .recommended_right h4 {
-    font-size: 26px;
-    margin-bottom: 30px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card h5 {
-    max-width: 70px;
-    font-size: 10px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card img {
-    width: 100px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text {
-    margin-left: 10px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text h6 {
-    font-size: 13px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text span {
-    font-size: 12px;
-  }
-  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p {
-    font-size: 12px;
-  }
-  #index .tt-select {
-    margin-bottom: 14px;
-    width: 100%;
-    margin-right: 0;
-  }
-  #promotions .promotion_main {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  #promotions .promotion_main h3 {
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 40px;
-    margin-bottom: 16px;
-  }
-  #promotions .promotion_main p {
-    max-width: 314px;
-    margin: 0 auto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    margin-bottom: 30px;
-  }
-  #promotions .promotion_main .promotion_btns button {
-    border-radius: 12px;
-    width: 230px;
-    height: 40px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.28px;
-  }
-  #promotions .promotion_cards .promotion_card_title {
-    margin-top: 30px;
-  }
-  #promotions .promotion_cards .promotion_card_title h2 {
-    font-size: 26px;
-    line-height: 40px;
-    margin-bottom: 16px;
-  }
-  #promotions .promotion_cards .promotion_card_title p {
-    font-size: 16px;
-    line-height: 140%;
-  }
-  #promotions .promotion_cards .promotion_cards_wrapper {
-    margin-bottom: 0px;
-  }
-  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
-    padding: 5px 5px 10px 5px;
-    max-width: 100%;
-    width: 100%;
-  }
-  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card img {
-    width: 100%;
-    height: 124px;
-  }
-  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card .card_btn button {
-    border-radius: 12px;
-    width: 133px;
-    height: 37px;
-  }
-  footer .footer_wrapper {
-    flex-direction: column;
-  }
-  footer .footer_wrapper .footer_menu {
-    margin-top: 49px;
-    margin-bottom: 59px;
-    margin-left: 0;
-  }
-  footer .footer_text {
-    display: none;
-  }
-}
-@media only screen and (max-width: 486px) {
-  #index .main_cards .card_wrapper .card_img .card_hover button svg {
-    width: 15px;
-    height: 15px;
-  }
-  #index .main_cards .card_wrapper .card_img .card_hover .card_link {
-    margin: 10px auto;
-    padding: 4px 0;
-    text-align: center;
-    display: block;
-    width: 60%;
-    font-size: 8.6px;
-  }
-  #index .main_cards .card_wrapper .card_img .card_hover .card_link_two {
-    bottom: 25px;
-    margin: 10px auto;
-    padding: 4px 0;
-    text-align: center;
-    display: block;
-    width: 60%;
-    font-size: 8.6px;
-  }
-  header .header_wrapper .header_buttons .header_btn_one {
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 10px;
-    width: 80px;
-    height: 30px;
-    border-radius: 10px;
-  }
-  header .header_wrapper .header_buttons .header_btn_two {
-    font-size: 10px;
-    width: 80px;
-    height: 30px;
-    border-radius: 10px;
-  }
-  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card img {
-    width: 100%;
-    height: 94px;
-  }
-}
 .promotions_home {
   background: url("../images/discount_home_bg.png") no-repeat;
   background-position: center;
@@ -3430,7 +2868,7 @@ footer .footer_text {
 }
 .banking_tab .card_modal .modal_content .description {
   color: #FFF;
-  font-family: Golos Text VF;
+  font-family: "Golos Text VF", sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -3675,6 +3113,7 @@ footer .footer_text {
   margin-bottom: 40px;
 }
 .banking_tab .tab_content .table_1 table tbody tr, .banking_tab .tab_content .table_1 table thead tr {
+  border: none;
   border-bottom: 1px solid #2A2E37;
 }
 .banking_tab .tab_content .table_1 table tbody tr td, .banking_tab .tab_content .table_1 table thead tr td {
@@ -3686,6 +3125,7 @@ footer .footer_text {
   line-height: normal;
   text-align: center;
   padding: 13px 0;
+  border: none;
 }
 .banking_tab .tab_content .table_1 table thead tr {
   border-radius: 12px 12px 0px 0px;
@@ -3939,6 +3379,264 @@ footer .footer_text {
   background: linear-gradient(180deg, #1F2229 0%, #2A2F38 100%);
 }
 
+@media (max-width: 1100px) {
+  .banking_tab .tab_content .card_list .card_list_item {
+    width: calc(25% - 18px);
+  }
+}
+@media (max-width: 850px) {
+  .banking_tab .tab_content .card_list .card_list_item {
+    width: calc(33.3333333333% - 16px);
+  }
+}
+@media (max-width: 768px) {
+  .banking_tab .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding-left: 13px;
+    margin-bottom: 27px;
+  }
+  .banking_tab .tab_head {
+    padding: 6px 10px 6px 14px;
+    border-radius: 17px;
+    gap: 12px;
+  }
+  .banking_tab .tab_head .tab_head_item {
+    padding: 0;
+    width: calc(25% - 9px);
+    height: 60px;
+    border-radius: 15px;
+  }
+  .banking_tab .tab_head .tab_head_item svg {
+    height: 32px;
+    width: auto;
+  }
+  .banking_tab .tab_head .tab_head_item span {
+    display: none;
+  }
+  .banking_tab .tab_content .form_1 .inputs {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .banking_tab .tab_content .form_1 .inputs input {
+    width: 100%;
+    border-radius: 12px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .banking_tab .tab_content .form_1 .form_bottom {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .banking_tab .tab_content .form_1 .form_bottom .text {
+    width: 100%;
+  }
+  .banking_tab .tab_content .form_1 .form_bottom .link {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 12px;
+  }
+  .banking_tab .tab_content .form_2 .inputs {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .banking_tab .tab_content .form_2 .inputs .form_control {
+    width: 100%;
+    gap: 12px;
+  }
+  .banking_tab .tab_content .form_2 .inputs .form_control label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 0.9;
+  }
+  .banking_tab .tab_content .form_2 .inputs .form_control input {
+    border-radius: 12px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .banking_tab .tab_content .form_2 .link {
+    width: 100%;
+    border-radius: 12px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    height: 60px;
+  }
+  .banking_tab .tab_content .table_1 .title {
+    width: 100%;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 16px;
+    padding-left: 0;
+  }
+  .banking_tab .tab_content .table_1 .description {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 40px;
+  }
+  .banking_tab .tab_content .table_1 .description span {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  .banking_tab .tab_content .table_1 table thead tr td {
+    width: 25%;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+  }
+  .banking_tab .tab_content .table_1 table tbody tr td {
+    width: 25%;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+  }
+  .banking_tab .tab_content .table_1 .descrip2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .banking_tab .tab_content .table_1 .descrip2 span {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  .banking_tab .tab_content .form_3 .inputs {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .banking_tab .tab_content .form_3 .inputs .form_control {
+    width: 100%;
+    gap: 12px;
+  }
+  .banking_tab .tab_content .form_3 .inputs .form_control label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .banking_tab .tab_content .form_3 .link {
+    width: 100%;
+    border-radius: 12px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    height: 60px;
+  }
+  .banking_tab .tab_content_4 .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .banking_tab .tab_content_4 .inputs {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .banking_tab .tab_content_4 .inputs input {
+    width: 100%;
+    border-radius: 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 20px;
+  }
+  .banking_tab .tab_content_4 .inputs .link {
+    width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .banking_tab .tab_content_4 .table_2 table thead tr td {
+    width: 20%;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .banking_tab .tab_content_4 .table_2 table tbody tr td {
+    width: 20%;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .banking_tab .tab_content_4 .show_link {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 12px;
+  }
+}
+@media (max-width: 576px) {
+  .banking_tab .tab_content .card_list {
+    gap: 25px;
+  }
+  .banking_tab .tab_content .card_list .card_list_item {
+    width: calc(50% - 12.5px);
+    height: 96px;
+    border-radius: 5px;
+  }
+  .banking_tab .tab_content .card_list .card_list_item img {
+    transform: scale(0.7);
+  }
+  .banking_tab .card_modal .modal_content {
+    width: calc(100% - 48px);
+    padding: 20px 33px 18px 28px;
+  }
+  .banking_tab .card_modal .modal_content .modal_close {
+    top: 6px;
+    right: 6px;
+  }
+  .banking_tab .card_modal .modal_content .description {
+    font-size: 11px;
+    opacity: 0.9;
+  }
+  .banking_tab .card_modal .modal_content .description_1 {
+    margin-bottom: 16px;
+  }
+  .banking_tab .card_modal .modal_content .links {
+    gap: 17px;
+  }
+}
 .help .title {
   color: #FFF;
   font-family: "Golos Text VF", sans-serif;
@@ -3989,4 +3687,597 @@ footer .footer_text {
   line-height: 140%;
   border-bottom: 1px solid #2E3138;
   background: linear-gradient(270deg, rgba(31, 34, 41, 0) 0%, #1F2229 52.08%);
+}
+@media (max-width: 576px) {
+  .help .title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+  .help .accordions {
+    margin-bottom: 40px;
+  }
+  .help .accordions .accordion .accordion_head span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: left;
+    padding-right: 24px;
+  }
+  .help .accordions .accordion .accordion_content {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+}
+
+.help_bg_right {
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  header .header_wrapper .nav_link {
+    gap: 17px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .body.hidden2 {
+    display: block;
+  }
+  .account_burger {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 62px;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 34, 41, 0.95);
+  }
+  .account_burger .account_link {
+    padding: 12px 23px;
+    width: 100%;
+    border-radius: 0px 0px 15.941px 15.941px;
+    background: linear-gradient(134deg, rgba(31, 34, 41, 0) 31.52%, #3561FF 117.7%), rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: blur(12.6199245453px);
+            backdrop-filter: blur(12.6199245453px);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .account_burger .account_link .account_item_name {
+    display: block;
+  }
+  .account_burger .account_link .account_menu {
+    display: flex;
+    align-items: center;
+  }
+  .account_burger .account_link .account_item {
+    color: #FFF;
+    font-family: "Golos Text VF", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.911px; /* 99.631% */
+    letter-spacing: 0.48px;
+    padding-bottom: 14px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #494C53;
+  }
+  .account_burger .account_link .account_item svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+  }
+  .account_burger .account_link .account_item svg path {
+    stroke-width: 1.328px;
+    stroke: #FFF;
+    opacity: 0.8;
+  }
+  .account_burger .account_link .account_item h6 {
+    color: #fff;
+    font-family: "Golos Text VF", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.383px; /* 118.797% */
+  }
+  .account_burger .account_link .account_item p {
+    color: #fff;
+    font-family: "Golos Text VF", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.383px; /* 152.739% */
+  }
+  .account_burger .account_link .account_item_active {
+    color: #3561FF;
+  }
+  .account_burger .account_link .account_item_active svg path {
+    stroke-width: 1.328px;
+    stroke: #3561FF;
+    opacity: 0.8;
+  }
+  .account_burger .account_network {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 80px;
+  }
+  header .header_wrapper .nav_link {
+    gap: 18px;
+  }
+  header .header_wrapper .account .search_icon {
+    margin-right: 12px;
+  }
+  header .header_wrapper .account .account_person.active {
+    display: none;
+  }
+  header .header_wrapper .header_buttons .header_btn_one {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  header .header_wrapper .header_buttons .header_btn_two {
+    font-size: 10px;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  #index .logo_active a {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  #index .logo_active a img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .header_container {
+    padding: 0 18px;
+  }
+  header .header_wrapper .nav_link .nav_item {
+    display: none;
+  }
+  header .header_wrapper .header_burger {
+    margin-left: 12px;
+    display: block;
+  }
+}
+@media only screen and (max-width: 992px) {
+  header .header_wrapper .nav_link a {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  #index .recommended {
+    display: flex;
+    align-items: start;
+    gap: 26px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #index .recommended .recommended_left {
+    width: 100%;
+  }
+  #index .recommended .recommended_left .recommended_slider {
+    border-radius: 12px;
+    background: #11141B;
+    width: 100%;
+    padding: 30px 80px;
+    margin: 0 auto;
+  }
+  #index .recommended .recommended_left .mySwiper .swiper-wrapper {
+    height: 212px;
+    width: 100%;
+  }
+  #index .recommended .recommended_left .mySwiper .swiper-wrapper img {
+    height: 100%;
+    border-radius: 15px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  #index .recommended .recommended_right {
+    width: 100%;
+  }
+  #index .recommended .recommended_right h4 {
+    color: #fff;
+    font-family: "Golos Text VF", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 49px; /* 125% */
+  }
+  #index .recommended .recommended_right .recommended_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card {
+    padding: 9px 12px;
+    height: 120px;
+    display: flex;
+    align-items: start;
+    border-radius: 12px;
+    border: 1px solid #3561FF;
+    background: #1F2229;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card img {
+    height: 100%;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text {
+    margin-left: 23px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text h6 {
+    font-size: 15.114px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text span {
+    font-size: 14.96px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p {
+    margin-top: 4px;
+    font-size: 14.96px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card h5 {
+    font-size: 15.114px;
+  }
+}
+@media only screen and (max-width: 923px) {
+  #promotions .promotion_cards .promotion_cards_wrapper {
+    justify-content: center;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
+    max-width: 49%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer .footer_wrapper .footer_menu {
+    margin-right: 60px;
+  }
+  .mySwiper .swiper-wrapper .media_slider {
+    display: block;
+  }
+  .mySwiper .swiper-wrapper .desktop_slider {
+    display: none;
+  }
+  #index .jackpot {
+    background-color: #090A0D;
+  }
+}
+@media only screen and (max-width: 719px) {
+  #promotions .promotion_cards .promotion_cards_wrapper {
+    gap: 12px;
+    justify-content: center;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
+    max-width: 100%;
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 620px) {
+  #index .main_cards .card_wrapper {
+    flex-basis: 270px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover button svg {
+    width: 20px;
+    height: 20px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link {
+    margin: 10px auto;
+    padding: 12px 0;
+    text-align: center;
+    display: block;
+    width: 150px;
+    font-size: 14.6px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link_two {
+    bottom: 50px;
+    margin: 10px auto;
+    padding: 12px 0;
+    text-align: center;
+    display: block;
+    width: 150px;
+    font-size: 14.6px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .bg_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 15%;
+    z-index: -1;
+  }
+  .bg_bottom img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .container {
+    padding: 0 25px;
+  }
+  .container_card {
+    padding: 0 25px;
+  }
+  header .header_wrapper .header_logo img {
+    width: 107px;
+  }
+  header .header_wrapper .account .account_name p {
+    font-size: 8px;
+  }
+  header .header_wrapper .account .account_name h4 {
+    line-height: 4px;
+    font-size: 9px;
+  }
+  header .header_wrapper .account .account_icon {
+    font-size: 10px;
+    width: 26px;
+    height: 26px;
+    margin-left: 8px;
+    margin-right: 4px;
+  }
+  header .header_wrapper .account .account_down {
+    width: 20px;
+  }
+  header .header_wrapper .header_burger {
+    margin-left: 5px;
+  }
+  #index .select-selected {
+    margin-bottom: 12px;
+  }
+  #index .game_title {
+    margin-bottom: 0px;
+  }
+  #index .game_title h3 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  #index .game_title p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  #index .main_cards {
+    padding-top: 34px;
+    justify-content: space-between;
+    gap: 11px;
+  }
+  #index .main_cards .card_wrapper {
+    margin-bottom: 20px;
+    flex-basis: 48%;
+  }
+  #index .main_cards .card_wrapper h4 {
+    font-size: 9px;
+  }
+  #index .main_cards .card_wrapper .card_img img {
+    border-radius: 10px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover {
+    border-radius: 10px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover button svg {
+    width: 20px;
+    height: 20px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link {
+    margin: 10px auto;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    width: 140px;
+    font-size: 14.6px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link_two {
+    bottom: 50px;
+    margin: 10px auto;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    width: 140px;
+    font-size: 14.6px;
+  }
+  #index .provider {
+    flex-direction: column;
+  }
+  #index .provider .provider_select {
+    margin-right: 0;
+    margin-bottom: 14px;
+    width: 100%;
+  }
+  #index .provider .provider_search {
+    width: 100%;
+    height: 30%;
+  }
+  #index .jackpot .jackpot_main {
+    margin-right: 18px;
+    width: 158px;
+    height: 37px;
+    font-size: 20.175px;
+  }
+  #index .jackpot .jackpot_main_money {
+    font-size: 20px;
+  }
+  #index .online_casino h3 {
+    font-size: 26px;
+  }
+  #index .online_casino p {
+    text-align: left;
+    font-size: 16px;
+  }
+  #index .logo_active a {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+  }
+  #index .logo_active a img {
+    width: 100%;
+  }
+  #index .logo_noactive a {
+    width: 70px;
+  }
+  #index .logo_noactive a img {
+    width: 100%;
+  }
+  #index .recommended .recommended_left h4 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  #index .recommended .recommended_left .recommended_slider {
+    border-radius: 12px;
+    background: #11141B;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  #index .recommended .recommended_right h4 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card h5 {
+    max-width: 70px;
+    font-size: 10px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card img {
+    width: 100px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text {
+    margin-left: 10px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text h6 {
+    font-size: 13px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text span {
+    font-size: 12px;
+  }
+  #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p {
+    font-size: 12px;
+  }
+  #index .tt-select {
+    margin-bottom: 14px;
+    width: 100%;
+    margin-right: 0;
+  }
+  #promotions .promotion_main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #promotions .promotion_main h3 {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  #promotions .promotion_main p {
+    max-width: 314px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 30px;
+  }
+  #promotions .promotion_main .promotion_btns button {
+    border-radius: 12px;
+    width: 230px;
+    height: 40px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+  #promotions .promotion_cards .promotion_card_title {
+    margin-top: 30px;
+  }
+  #promotions .promotion_cards .promotion_card_title h2 {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  #promotions .promotion_cards .promotion_card_title p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper {
+    margin-bottom: 0px;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
+    padding: 5px 5px 10px 5px;
+    max-width: 100%;
+    width: 100%;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card img {
+    width: 100%;
+    height: 124px;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card .card_btn button {
+    border-radius: 12px;
+    width: 133px;
+    height: 37px;
+  }
+  footer .footer_wrapper {
+    flex-direction: column;
+  }
+  footer .footer_wrapper .footer_menu {
+    margin-top: 49px;
+    margin-bottom: 59px;
+    margin-left: 0;
+  }
+  footer .footer_text {
+    display: none;
+  }
+}
+@media only screen and (max-width: 486px) {
+  #index .main_cards .card_wrapper .card_img .card_hover button svg {
+    width: 15px;
+    height: 15px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link {
+    margin: 10px auto;
+    padding: 4px 0;
+    text-align: center;
+    display: block;
+    width: 60%;
+    font-size: 8.6px;
+  }
+  #index .main_cards .card_wrapper .card_img .card_hover .card_link_two {
+    bottom: 25px;
+    margin: 10px auto;
+    padding: 4px 0;
+    text-align: center;
+    display: block;
+    width: 60%;
+    font-size: 8.6px;
+  }
+  header .header_wrapper .header_buttons .header_btn_one {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  header .header_wrapper .header_buttons .header_btn_two {
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  #promotions .promotion_cards .promotion_cards_wrapper .promotion_card img {
+    width: 100%;
+    height: 94px;
+  }
 }/*# sourceMappingURL=style.css.map */

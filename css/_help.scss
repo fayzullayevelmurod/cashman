@@ -61,4 +61,42 @@
             }
         }
     }
+
+    @media (max-width: 576px) {
+        .title {
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            margin-bottom: 40px;
+        }
+
+        .accordions {
+            margin-bottom: 40px;
+
+            .accordion {
+                .accordion_head {    
+                    span {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 140%;
+                        text-align: left;
+                        padding-right: 24px;
+                    }
+                }
+    
+                .accordion_content {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                }
+            }
+        }
+    }
+}
+
+.help_bg_right {
+    display: none;
 }
