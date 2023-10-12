@@ -1,8 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 @font-face {
-  font-family: "GolosTextWebVF";
-  src: url("../fonts/Golos-Text_VF.woff2") format("woff2"), url("../fonts/Golos-Text_VF.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Golos Text VF", sans-serif;
+  src: url("../fonts/GolosText-Black.ttf") format("ttf") url("../fonts/GolosText-Bold.ttf") format("ttf"), url("../fonts/GolosText-ExtraBold.ttf") format("ttf"), url("../fonts/GolosText-Medium.ttf") format("ttf"), url("../fonts/GolosText-Regular.ttf") format("ttf"), url("../fonts/GolosText-SemiBold.ttf") format("ttf"), url("../fonts/GolosText-VariableFont_wght.ttf") format("ttf");
 }
 * {
   margin: 0;
@@ -1308,6 +1307,684 @@ footer .footer_text {
   line-height: 140%; /* 22.4px */
 }
 
+#vip .vip_main img {
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  min-width: 292px;
+}
+#vip .vip_main .vip_img_media {
+  display: none;
+}
+#vip .vip_title {
+  text-align: center;
+}
+#vip .vip_title h2 {
+  margin-top: 55px;
+  color: #B9874C;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38.438px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47.813px; /* 124.39% */
+  letter-spacing: -0.769px;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+#vip .vip_title p {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+#vip .vip_title p span {
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 44px;
+}
+#vip .vip_blocks {
+  max-width: 910px;
+  margin: 0 auto;
+}
+#vip .vip_blocks .vip_line_media {
+  display: none;
+}
+#vip .vip_blocks .vip_line_media svg {
+  width: 100%;
+}
+#vip .vip_blocks .vip_line {
+  height: 1px;
+}
+#vip .vip_blocks .vip_line svg {
+  width: 100%;
+}
+#vip .vip_blocks .vip_block_one {
+  padding-left: 42px;
+  display: flex;
+  gap: 60px;
+}
+#vip .vip_blocks .vip_block_one .vip_block {
+  margin-top: 15px;
+  padding: 10px 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+#vip .vip_blocks .vip_block_one .vip_block img {
+  margin-right: 10px;
+}
+#vip .vip_blocks .vip_block_one .vip_block p {
+  margin-right: 10px;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.563px; /* 134.766% */
+  letter-spacing: -0.338px;
+}
+#vip .vip_blocks .vip_block_one .vip_block svg {
+  margin-left: auto;
+}
+#vip .vip_blocks .vip_block_two {
+  padding-left: 42px;
+  display: flex;
+  gap: 60px;
+}
+#vip .vip_blocks .vip_block_two .vip_block {
+  margin-top: 15px;
+  padding: 10px 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+#vip .vip_blocks .vip_block_two .vip_block img {
+  margin-right: 10px;
+}
+#vip .vip_blocks .vip_block_two .vip_block p {
+  margin-right: 10px;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.563px; /* 134.766% */
+  letter-spacing: -0.338px;
+}
+#vip .vip_blocks .vip_block_two .vip_block svg {
+  margin-left: auto;
+}
+#vip .vip_best_title {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  color: #B9874C;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38.438px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47.813px; /* 124.39% */
+  letter-spacing: -0.769px;
+  text-transform: uppercase;
+}
+#vip .title_two {
+  margin: 80px auto 0 auto;
+  max-width: 800px;
+}
+#vip .vip_bests {
+  display: flex;
+  justify-content: center;
+  gap: 29px;
+}
+#vip .vip_bests .vip_best_card {
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-bottom: 23px;
+  background: #111;
+}
+#vip .vip_bests .vip_best_card img {
+  width: 100%;
+  max-height: 306px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#vip .vip_bests .vip_best_card .vip_card_bottom {
+  background: #B9874C;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#vip .vip_bests .vip_best_card .vip_card_bottom h5 {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.188px; /* 135.938% */
+  letter-spacing: -0.338px;
+  text-align: center;
+  max-width: 194px;
+  margin: 0 auto;
+}
+#vip h6 {
+  margin-top: 13px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36.563px; /* 152.344% */
+  letter-spacing: -0.338px;
+  opacity: 0.7;
+}
+#vip .vip_line svg {
+  width: 100%;
+}
+#vip h5 {
+  margin-top: 30px;
+  color: #B9874C;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36.563px; /* 152.344% */
+  letter-spacing: -0.338px;
+}
+#vip .messangers {
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 45px;
+}
+#vip .messangers .vip_messenger {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  transition: 0.3s linear;
+  padding: 10px;
+}
+#vip .messangers .vip_messenger:hover {
+  border-radius: 16px;
+  background: #11141B;
+}
+#vip .messangers .vip_messenger svg {
+  margin-bottom: 10px;
+  width: 44px;
+  height: 44px;
+}
+#vip .vip_text {
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+#vip .vip_button {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 68px;
+}
+#vip button {
+  text-align: center;
+  border: none;
+  width: 229px;
+  height: 40px;
+  color: var(--text-text-bold, #FFF);
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 12px;
+  background: #3561FF;
+  transition: 0.3s linear;
+}
+#vip button:hover {
+  border-radius: 12px;
+  background: #3561FF;
+  box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+  #vip .vip_main .vip_img_desktop {
+    display: none;
+  }
+  #vip .vip_main .vip_img_media {
+    display: block;
+  }
+  #vip .vip_title h2 {
+    font-size: 26px;
+    margin-top: 39px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  #vip .vip_title p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+  }
+  #vip .vip_title p span {
+    margin-top: 15px;
+    margin-bottom: 32px;
+  }
+  #vip .vip_blocks .vip_line {
+    height: auto;
+  }
+  #vip .vip_blocks .vip_block_one {
+    padding-left: 0;
+    flex-direction: column;
+    gap: 1px;
+  }
+  #vip .vip_blocks .vip_block_one .vip_block {
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+  }
+  #vip .vip_blocks .vip_block_one .vip_line_media {
+    display: block;
+  }
+  #vip .vip_blocks .vip_block_one .vip_line_media svg {
+    width: 100%;
+  }
+  #vip .vip_blocks .vip_block_two {
+    padding-left: 0;
+    flex-direction: column;
+    gap: 1px;
+  }
+  #vip .vip_blocks .vip_block_two .vip_block {
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+  }
+  #vip .vip_blocks .vip_block_two .vip_line_media {
+    display: block;
+  }
+  #vip .vip_blocks .vip_block_two .vip_line_media svg {
+    width: 100%;
+  }
+  #vip .vip_best_title {
+    max-width: 286px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  #vip .vip_bests {
+    gap: 9px;
+  }
+  #vip .vip_bests .vip_best_card {
+    margin-bottom: 8px;
+  }
+  #vip .vip_bests .vip_best_card .vip_card_bottom {
+    height: 35px;
+  }
+  #vip .vip_bests .vip_best_card .vip_card_bottom h5 {
+    max-width: 120px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 12px */
+    letter-spacing: -0.126px;
+  }
+  #vip .title_two {
+    margin-bottom: 10px;
+  }
+  #vip h5 {
+    margin-top: 49px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+    letter-spacing: -0.338px;
+  }
+  #vip .messangers {
+    gap: 41px;
+    margin-bottom: 50px;
+  }
+  #vip .vip_text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  #vip .vip_button {
+    margin-top: 30px;
+  }
+}
+#crypto .crypto_main img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  min-height: 120px;
+}
+#crypto .crypto_text {
+  text-align: center;
+}
+#crypto .crypto_text h6 {
+  margin-top: 44px;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 29.08px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36.449px; /* 125.341% */
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.23) -14.2%, #FFF 45.19%, rgba(255, 255, 255, 0.2) 113.92%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#crypto .crypto_text h1 {
+  margin-bottom: 39px;
+  margin-top: 37px;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px; /* 121.053% */
+  text-transform: uppercase;
+}
+#crypto .crypto_text h1 .crypto_blue {
+  color: #1AA1CF;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+#crypto .crypto_text h1 .crypto_coral {
+  color: #D89831;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+#crypto .crypto_text p {
+  max-width: 678px;
+  margin: 0 auto;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+  margin-bottom: 26px;
+}
+#crypto .crypto_text .one_text {
+  max-width: 625px;
+}
+#crypto .crypto_text .two_text {
+  max-width: 610px;
+}
+#crypto .crypto_cards_title {
+  margin-top: 23px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+#crypto .crypto_cards_title .crypto_blue {
+  color: #1AA1CF;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px; /* 121.053% */
+  text-transform: uppercase;
+}
+#crypto .crypto_cards_title .crypto_coral {
+  color: #D89831;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+#crypto .crypto_cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#crypto .crypto_cards .crypto_card {
+  padding: 10px;
+  max-width: 171px;
+  text-align: center;
+}
+#crypto .crypto_cards .crypto_card .crypto_card_img img {
+  width: 100%;
+}
+#crypto .crypto_cards .crypto_card h3 {
+  color: #D89831;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 21.466px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.94px; /* 125.5% */
+  margin-top: 15px;
+}
+#crypto .crypto_cards .crypto_card p {
+  margin-top: 9px;
+  color: #FFF;
+  font-family: "Mulish", sans-serif;
+  font-size: 12.021px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 15.086px; /* 125.5% */
+}
+#crypto .crypto_card_bottom {
+  margin-top: 21px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.57px; /* 125.5% */
+}
+#crypto .crypto_btns {
+  margin-top: 41px;
+  text-align: center;
+}
+#crypto .crypto_btns button {
+  cursor: pointer;
+  border: none;
+  width: 197px;
+  height: 40px;
+  border-radius: 12px;
+  background: #3561FF;
+  color: var(--text-text-bold, #FFF);
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: 0.3s linear;
+}
+#crypto .crypto_btns button:hover {
+  background: #3561FF;
+  box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.8);
+}
+#crypto .crypto_content {
+  margin-top: 60px;
+}
+#crypto .crypto_content h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px; /* 121.053% */
+  text-transform: uppercase;
+}
+#crypto .crypto_content h6 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+}
+#crypto .crypto_content h6 .blue {
+  color: #1AA1CF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+#crypto .crypto_content h6 .coral {
+  color: #D89831;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+#crypto .crypto_content .crypto_content_cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+#crypto .crypto_content .crypto_content_cards .crypto_content_card {
+  padding: 28px 30px;
+  text-align: center;
+  max-width: 225px;
+  border-radius: 12px;
+  background: linear-gradient(141deg, rgba(21, 28, 44, 0) 37.35%, #D89831 131.01%), #182032;
+}
+#crypto .crypto_content .crypto_content_cards .crypto_content_card .crypto_content_img {
+  margin-bottom: 12px;
+}
+#crypto .crypto_content .crypto_content_cards .crypto_content_card .crypto_content_img svg {
+  width: 68px;
+  height: 68px;
+}
+#crypto .crypto_content .crypto_content_cards .crypto_content_card h4 {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.57px; /* 109.812% */
+}
+#crypto .crypto_content .crypto_content_cards .crypto_content_card p {
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.57px;
+}
+#crypto .crypto_content .crypto_cards_bottom {
+  margin: 0 auto 68px auto;
+  max-width: 758px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
+#crypto .crypto_now {
+  text-align: center;
+}
+#crypto .crypto_now h2 {
+  margin-bottom: 30px;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px; /* 121.053% */
+  text-transform: uppercase;
+}
+#crypto .crypto_now h5 {
+  max-width: 790px;
+  margin: 0 auto 19px auto;
+  color: #13A0CE;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 28.8px */
+}
+#crypto .crypto_now img {
+  margin-top: 20px;
+}
+#crypto .crypto_now .crypto_btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#crypto .crypto_now .crypto_now_btn {
+  margin: 0 auto;
+  cursor: pointer;
+  border: none;
+  width: 249px;
+  height: 40px;
+  border-radius: 12px;
+  background: #3561FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-text-bold, #FFF);
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: 0.3s linear;
+}
+#crypto .crypto_now .crypto_now_btn:hover {
+  background: #3561FF;
+  box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.8);
+}
+#crypto .crypto_now p {
+  max-width: 740px;
+  margin: 0 auto 10px auto;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
+
 @media only screen and (max-width: 1300px) {
   header .header_wrapper .nav_link {
     gap: 17px;
@@ -1430,6 +2107,18 @@ footer .footer_text {
     width: 100%;
   }
 }
+@media only screen and (max-width: 1150px) {
+  .header_container {
+    padding: 0 18px;
+  }
+  header .header_wrapper .nav_link .nav_item {
+    display: none;
+  }
+  header .header_wrapper .header_burger {
+    margin-left: 12px;
+    display: block;
+  }
+}
 @media only screen and (max-width: 992px) {
   header .header_wrapper .nav_link a {
     font-size: 11px;
@@ -1515,18 +2204,6 @@ footer .footer_text {
   }
   #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
     max-width: 49%;
-  }
-}
-@media only screen and (max-width: 870px) {
-  .header_container {
-    padding: 0 18px;
-  }
-  header .header_wrapper .nav_link .nav_item {
-    display: none;
-  }
-  header .header_wrapper .header_burger {
-    margin-left: 12px;
-    display: block;
   }
 }
 @media only screen and (max-width: 768px) {

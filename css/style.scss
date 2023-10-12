@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 @font-face {
-	font-family: 'GolosTextWebVF';
+    font-family: "Golos Text VF",sans-serif;
 	src: 
-		url('../fonts/Golos-Text_VF.woff2') format('woff2'),
-		url('../fonts/Golos-Text_VF.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+		url('../fonts/GolosText-Black.ttf') format('ttf')
+		url('../fonts/GolosText-Bold.ttf') format('ttf'),
+		url('../fonts/GolosText-ExtraBold.ttf') format('ttf'),
+		url('../fonts/GolosText-Medium.ttf') format('ttf'),
+		url('../fonts/GolosText-Regular.ttf') format('ttf'),
+		url('../fonts/GolosText-SemiBold.ttf') format('ttf'),
+		url('../fonts/GolosText-VariableFont_wght.ttf') format('ttf');
 }
+// @font-face{
+//     font-family: "Font Name";
+//     src: url("../fonts/font-name.ttf") format("truetype");
+//   }
 // @font-face {
 //     font-family: 'Golos Text VF',sans-serif;
 //     src: url('../fonts/golos-text_vf.woff');
@@ -1386,6 +1394,9 @@ footer{
 }
 
 // @import 'grid'
+@import 'vip';
+@import 'crypto';
+=======
 @import 'reponsive';
 @import '_discount';
 @import '_rewards_program';
