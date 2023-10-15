@@ -165,6 +165,15 @@
             }
         }
     }
+    #index{
+        .circle_bloks{
+            .circle_top{
+                .circle_box{
+                    width: calc(100% / 8 - (45px / 8));
+                }
+            }
+        }
+    }
 }
 @media only screen and (max-width: 970px){
     #index{
@@ -263,6 +272,15 @@
             }
         }
     }  
+    #index{
+        .circle_bloks{
+            .circle_top{
+                .circle_box{
+                    width: calc(100% / 5 - (45px / 5));
+                }
+            }
+        }
+    }
     .mySwiper{
         .swiper-wrapper{
             .media_slider{
@@ -384,6 +402,17 @@
         }
     }
     #index{
+        .circle_bloks{
+            .circle_top{
+                justify-content: center;
+                padding: 0 41px;
+                margin: 0 auto;
+                gap: 14px 40px;
+                .circle_box{
+                    width: calc(50% - (41px / 2));
+                }
+            }
+        }
         .select-selected{
             margin-bottom: 12px;
         }

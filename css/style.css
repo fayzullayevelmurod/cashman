@@ -808,30 +808,22 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-weight: 400;
   line-height: 140%; /* 28px */
 }
-#index .circle_bloks {
-  display: none;
-}
 #index .circle_bloks .circle_top {
+  flex-wrap: wrap;
   margin-bottom: 12px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 5px;
+  gap: 14px 5px;
 }
 #index .circle_bloks .circle_top .circle_box {
   white-space: nowrap;
-  width: 103px;
+  width: calc(10% - 4.5px);
   display: flex;
   align-items: center;
-}
-#index .circle_bloks .circle_top .circle_box svg {
   cursor: pointer;
 }
-#index .circle_bloks .circle_top .circle_box svg:hover {
-  stroke-width: 1px;
-  stroke: #3561FF;
-}
 #index .circle_bloks .circle_top .circle_box span {
+  width: 18px;
   transform: translateY(1px);
   margin-left: 10px;
   color: var(--text-text, #FFF);
@@ -840,6 +832,9 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+#index .circle_bloks .circle_top .circle_box:hover svg circle {
+  stroke: #3561FF;
 }
 #index .main_cards {
   padding-top: 40px;
@@ -4046,6 +4041,9 @@ footer .footer_text {
   header .header_wrapper .nav_link a {
     font-size: 11px;
   }
+  #index .circle_bloks .circle_top .circle_box {
+    width: calc(12.5% - 5.625px);
+  }
 }
 @media only screen and (max-width: 970px) {
   #index .recommended {
@@ -4132,6 +4130,9 @@ footer .footer_text {
 @media only screen and (max-width: 768px) {
   footer .footer_wrapper .footer_menu {
     margin-right: 60px;
+  }
+  #index .circle_bloks .circle_top .circle_box {
+    width: calc(20% - 9px);
   }
   .mySwiper .swiper-wrapper .media_slider {
     display: block;
@@ -4223,6 +4224,15 @@ footer .footer_text {
   }
   header .header_wrapper .header_burger {
     margin-left: 5px;
+  }
+  #index .circle_bloks .circle_top {
+    justify-content: center;
+    padding: 0 41px;
+    margin: 0 auto;
+    gap: 14px 40px;
+  }
+  #index .circle_bloks .circle_top .circle_box {
+    width: calc(50% - 20.5px);
   }
   #index .select-selected {
     margin-bottom: 12px;

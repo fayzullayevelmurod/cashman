@@ -866,26 +866,21 @@ header{
         }
     }
     .circle_bloks{
-        display: none;
+        // display: none;
         .circle_top{
+            flex-wrap: wrap;
             margin-bottom: 12px;
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            gap: 5px;
+            gap: 14px 5px;
             .circle_box{
                 white-space: nowrap;
-                width: 103px;
+                width: calc(100% / 10 - (45px / 10));
                 display: flex;
                 align-items: center;
-                svg{
-                    cursor: pointer;
-                    &:hover{
-                        stroke-width: 1px;
-                        stroke: #3561FF;
-                    }
-                }
+                cursor: pointer;
                 span{
+                    width: 18px;
                     transform: translateY(1px);
                     margin-left: 10px;
                     color: var(--text-text, #FFF);
@@ -894,6 +889,13 @@ header{
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
+                }
+                &:hover {
+                    svg{
+                        circle{
+                            stroke: #3561FF;
+                        }
+                    }
                 }
             }
         }
