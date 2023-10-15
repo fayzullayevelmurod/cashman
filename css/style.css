@@ -347,7 +347,44 @@ header .header_wrapper .nav_item_active svg {
 }
 header .header_wrapper .account {
   display: flex;
+  gap: 16px;
   align-items: center;
+}
+header .header_wrapper .account .account_link1,
+header .header_wrapper .account .account_link2 {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+header .header_wrapper .account .account_link1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #1B1D26;
+  background: #1F2229;
+  transition: 0.2s linear;
+}
+header .header_wrapper .account .account_link1:hover {
+  border: 1px solid #3561FF;
+}
+header .header_wrapper .account .account_link2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 12px;
+  background: #3561FF;
+  transition: 0.2s linear;
+}
+header .header_wrapper .account .account_link2:hover {
+  box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.8);
 }
 header .header_wrapper .account .search_icon {
   margin-right: 29px;
@@ -561,6 +598,11 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-weight: 400;
   line-height: normal;
   padding-bottom: 13px;
+  transition: 0.2s linear;
+}
+#index .main_menu .main_menu_link:hover a {
+  color: #fff;
+  font-weight: 700;
 }
 #index .main_menu .main_menu_active {
   border-bottom: 2px solid #FFD333;
@@ -837,6 +879,12 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   stroke: #3561FF;
 }
 #index .circle_bloks .circle_top .circle_box .circle_active {
+  display: none;
+}
+#index .circle_bloks .circle_top .active .circle_active {
+  display: block;
+}
+#index .circle_bloks .circle_top .active .svg_real {
   display: none;
 }
 #index .main_cards {
@@ -4477,6 +4525,16 @@ footer .footer_text {
     width: 80px;
     height: 30px;
     border-radius: 10px;
+  }
+  header .header_wrapper .account {
+    gap: 5px;
+  }
+  header .header_wrapper .account .account_link1,
+  header .header_wrapper .account .account_link2 {
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    border-radius: 5px;
   }
   #promotions .promotion_cards .promotion_cards_wrapper .promotion_card img {
     width: 100%;

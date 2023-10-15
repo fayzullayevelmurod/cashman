@@ -11,6 +11,15 @@ $(document).ready(function(){
 		})
 	}
 
+	if ($('.circle_box').length) {
+		console.log($('.circle_box'))
+		$('.circle_box').each(function(index,el){
+			$(el).click(function(){
+				$('.circle_box').not($(el)).removeClass('active')
+				$(el).toggleClass('active')
+			})
+		})
+	}	
 
 	if ($('.banking_tab')) {
 		$('.banking_tab .tab_head .tab_head_item').click(function () {

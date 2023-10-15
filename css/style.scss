@@ -373,7 +373,44 @@ header{
         }
         .account{
             display: flex;
+            gap: 16px;
             align-items: center;
+            .account_link1,
+            .account_link2{
+                color: #FFF;
+                font-family: 'Inter',sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%;
+            }
+            .account_link1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100px;
+                height: 40px;
+                border-radius: 12px;
+                border: 1px solid #1B1D26;
+                background: #1F2229;
+                transition: .2s linear;
+                &:hover{
+                    border: 1px solid #3561FF;
+                }
+            }
+            .account_link2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100px;
+                height: 40px;
+                border-radius: 12px;
+                background: #3561FF;
+                transition: .2s linear;
+                &:hover{
+                    box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.80);
+                }
+            }
             .search_icon{
                 margin-right: 29px;
             }
@@ -602,7 +639,14 @@ header{
                 font-weight: 400;
                 line-height: normal;
                 padding-bottom: 13px;
+                transition: .2s linear;
                 
+            }
+            &:hover{
+                a{
+                    color: #fff;
+                    font-weight: 700;
+                }
             }
         }
         .main_menu_active{
@@ -898,6 +942,14 @@ header{
                     }
                 }
                 .circle_active{
+                    display: none;
+                }
+            }
+            .active{
+                .circle_active{
+                    display: block;
+                }
+                .svg_real{
                     display: none;
                 }
             }
