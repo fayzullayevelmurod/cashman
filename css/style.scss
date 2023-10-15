@@ -622,6 +622,7 @@ header{
         display: none;
       }
     .provider{
+        margin-bottom: 33px;
         margin-top: 20px;
         display: flex;
         align-items: center;
@@ -695,6 +696,9 @@ header{
         }
         .provider_search.active{
             // margin-top: 13px;
+            border-radius: 12px;
+            border: 1px solid #3561FF;
+            background: #E7E7E7;
             height: 42px;
             // border: 1px solid red;
             label{
@@ -859,6 +863,39 @@ header{
             font-style: normal;
             font-weight: 400;
             line-height: 140%; /* 28px */
+        }
+    }
+    .circle_bloks{
+        display: none;
+        .circle_top{
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 5px;
+            .circle_box{
+                white-space: nowrap;
+                width: 103px;
+                display: flex;
+                align-items: center;
+                svg{
+                    cursor: pointer;
+                    &:hover{
+                        stroke-width: 1px;
+                        stroke: #3561FF;
+                    }
+                }
+                span{
+                    transform: translateY(1px);
+                    margin-left: 10px;
+                    color: var(--text-text, #FFF);
+                    font-family: 'Golos Text VF',sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
         }
     }
     .main_cards{
@@ -1028,6 +1065,119 @@ header{
                     height: 212px;
                     width: 100%;
                     border-radius: 15px;
+                    .swiper-slide{
+                        .card_wrapper{
+                            cursor: pointer;
+                            flex-basis: 200px;
+                            border: 1px solid transparent;
+                            margin-bottom: 36px;
+                            transition: .1s ease;
+                            &:hover .card_hover{
+                                transform: scale(1);
+                            }
+                            .card_hover{
+                                border: 2px solid transparent;
+                                border-radius: 20px;
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                transform: scale(0);
+                                width: 100%;
+                                height:97%;
+                                transition: .2s linear;
+                                background: rgba(0, 0, 0, 0.80);
+                                border: 2px solid rgb(53,97,255);
+                                box-shadow: -4px 1px 24px 6px rgba(53,97,255,0.33);
+                                -webkit-box-shadow: -4px 1px 24px 6px rgba(53,97,255,0.33);
+                                -moz-box-shadow: -4px 1px 24px 6px rgba(53,97,255,0.33);
+                                button{
+                                    cursor: pointer;
+                                    position: absolute;
+                                    top: 6px;
+                                    right: 7px;
+                                    padding: 6px;
+                                    background-color: transparent;
+                                    border: none;
+                                    svg.active{
+                                        path{
+                                            fill: #F63A3A;
+                                            stroke-width: 1px;
+                                            stroke: #F63A3A;
+                                        }
+                                    }
+                                }
+                                .card_link{
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    right: 0;
+                                    margin: 10px auto;
+                                    padding: 6px 0;
+                                    text-align: center;
+                                    display: block;
+                                    width: 119px;
+                                    color: #fff;
+                                    font-family: 'Golos Text VF',sans-serif;
+                                    font-size: 11.6px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: normal;
+                                    border-radius: 12px;
+                                    background: #3561FF;
+                                    transition: .3s linear;
+                                    &:hover{
+                                        border-radius: 12px;
+                                        background: #3561FF;
+                                        box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.80);
+                                    }
+                                }
+                                .card_link_two{
+                                    position: absolute;
+                                    bottom: 35px;
+                                    left: 0;
+                                    right: 0;
+                                    margin: 10px auto;
+                                    padding: 6px 0;
+                                    text-align: center;
+                                    display: block;
+                                    width: 119px;
+                                    color: #fff;
+                                    font-family: 'Golos Text VF',sans-serif;
+                                    font-size: 11.6px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: normal;
+                                    border-radius: 12px;
+                                    background: transparent;
+                                    border: 1px solid #3561FF;
+                                    transition: .3s linear;
+                                    &:hover{
+                                        border-radius: 12px;
+                                        border: 1px solid #3561FF;
+                                    }
+                                }
+                            }
+                            .card_img{
+                                position: relative;
+                                img{
+                                    border-radius: 20px;
+                                    width: 100%;
+                                }
+                            }
+                            h4{
+                                color: #fff;
+                                text-align: center;
+                                font-family: 'Golos Text VF',sans-serif;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 140%; /* 16.8px */
+                                letter-spacing: 0.24px;
+                                text-transform: uppercase;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
                     img{
                         padding: 30px 50px;
                         height: 100%;
@@ -1057,7 +1207,6 @@ header{
                     display: flex;
                     align-items: start;
                     border-radius: 12px;
-                    border: 1px solid #3561FF;
                     background: #1F2229;
                     img{
                         height: 100%;
@@ -1074,7 +1223,7 @@ header{
                             margin-bottom: 4px;
                         }
                         span{
-                            color: #3561FF;
+                            color: #C99C38;
                             font-family: 'Inter',sans-serif;
                             font-size: 14.96px;
                             font-style: normal;
@@ -1089,6 +1238,9 @@ header{
                             font-style: normal;
                             font-weight: 400;
                             line-height: 17.273px; /* 115.464% */
+                            a{
+                                text-decoration: underline;
+                            }
                         }
                     }
                     h5{
@@ -1101,6 +1253,9 @@ header{
                         font-weight: 700;
                         line-height: 21.592px; /* 142.857% */
                     }
+                }
+                .recommended_card_active{
+                    border: 1px solid #C99C38;
                 }
             }
         }
@@ -1117,12 +1272,32 @@ header{
             line-height: 40px; /* 125% */
         }
         p{
+            height: 87px;
+            overflow: hidden;
+            text-overflow: ellipsis;
             color: #FFF;
             font-family: 'Golos Text VF',sans-serif;
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: 140%; /* 28px */
+        }
+        .link_text{
+            display: flex;
+            justify-content: end;
+            a{
+                margin-top: 10px;
+                overflow: hidden;
+                color: #3561FF;
+                text-align: right;
+                text-overflow: ellipsis;
+                whitespace: nowrap;
+                font-family: 'Golos Text VF',sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%; /* 28px */
+            }
         }
     }
     .logo_active{
@@ -1134,6 +1309,18 @@ header{
         a{
             margin-right: 80px;
             margin-bottom: 20px;
+        }
+        .height_logo1{
+            height: 30px;
+            img{
+                height: 100%;
+            }
+        }
+        .height_logo2{
+            height: 42px;
+            img{
+                height: 100%;
+            }
         }
     }
     .logo_noactive{

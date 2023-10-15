@@ -577,6 +577,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   display: none;
 }
 #index .provider {
+  margin-bottom: 33px;
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -650,6 +651,9 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   padding-right: 8px;
 }
 #index .provider .provider_search.active {
+  border-radius: 12px;
+  border: 1px solid #3561FF;
+  background: #E7E7E7;
   height: 42px;
 }
 #index .provider .provider_search.active label {
@@ -803,6 +807,39 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 140%; /* 28px */
+}
+#index .circle_bloks {
+  display: none;
+}
+#index .circle_bloks .circle_top {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+#index .circle_bloks .circle_top .circle_box {
+  white-space: nowrap;
+  width: 103px;
+  display: flex;
+  align-items: center;
+}
+#index .circle_bloks .circle_top .circle_box svg {
+  cursor: pointer;
+}
+#index .circle_bloks .circle_top .circle_box svg:hover {
+  stroke-width: 1px;
+  stroke: #3561FF;
+}
+#index .circle_bloks .circle_top .circle_box span {
+  transform: translateY(1px);
+  margin-left: 10px;
+  color: var(--text-text, #FFF);
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 #index .main_cards {
   padding-top: 40px;
@@ -966,6 +1003,115 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   width: 100%;
   border-radius: 15px;
 }
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper {
+  cursor: pointer;
+  flex-basis: 200px;
+  border: 1px solid transparent;
+  margin-bottom: 36px;
+  transition: 0.1s ease;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper:hover .card_hover {
+  transform: scale(1);
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover {
+  border: 2px solid transparent;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(0);
+  width: 100%;
+  height: 97%;
+  transition: 0.2s linear;
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgb(53, 97, 255);
+  box-shadow: -4px 1px 24px 6px rgba(53, 97, 255, 0.33);
+  -webkit-box-shadow: -4px 1px 24px 6px rgba(53, 97, 255, 0.33);
+  -moz-box-shadow: -4px 1px 24px 6px rgba(53, 97, 255, 0.33);
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover button {
+  cursor: pointer;
+  position: absolute;
+  top: 6px;
+  right: 7px;
+  padding: 6px;
+  background-color: transparent;
+  border: none;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover button svg.active path {
+  fill: #F63A3A;
+  stroke-width: 1px;
+  stroke: #F63A3A;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover .card_link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px auto;
+  padding: 6px 0;
+  text-align: center;
+  display: block;
+  width: 119px;
+  color: #fff;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 11.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 12px;
+  background: #3561FF;
+  transition: 0.3s linear;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover .card_link:hover {
+  border-radius: 12px;
+  background: #3561FF;
+  box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.8);
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover .card_link_two {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+  margin: 10px auto;
+  padding: 6px 0;
+  text-align: center;
+  display: block;
+  width: 119px;
+  color: #fff;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 11.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 12px;
+  background: transparent;
+  border: 1px solid #3561FF;
+  transition: 0.3s linear;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover .card_link_two:hover {
+  border-radius: 12px;
+  border: 1px solid #3561FF;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_img {
+  position: relative;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_img img {
+  border-radius: 20px;
+  width: 100%;
+}
+#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 16.8px */
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
 #index .recommended .recommended_left .mySwiper .swiper-wrapper img {
   padding: 30px 50px;
   height: 100%;
@@ -995,7 +1141,6 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   display: flex;
   align-items: start;
   border-radius: 12px;
-  border: 1px solid #3561FF;
   background: #1F2229;
 }
 #index .recommended .recommended_right .recommended_cards .recommended_card img {
@@ -1014,7 +1159,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   margin-bottom: 4px;
 }
 #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text span {
-  color: #3561FF;
+  color: #C99C38;
   font-family: "Inter", sans-serif;
   font-size: 14.96px;
   font-style: normal;
@@ -1030,6 +1175,9 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-weight: 400;
   line-height: 17.273px; /* 115.464% */
 }
+#index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p a {
+  text-decoration: underline;
+}
 #index .recommended .recommended_right .recommended_cards .recommended_card h5 {
   margin-left: auto;
   color: var(--text-text, #FFF);
@@ -1039,6 +1187,9 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 21.592px; /* 142.857% */
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card_active {
+  border: 1px solid #C99C38;
 }
 #index .online_casino {
   margin: 40px 0;
@@ -1053,11 +1204,31 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   line-height: 40px; /* 125% */
 }
 #index .online_casino p {
+  height: 87px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   color: #FFF;
   font-family: "Golos Text VF", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+#index .online_casino .link_text {
+  display: flex;
+  justify-content: end;
+}
+#index .online_casino .link_text a {
+  margin-top: 10px;
+  overflow: hidden;
+  color: #3561FF;
+  text-align: right;
+  text-overflow: ellipsis;
+  whitespace: nowrap;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
   line-height: 140%; /* 28px */
 }
 #index .logo_active {
@@ -1070,6 +1241,18 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
 #index .logo_active a {
   margin-right: 80px;
   margin-bottom: 20px;
+}
+#index .logo_active .height_logo1 {
+  height: 30px;
+}
+#index .logo_active .height_logo1 img {
+  height: 100%;
+}
+#index .logo_active .height_logo2 {
+  height: 42px;
+}
+#index .logo_active .height_logo2 img {
+  height: 100%;
 }
 #index .logo_noactive {
   margin: 40px 0;
@@ -1518,6 +1701,7 @@ footer .footer_text {
   font-weight: 400;
   line-height: 140%; /* 28px */
   transition: 0.3s linear;
+  border-radius: 16px;
   padding: 10px;
 }
 #vip .messangers .vip_messenger:hover {
@@ -1544,6 +1728,7 @@ footer .footer_text {
   margin-bottom: 68px;
 }
 #vip button {
+  cursor: pointer;
   text-align: center;
   border: none;
   width: 229px;
