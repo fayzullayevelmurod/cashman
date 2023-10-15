@@ -1240,6 +1240,10 @@ header{
                             line-height: 17.273px; /* 115.464% */
                             a{
                                 text-decoration: underline;
+                                transition: .2s linear;
+                                &:hover{
+                                    color: #3561FF;
+                                }
                             }
                         }
                     }

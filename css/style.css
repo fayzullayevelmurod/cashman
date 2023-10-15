@@ -1177,6 +1177,10 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
 }
 #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p a {
   text-decoration: underline;
+  transition: 0.2s linear;
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p a:hover {
+  color: #3561FF;
 }
 #index .recommended .recommended_right .recommended_cards .recommended_card h5 {
   margin-left: auto;
