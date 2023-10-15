@@ -836,6 +836,9 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
 #index .circle_bloks .circle_top .circle_box:hover svg circle {
   stroke: #3561FF;
 }
+#index .circle_bloks .circle_top .circle_box .circle_active {
+  display: none;
+}
 #index .main_cards {
   padding-top: 40px;
   display: flex;

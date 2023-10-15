@@ -1,14 +1,3 @@
-// const icon = document.querySelector("#icon");
-// icon.onclick = () => {
-// 	icon.classList.toggle("filled");
-// };
-// const heartButtons = document.querySelectorAll(".add-to-favorite");
-// heartButtons.forEach((button) => {
-// 	button.addEventListener("click", () => {
-// 		button.classList.toggle("clicked");
-// 	});
-// });
-
 $(document).ready(function(){
 	if ($('.program_detail')) {
 		$('.program_detail .cards_container_mobile .icon').click(function () {
@@ -21,6 +10,7 @@ $(document).ready(function(){
 			$('.cards_container').removeClass('active');
 		})
 	}
+
 
 	if ($('.banking_tab')) {
 		$('.banking_tab .tab_head .tab_head_item').click(function () {
@@ -95,20 +85,3 @@ $(document).ready(function(){
 	
 	
 });
-
-
-
-// var parallaxElement = document.getElementsByClassName('thumbnail');
-// var parallaxElement = document.querySelector('.thumbnail');
-
-// // Scroll o'zgarishlarini kuzatish
-// window.addEventListener('scroll', function() {
-//     // Olingan scroll o'rtasida paytni aniqlash
-//     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-//     // Paytning kattalash koefitsiyentini o'zgartirib ketish
-//     var scale = 1 + (scrollTop / 1000); // O'zgartirilishi kerak bo'lgan koefitsiyentni o'zingiz belgilang
-
-//     // Elementni kattalashtirish
-//     parallaxElement.style.transform = 'scale(' + scale + ')';
-// });
