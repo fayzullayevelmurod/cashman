@@ -364,18 +364,24 @@
         </div>
         <div class="container_card">
             <div class="provider">
-               <div class="tt-select">
-                    <select class="provider_select_main" name="select2" id="select2">
-                        <option value="1">Providers</option>
-                        <option value="2">Providers 2</option>
-                        <option value="3">Providers 3</option>
-                        <option value="4">Providers 4</option>
-                    </select>
-               </div>
+                <button class="provider_select">
+                    <span>Providers</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                        <path d="M6.17188 7.5L9.58977 10.9179C9.98029 11.3084 10.6135 11.3084 11.004 10.9179L14.4219 7.5" stroke="#747474" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </button>
                 <div class="provider_search">
                     <label for="search">
-                        <img src="./images/search_icon.svg" alt="">
-                        <img src="./images/search_icon2.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <g opacity="0.5">
+                              <path d="M16.3337 16.5832L18.8857 19.1353M16.3337 10.9686C16.3337 14.0694 13.8199 16.5832 10.7191 16.5832C7.61823 16.5832 5.10449 14.0694 5.10449 10.9686C5.10449 7.86774 7.61823 5.354 10.7191 5.354C13.8199 5.354 16.3337 7.86774 16.3337 10.9686Z" stroke="white" stroke-width="1.53125" stroke-linecap="round"/>
+                            </g>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <g opacity="0.5">
+                              <path d="M16.3337 16.5832L18.8857 19.1353M16.3337 10.9686C16.3337 14.0694 13.8199 16.5832 10.7191 16.5832C7.61823 16.5832 5.10449 14.0694 5.10449 10.9686C5.10449 7.86774 7.61823 5.354 10.7191 5.354C13.8199 5.354 16.3337 7.86774 16.3337 10.9686Z" stroke="black" stroke-width="1.53125" stroke-linecap="round"/>
+                            </g>
+                        </svg>
                     </label>
                     <input id="search" type="text" placeholder="Search Games">
                 </div>
@@ -821,16 +827,95 @@
                 <div class="recommended_left">
                     <h4>Featured Game</h4>
                     <div class="recommended_slider">
+                        <div class="swiper_prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" viewBox="0 0 16 29" fill="none">
+                                <path opacity="1" d="M14.3779 28L2.34089 16.2797C1.60597 15.5641 1.60597 14.3833 2.34089 13.6677L14.3779 1.94747" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
                         <div class="swiper mySwiper2">
                             <div class="swiper-wrapper">
-                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
-                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
-                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
-                              <div class="swiper-slide"><img src="./images/slider.png" alt=""></div>
+                              <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="./images/slider.png" alt="">
+                                    <div class="card_hover">
+                                        <button type="button" role="button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        </button>
+                                        <h3>games name</h3>
+                                        <a class="card_link" href="#">Demo</a>
+                                        <a class="card_link_two" href="#">Play</a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="./images/slider.png" alt="">
+                                    <div class="card_hover">
+                                        <button type="button" role="button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        </button>
+                                        <h3>games name</h3>
+                                        <a class="card_link" href="#">Demo</a>
+                                        <a class="card_link_two" href="#">Play</a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="./images/slider.png" alt="">
+                                    <div class="card_hover">
+                                        <button type="button" role="button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        </button>
+                                        <h3>games name</h3>
+                                        <a class="card_link" href="#">Demo</a>
+                                        <a class="card_link_two" href="#">Play</a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="./images/slider.png" alt="">
+                                    <div class="card_hover">
+                                        <button type="button" role="button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        </button>
+                                        <h3>games name</h3>
+                                        <a class="card_link" href="#">Demo</a>
+                                        <a class="card_link_two" href="#">Play</a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="./images/slider.png" alt="">
+                                    <div class="card_hover">
+                                        <button type="button" role="button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.49521 2.55687C6.09566 0.853046 3.76182 0.394722 2.00829 1.95492C0.254751 3.51511 0.00787747 6.12368 1.38494 7.96893C2.52987 9.50313 5.99484 12.7389 7.13047 13.7862C7.25752 13.9033 7.32105 13.9619 7.39515 13.9849C7.45982 14.005 7.53059 14.005 7.59526 13.9849C7.66936 13.9619 7.73289 13.9033 7.85994 13.7862C8.99557 12.7389 12.4605 9.50313 13.6055 7.96893C14.9825 6.12368 14.7658 3.4987 12.9821 1.95492C11.1984 0.411134 8.89475 0.853046 7.49521 2.55687Z" stroke="#D9D9D9" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        </button>
+                                        <h3>games name</h3>
+                                        <a class="card_link" href="#">Demo</a>
+                                        <a class="card_link_two" href="#">Play</a>
+                                    </div>
+                                </div>
+                              </div>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                          </div>
+                        </div>
+                        <div class="swiper_next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="29" viewBox="0 0 15 29" fill="none">
+                                <path d="M1 28L13.037 16.2797C13.772 15.5641 13.772 14.3833 13.037 13.6677L0.999999 1.94747" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
                     </div>
                 </div>
                 <div class="recommended_right">
@@ -861,11 +946,11 @@
             </div>
             <div class="online_casino">
                 <h3>Online Casino</h3>
-                <p>Welcome to SlotsandCasino your home for the best casino action experience in the industry.
+                <p class="show-more-height">Welcome to SlotsandCasino your home for the best casino action experience in the industry.
                     Our vision here at SlotsandCasino is to provide a place where casino players can have a one stop shop for all their online casino needs. What makes us stand out from the competition is our experience at all levels of the gaming industry from bonuses to customer service and of course payouts. We have all of the necessary tools to ensure that your experience with us is everything you are looking for. We pride ourselves on treating each customer based on their individual needs therefore ensuring that what you want is our priority.
                 </p>
                 <div class="link_text">
-                    <a href="#">View all</a>
+                    <a class="btn_show" href="#">View all</a>
                 </div>
             </div>
             <div class="logo_active">

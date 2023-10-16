@@ -549,7 +549,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   position: fixed;
   left: 50%;
   top: 50%;
-  z-index: 5;
+  z-index: 15;
   animation: sign 0.7s linear;
   margin: 0 auto;
   width: 360px;
@@ -740,7 +740,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   position: fixed;
   left: 50%;
   top: 50%;
-  z-index: 5;
+  z-index: 15;
   animation: sign 0.7s linear;
   margin: 0 auto;
   width: 360px;
@@ -891,6 +891,15 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-weight: 400;
   line-height: 140%; /* 19.6px */
   letter-spacing: 0.28px;
+}
+#index .sign_in.active {
+  display: block;
+}
+#index .sign_up.active {
+  display: block;
+}
+#index .bg_sign.active {
+  display: block;
 }
 @keyframes sign {
   0% {
@@ -1292,44 +1301,26 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   margin-bottom: 49px; /* 125% */
 }
 #index .recommended .recommended_left .recommended_slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-radius: 12px;
   background: #11141B;
   width: 100%;
-  padding: 30px 50px;
+  padding: 30px 31px;
   margin: 0 auto;
+  gap: 50px;
 }
 #index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide {
+  overflow: hidden;
+  border-radius: 20px;
   text-align: center;
+  position: relative;
 }
-#index .recommended .recommended_left .recommended_slider .mySwiper2 img {
-  border-radius: 10px;
-  width: 70%;
-  margin: 0 auto;
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .img {
+  position: relative;
 }
-#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-button-prev {
-  color: #FDFDFD;
-  width: 26px;
-}
-#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-button-next {
-  color: #FDFDFD;
-  width: 26px;
-}
-#index .recommended .recommended_left .mySwiper .swiper-wrapper {
-  height: 212px;
-  width: 100%;
-  border-radius: 15px;
-}
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper {
-  cursor: pointer;
-  flex-basis: 200px;
-  border: 1px solid transparent;
-  margin-bottom: 36px;
-  transition: 0.1s ease;
-}
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper:hover .card_hover {
-  transform: scale(1);
-}
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover {
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .card_hover {
   border: 2px solid transparent;
   border-radius: 20px;
   position: absolute;
@@ -1337,7 +1328,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   top: 0;
   transform: scale(0);
   width: 100%;
-  height: 97%;
+  height: 100%;
   transition: 0.2s linear;
   background: rgba(0, 0, 0, 0.8);
   border: 2px solid rgb(53, 97, 255);
@@ -1345,7 +1336,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   -webkit-box-shadow: -4px 1px 24px 6px rgba(53, 97, 255, 0.33);
   -moz-box-shadow: -4px 1px 24px 6px rgba(53, 97, 255, 0.33);
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover button {
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .card_hover button {
   cursor: pointer;
   position: absolute;
   top: 6px;
@@ -1354,21 +1345,40 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   background-color: transparent;
   border: none;
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover button svg.active path {
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .card_hover button svg {
+  width: 25px;
+  height: 25px;
+}
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .card_hover button svg.active path {
   fill: #F63A3A;
   stroke-width: 1px;
   stroke: #F63A3A;
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover .card_link {
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .card_hover h3 {
   position: absolute;
-  bottom: 0;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  color: var(--text-text, #FFF);
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 11.467px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 16.054px */
+  letter-spacing: 0.229px;
+  text-transform: uppercase;
+}
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .card_hover .card_link {
+  position: absolute;
+  bottom: 70px;
   left: 0;
   right: 0;
   margin: 10px auto;
-  padding: 6px 0;
+  padding: 10px 0;
   text-align: center;
   display: block;
-  width: 119px;
+  width: 139px;
   color: #fff;
   font-family: "Golos Text VF", sans-serif;
   font-size: 11.6px;
@@ -1376,24 +1386,26 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-weight: 600;
   line-height: normal;
   border-radius: 12px;
-  background: #3561FF;
   transition: 0.3s linear;
+  background: transparent;
+  border: 1px solid #3561FF;
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover .card_link:hover {
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .card_hover .card_link:hover {
   border-radius: 12px;
   background: #3561FF;
   box-shadow: 0px 0px 8px 0px rgba(53, 97, 255, 0.8);
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover .card_link_two {
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .card_hover .card_link_two {
+  background: #3561FF;
   position: absolute;
-  bottom: 35px;
+  bottom: 30px;
   left: 0;
   right: 0;
   margin: 10px auto;
-  padding: 6px 0;
+  padding: 10px 0;
   text-align: center;
   display: block;
-  width: 119px;
+  width: 139px;
   color: #fff;
   font-family: "Golos Text VF", sans-serif;
   font-size: 11.6px;
@@ -1401,50 +1413,25 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   font-weight: 600;
   line-height: normal;
   border-radius: 12px;
-  background: transparent;
-  border: 1px solid #3561FF;
+  border: 1px solid transparent;
   transition: 0.3s linear;
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_hover .card_link_two:hover {
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide .card_hover .card_link_two:hover {
   border-radius: 12px;
   border: 1px solid #3561FF;
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_img {
-  position: relative;
+#index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide:hover .card_hover {
+  transform: scale(1);
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper .card_img img {
-  border-radius: 20px;
-  width: 100%;
+#index .recommended .recommended_left .recommended_slider .mySwiper2 img {
+  border-radius: 10px;
+  margin: 0 auto;
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .card_wrapper h4 {
-  color: #fff;
-  text-align: center;
-  font-family: "Golos Text VF", sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 16.8px */
-  letter-spacing: 0.24px;
-  text-transform: uppercase;
-  margin-top: 10px;
+#index .recommended .recommended_left .recommended_slider .swiper_prev {
+  cursor: pointer;
 }
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .swiper_card {
-  position: relative;
-}
-#index .recommended .recommended_left .mySwiper .swiper-wrapper .swiper-slide .swiper_card .swiper_slide_hover {
-  z-index: 10;
-  background: rgba(0, 0, 0, 0.8);
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-#index .recommended .recommended_left .mySwiper .swiper-wrapper img {
-  padding: 30px 50px;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+#index .recommended .recommended_left .recommended_slider .swiper_next {
+  cursor: pointer;
 }
 #index .recommended .recommended_right {
   width: 50%;
@@ -1550,7 +1537,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   display: flex;
   justify-content: end;
 }
-#index .online_casino .link_text .show-more {
+#index .online_casino .link_text .btn_show {
   cursor: pointer;
   margin-top: 10px;
   overflow: hidden;
