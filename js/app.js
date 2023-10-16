@@ -12,10 +12,17 @@ $(document).ready(function(){
 	}
 
 	if ($('.circle_box').length) {
-		console.log($('.circle_box'))
 		$('.circle_box').each(function(index,el){
 			$(el).click(function(){
 				$('.circle_box').not($(el)).removeClass('active')
+				$(el).toggleClass('active')
+			})
+		})
+	}	
+	if ($('.checkbox_in').length) {
+		$('.checkbox_in').each(function(index,el){
+			$(el).click(function(){
+				$('.checkbox_in').not($(el)).removeClass('active')
 				$(el).toggleClass('active')
 			})
 		})

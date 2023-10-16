@@ -533,6 +533,341 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
 #index {
   overflow: hidden;
 }
+#index .sign_up {
+  margin: 0 auto;
+  max-width: 360px;
+  border-radius: 12px;
+  background: linear-gradient(132deg, rgba(31, 34, 41, 0) 54.97%, #3561FF 117.58%), #1F2229;
+}
+#index .sign_up .sign_up_head {
+  position: relative;
+  border-bottom: 1px solid #494C53;
+}
+#index .sign_up .sign_up_head .close_btn {
+  z-index: 2;
+  position: absolute;
+  cursor: pointer;
+  top: 7px;
+  right: 7px;
+}
+#index .sign_up .sign_up_head h4 {
+  padding: 22px 0;
+  color: var(--text-text, #FFF);
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 181.818% */
+  letter-spacing: 0.44px;
+  opacity: 0.8;
+}
+#index .sign_up form {
+  border-bottom: 1px solid #494C53;
+  padding: 0 30px;
+}
+#index .sign_up form .sign_up_btns {
+  margin-bottom: 20px;
+  padding: 3px;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #2A2E37;
+  background: linear-gradient(180deg, #2A2F38 0%, #1F2229 100%);
+}
+#index .sign_up form .sign_up_btns a {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-text, #FFF);
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 50%;
+}
+#index .sign_up form .sign_up_btns .active_tab {
+  border-radius: 10px;
+  background: #3561FF;
+}
+#index .sign_up form input {
+  border-radius: 12px;
+  border: 1px solid #2A2E37;
+  background: #1F2229;
+  height: 40px;
+  padding: 0 24px;
+  color: var(--text-text, #FFF);
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.5;
+  width: 100%;
+  margin-bottom: 14px;
+}
+#index .sign_up form input:focus {
+  outline: none;
+}
+#index .sign_up form .checkbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 15px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+#index .sign_up form .checkbox .checkbox_in {
+  display: flex;
+  align-items: center;
+}
+#index .sign_up form .checkbox .checkbox_in span {
+  margin-left: 14px;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#index .sign_up form .checkbox .checkbox_in .svg_active {
+  display: none;
+}
+#index .sign_up form .checkbox .caution {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 32px;
+  color: #FF2727 !important;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#index .sign_up form .checkbox .active .svg_real {
+  display: none;
+}
+#index .sign_up form .checkbox .active .svg_active {
+  display: block;
+}
+#index .sign_up form .checkbox .active .caution {
+  display: block;
+}
+#index .sign_up form button {
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 100%;
+  border: none;
+  height: 40px;
+  border-radius: 12px;
+  background: #F9C143;
+  color: #000;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.28px;
+}
+#index .sign_up .social_media {
+  border-bottom: 1px solid #494C53;
+  margin-top: 20px;
+}
+#index .sign_up .social_media h5 {
+  opacity: 0.9;
+  margin-bottom: 18px;
+  text-align: center;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#index .sign_up .social_media .social_media_icon {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+#index .sign_up .sign_up_bottom {
+  padding: 0 30px;
+}
+#index .sign_up .sign_up_bottom .sign_up_btn {
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 12px;
+  background: #3561FF;
+  margin: 20px 0;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.28px;
+}
+#index .sign_in {
+  margin: 0 auto;
+  max-width: 360px;
+  border-radius: 12px;
+  background: linear-gradient(132deg, rgba(31, 34, 41, 0) 54.97%, #3561FF 117.58%), #1F2229;
+}
+#index .sign_in .sign_up_head {
+  position: relative;
+  border-bottom: 1px solid #494C53;
+}
+#index .sign_in .sign_up_head .close_btn {
+  z-index: 2;
+  position: absolute;
+  cursor: pointer;
+  top: 7px;
+  right: 7px;
+}
+#index .sign_in .sign_up_head h4 {
+  padding: 22px 0;
+  color: var(--text-text, #FFF);
+  text-align: center;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 181.818% */
+  letter-spacing: 0.44px;
+  opacity: 0.8;
+}
+#index .sign_in form {
+  border-bottom: 1px solid #494C53;
+  padding: 0 30px;
+}
+#index .sign_in form .sign_up_btns {
+  margin-bottom: 20px;
+  padding: 3px;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #2A2E37;
+  background: linear-gradient(180deg, #2A2F38 0%, #1F2229 100%);
+}
+#index .sign_in form .sign_up_btns a {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-text, #FFF);
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 50%;
+}
+#index .sign_in form .sign_up_btns .active_tab {
+  border-radius: 10px;
+  background: #3561FF;
+}
+#index .sign_in form input {
+  border-radius: 12px;
+  border: 1px solid #2A2E37;
+  background: #1F2229;
+  height: 40px;
+  padding: 0 24px;
+  color: var(--text-text, #FFF);
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.5;
+  width: 100%;
+  margin-bottom: 14px;
+}
+#index .sign_in form input:focus {
+  outline: none;
+}
+#index .sign_in form .checkbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 15px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+#index .sign_in form .checkbox .checkbox_link {
+  color: #FF2727;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#index .sign_in form .checkbox .checkbox_in {
+  display: flex;
+  align-items: center;
+}
+#index .sign_in form .checkbox .checkbox_in span {
+  margin-left: 14px;
+  color: #FFF;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#index .sign_in form .checkbox .checkbox_in .svg_active {
+  display: none;
+}
+#index .sign_in form .checkbox .caution {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 32px;
+  color: #FF2727 !important;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#index .sign_in form .checkbox .active .svg_real {
+  display: none;
+}
+#index .sign_in form .checkbox .active .svg_active {
+  display: block;
+}
+#index .sign_in form .checkbox .active .caution {
+  display: block;
+}
+#index .sign_in form button {
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 100%;
+  border: none;
+  height: 40px;
+  border-radius: 12px;
+  background: #F9C143;
+  color: #000;
+  font-family: "Golos Text VF", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.28px;
+}
 #index .jackpot {
   padding: 20px 0;
   background: #1F2229;
@@ -626,6 +961,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   justify-content: center;
 }
 #index .provider .provider_select {
+  border: 0;
   margin-right: 13px;
   cursor: pointer;
   border-radius: 6.41px;
@@ -638,15 +974,23 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
 }
 #index .provider .provider_select span {
   padding-left: 16px;
-  color: #fff;
   font-family: "Golos Text VF", sans-serif;
   font-size: 14.83px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  color: #747474;
+  transition: 0.2s linear;
 }
 #index .provider .provider_select svg {
   margin-right: 11px;
+  transition: 0.2s linear;
+}
+#index .provider .provider_select:hover span {
+  color: #3561FF;
+}
+#index .provider .provider_select:hover svg path {
+  stroke: #3561FF;
 }
 #index .provider .provider_search {
   position: relative;
@@ -656,10 +1000,9 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   align-items: center;
   border-radius: 12px;
   border: 1px solid #2A2E37;
-  background: #1F2229;
+  background-color: #1F2229;
 }
 #index .provider .provider_search label {
-  width: 100%;
   padding: 8px;
   cursor: pointer;
 }
@@ -667,10 +1010,10 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   width: 24px;
   height: 24px;
 }
-#index .provider .provider_search label img:nth-child(1) {
+#index .provider .provider_search label svg:nth-child(1) {
   display: block;
 }
-#index .provider .provider_search label img:nth-child(2) {
+#index .provider .provider_search label svg:nth-child(2) {
   display: none;
 }
 #index .provider .provider_search #search {
@@ -691,137 +1034,32 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   line-height: normal;
   outline: none;
   padding-right: 8px;
+  opacity: 0.5;
+}
+#index .provider .provider_search:hover {
+  border: 1px solid #3561FF;
+  background-color: #E7E7E7;
+}
+#index .provider .provider_search:hover label svg path {
+  stroke: #000000;
 }
 #index .provider .provider_search.active {
   border-radius: 12px;
-  border: 1px solid #3561FF;
-  background: #E7E7E7;
-  height: 42px;
-}
-#index .provider .provider_search.active label {
-  padding: 0;
+  border: 1px solid #2A2E37;
+  background-color: #E7E7E7;
 }
 #index .provider .provider_search.active label img {
-  padding-left: 0;
   width: 100%;
   height: 100%;
 }
-#index .provider .provider_search.active label img:nth-child(1) {
+#index .provider .provider_search.active label svg:nth-child(1) {
   display: none;
 }
-#index .provider .provider_search.active label img:nth-child(2) {
+#index .provider .provider_search.active label svg:nth-child(2) {
   display: block;
 }
-#index .provider .select2-container--default {
-  margin-right: 13px;
-  width: 340px !important;
-}
-#index .provider .select2-container--default .select2-dropdown .select2-search--dropdown {
-  display: none !important;
-}
-#index .provider .select2-container--default .select2-search--dropdown {
-  display: none !important;
-  padding: 4px;
-}
-#index .provider .select2-container--default .select2-results__option--highlighted .select2-results__option--selectable {
-  color: #fff;
-  background-color: linear-gradient(180deg, #2A2F38 0%, #1F2229 100%);
-}
-#index .provider .select2-container--default .select2-selection--single {
-  width: 340px;
-  display: flex;
-  align-items: center;
-  height: 43px;
-  border: none;
-  background: linear-gradient(180deg, #2A2F38 0%, #1F2229 100%);
-}
-#index .provider .select2-container--default .select2-selection--single .select2-selection__rendered {
-  background-image: url("../images/down.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-  color: #fff;
-  font-family: "Golos Text VF", sans-serif;
-  font-size: 14.83px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-left: 12px;
-  padding-right: 230px;
-}
-#index .provider .select2-container--default .select2-selection--single .select2-selection__arrow {
-  display: none;
-}
-#index .tt-select {
-  width: 350px;
-  position: relative;
-  height: auto;
-  padding: 0px;
-  text-align: left;
-  margin-right: 13px;
-}
-#index .tt-select select {
-  display: none;
-}
-#index .select-selected {
-  display: flex;
-  align-items: center;
-  height: 42px;
-  color: #fff;
-  font-family: "Golos Text VF", sans-serif;
-  font-size: 14.83px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border: none;
-  border-radius: 12px;
-  background: linear-gradient(180deg, #2A2F38 0%, #1F2229 100%), #1F2229;
-}
-#index .select-selected:after {
-  position: absolute;
-  content: "";
-  top: 12px;
-  right: 10px;
-  width: 18px;
-  height: 18px;
-}
-#index .select-selected:before {
-  position: absolute;
-  content: "";
-  top: 12px;
-  right: 10px;
-  width: 18px;
-  height: 18px;
-  background: url("../images/down_select.svg");
-}
-#index .select-selected.select-arrow-active:before {
-  border: none;
-  transform: rotate(180deg);
-}
-#index .select-selected.select-arrow-active:after {
-  border-color: transparent transparent #000000 transparent;
-}
-#index .select-items div, #index .select-selected {
-  color: #ffffff;
-  padding: 8px 16px;
-  border: 1px solid #333333;
-  cursor: pointer;
-}
-#index .select-items {
-  overflow: hidden;
-  color: #fff;
-  font-family: "Golos Text VF", sans-serif;
-  font-size: 14.83px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border: none;
-  border-radius: 12px;
-  position: absolute;
-  background-color: #313131;
-  top: 100%;
-  left: 0;
-  right: 0;
-  z-index: 9;
+#index .provider .provider_search.active #search {
+  color: #000;
 }
 #index .select-hide {
   display: none;
