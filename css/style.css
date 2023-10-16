@@ -2897,6 +2897,9 @@ footer .footer_text {
   max-width: 1143.18px;
   margin: 0 auto;
 }
+.program_detail .close {
+  display: none;
+}
 .program_detail .cards {
   display: flex;
   flex-direction: column;
@@ -3169,6 +3172,7 @@ footer .footer_text {
     display: none;
   }
   .cards_container .close {
+    display: flex;
     position: fixed;
     top: 24px;
     right: 24px;
@@ -3177,7 +3181,6 @@ footer .footer_text {
     border-radius: 50%;
     border: none;
     outline: none;
-    display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 2px;
