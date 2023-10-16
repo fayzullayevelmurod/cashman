@@ -95,7 +95,7 @@ $(document).ready(function(){
 
 	$('.account_icon, .account_down').click(function(){
 		$('.account_burger').toggleClass('active');
-		$('body').toggleClass('hidden2');
+		// $('body').toggleClass('hidden2');
 		$('.account_down').toggleClass('active');
 		$('.account_person').toggleClass('active')
 	})

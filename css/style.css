@@ -347,7 +347,6 @@ header .header_wrapper .nav_item_active svg {
 }
 header .header_wrapper .account {
   display: flex;
-  gap: 16px;
   align-items: center;
 }
 header .header_wrapper .account .account_link1,
@@ -412,7 +411,6 @@ header .header_wrapper .account .account_name h4 {
 header .header_wrapper .account .account_icon {
   cursor: pointer;
   margin-left: 16px;
-  margin-right: 10px;
   width: 40px;
   height: 40px;
   display: flex;
