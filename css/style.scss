@@ -274,6 +274,12 @@ body.hidden2{
                 width: 100%;
             }
         }
+        .desktop_slider{
+            img{
+                height: 600px;
+                object-fit: cover;
+            }
+        }
         .media_slider{
             display: none;
         }

@@ -250,6 +250,11 @@ body.hidden2 {
 .mySwiper .swiper-wrapper .swiper-slide img {
   width: 100%;
 }
+.mySwiper .swiper-wrapper .desktop_slider img {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .mySwiper .swiper-wrapper .media_slider {
   display: none;
 }
