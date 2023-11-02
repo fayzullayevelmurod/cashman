@@ -258,6 +258,11 @@ body.hidden2 {
 .mySwiper .swiper-wrapper .media_slider {
   display: none;
 }
+.mySwiper .swiper-wrapper .media_slider img {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #D9D9D9;

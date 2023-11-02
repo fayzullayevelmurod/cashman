@@ -282,6 +282,10 @@ body.hidden2{
         }
         .media_slider{
             display: none;
+            img{
+                height: 600px;
+                object-fit: cover;
+            }
         }
     }
 }
