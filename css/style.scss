@@ -268,24 +268,19 @@ body.hidden2{
     }
 }
 .mySwiper{
-    .swiper-wrapper{
-        .swiper-slide{
-            img{
-                width: 100%;
-            }
-        }
-        .desktop_slider{
-            img{
-                height: 600px;
-                object-fit: cover;
-            }
-        }
-        .media_slider{
+    .swiper-slide {
+        // height: 300px;
+        max-width: 848px ;
+        
+    }
+    .img_wrapper {
+        .slider_mobile {
             display: none;
-            // img{
-            //     height: 600px;
-            //     object-fit: cover;
-            // }
+        }
+        img {
+            width: 100%;
+            // object-fit: cover;
+            // height: 100%;
         }
     }
 }

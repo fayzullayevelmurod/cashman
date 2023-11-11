@@ -194,8 +194,6 @@
                 }
                 .mySwiper{
                     .swiper-wrapper{
-                        height: 212px;
-                        width: 100%;
                         img{
                             height: 100%;
                             border-radius: 15px;
@@ -283,11 +281,13 @@
     }
     .mySwiper{
         .swiper-wrapper{
-            .media_slider{
-                display: block;
-            }
-            .desktop_slider{
-                display: none;
+            .img_wrapper {
+                .slider_mobile{
+                    display: block;
+                }
+                .slider_desktop{
+                    display: none;
+                }
             }
         }
     }
