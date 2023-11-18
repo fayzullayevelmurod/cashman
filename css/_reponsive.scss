@@ -638,6 +638,7 @@
         }
     }
     footer{
+        padding-bottom: 50px;
         .footer_wrapper{
             flex-direction: column;
             .footer_menu{
@@ -647,7 +648,7 @@
             }
         }
         .footer_text{
-            display: none;
+            // display: none;
         }
     }
 

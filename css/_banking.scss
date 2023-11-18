@@ -253,7 +253,6 @@
 
                 .link {
                     border-radius: 12px;
-                    background: #C99C38;
                     width: 366px;
                     height: 60px;
                     color: #CFCFCF;
@@ -263,10 +262,11 @@
                     font-weight: 600;
                     line-height: normal;
                     border: none;
+                    background: #3561FF;
 
                     &:hover {
-                        background: linear-gradient(0deg, #C99C38 0%, #C99C38 100%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(254, 204, 53, 0.50) 0%, rgba(185, 135, 76, 0.50) 100%), radial-gradient(70.71% 70.71% at 50% 50%, #FFFFD9 0%, #B9874C 100%);
-                        box-shadow: 0px 0px 8px 0px rgba(201, 156, 56, 0.80);
+                        background: #1D273D;
+                        box-shadow: 0px 0px 25px 0px rgba(53, 97, 255, 0.55);
                     }
                 }
             }
@@ -318,7 +318,6 @@
 
             .link {
                 border-radius: 12px;
-                background: #C99C38;
                 color: #CFCFCF;
                 font-family: "Golos Text VF", sans-serif;
                 font-size: 16px;
@@ -334,11 +333,11 @@
                 justify-content: center;
                 margin: 0 auto;
                 border: none; 
-                outline: none;
+                background: #3561FF;
 
                 &:hover {
-                    background: linear-gradient(0deg, #C99C38 0%, #C99C38 100%), radial-gradient(70.71% 70.71% at 50% 50%, rgba(254, 204, 53, 0.50) 0%, rgba(185, 135, 76, 0.50) 100%), radial-gradient(70.71% 70.71% at 50% 50%, #FFFFD9 0%, #B9874C 100%);
-                    box-shadow: 0px 0px 8px 0px rgba(201, 156, 56, 0.80);
+                    background: #1D273D;
+                    box-shadow: 0px 0px 25px 0px rgba(53, 97, 255, 0.55);
                 }
             }
         }
@@ -520,7 +519,6 @@
 
             .link {
                 border-radius: 12px;
-                background: #C99C38;
                 color: #CFCFCF;
                 font-family: "Golos Text VF", sans-serif;
                 font-size: 16px;
@@ -537,6 +535,13 @@
                 border: none;
                 outline: none;
                 margin: 40px auto;
+
+                background: #3561FF;
+
+                &:hover {
+                    background: #1D273D;
+                    box-shadow: 0px 0px 25px 0px rgba(53, 97, 255, 0.55);
+                }
             }
         }
     }
@@ -580,7 +585,6 @@
             .link {
                 width: calc(100% / 3 - (48px / 3));
                 border-radius: 12px;
-                background: #C99C38;
                 border: none;
                 outline: none;
                 color: #CFCFCF;
@@ -594,9 +598,11 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                background: #3561FF;
 
                 &:hover {
-                    box-shadow: 0px 0px 8px 0px rgba(201, 156, 56, 0.80);
+                    background: #1D273D;
+                    box-shadow: 0px 0px 25px 0px rgba(53, 97, 255, 0.55);
                 }
             }
         }
