@@ -4755,15 +4755,21 @@ footer .footer_text {
     height: 37px;
   }
   footer {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
   footer .footer_wrapper {
     flex-direction: column;
   }
+  footer .footer_wrapper .network_messenger {
+    margin-top: 20px;
+  }
   footer .footer_wrapper .footer_menu {
-    margin-top: 49px;
-    margin-bottom: 59px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 0;
+  }
+  footer .footer_wrapper .footer_text {
+    margin-top: 20px;
   }
   .swiper-pagination .swiper-pagination-bullet {
     transform: translateY(2px);
