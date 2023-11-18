@@ -4375,6 +4375,12 @@ footer .footer_text {
   #index .circle_bloks .circle_top .circle_box {
     width: calc(12.5% - 5.625px);
   }
+  #crypto .container_card .crypto_cards {
+    flex-wrap: wrap;
+  }
+  #crypto .container_card .crypto_cards .crypto_card {
+    width: calc(50% - 30px);
+  }
 }
 @media only screen and (max-width: 970px) {
   #index .recommended {
@@ -4452,6 +4458,14 @@ footer .footer_text {
   }
   #promotions .promotion_cards .promotion_cards_wrapper .promotion_card {
     max-width: 49%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #crypto .crypto_content .crypto_content_cards {
+    flex-wrap: wrap;
+  }
+  #crypto .crypto_content .crypto_content_cards .crypto_content_card {
+    width: calc(50% - 20px);
   }
 }
 @media only screen and (max-width: 768px) {
@@ -4774,6 +4788,56 @@ footer .footer_text {
   .swiper-pagination .swiper-pagination-bullet {
     transform: translateY(2px);
     margin: 0 5px !important;
+  }
+}
+@media only screen and (max-width: 520px) {
+  #crypto .crypto_text h1 {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  #crypto .crypto_text h1 .crypto_blue,
+  #crypto .crypto_text h1 .crypto_coral {
+    font-size: 26px;
+  }
+  #crypto .crypto_cards_title {
+    line-height: 120%;
+    font-size: 26px;
+  }
+  #crypto .crypto_cards_title .crypto_blue,
+  #crypto .crypto_cards_title .crypto_coral {
+    font-size: 26px;
+  }
+  #crypto .container_card .crypto_cards {
+    flex-wrap: wrap;
+  }
+  #crypto .container_card .crypto_cards .crypto_card {
+    max-width: 100%;
+    width: calc(100% - 30px);
+  }
+  #crypto .container_card .crypto_cards .crypto_card .crypto_card_img img {
+    width: 200px;
+  }
+  #crypto .crypto_content h2 {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  #crypto .crypto_content h6 {
+    font-size: 16px;
+  }
+  #crypto .crypto_content h6 .crypto_blue,
+  #crypto .crypto_content h6 .crypto_coral {
+    font-size: 16px;
+  }
+  #crypto .crypto_content .crypto_content_cards .crypto_content_card {
+    max-width: 100%;
+    width: calc(100% - 20px);
+  }
+  #crypto .crypto_now h2 {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+  #crypto .crypto_now h5 {
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 486px) {
