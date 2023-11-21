@@ -805,6 +805,15 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   border-radius: 10px;
   background: #3561FF;
 }
+#index .sign_in form .defulat {
+  display: block;
+}
+#index .sign_in form .phone_active {
+  display: none;
+}
+#index .sign_in form .phone_active.active {
+  display: block;
+}
 #index .sign_in form input {
   border-radius: 12px;
   border: 1px solid #2A2E37;
@@ -971,7 +980,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   white-space: nowrap;
   color: #B8BABF;
   font-family: "Golos Text VF", sans-serif;
-  font-size: 14.83px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -980,7 +989,6 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
 }
 #index .main_menu .main_menu_link:hover a {
   color: #CFCFCF;
-  font-weight: 700;
 }
 #index .main_menu .main_menu_active {
   border-bottom: 2px solid #FFD333;
@@ -1176,7 +1184,6 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   flex-wrap: wrap;
 }
 #index .main_cards .card_wrapper {
-  cursor: pointer;
   flex-basis: 200px;
   border: 1px solid transparent;
   margin-bottom: 36px;
@@ -1312,6 +1319,10 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   padding: 30px 31px;
   margin: 0 auto;
   gap: 50px;
+}
+#index .recommended .recommended_left .recommended_slider .swiper-button-disabled {
+  opacity: 0.3;
+  cursor: default !important;
 }
 #index .recommended .recommended_left .recommended_slider .mySwiper2 .swiper-slide {
   overflow: hidden;
@@ -1453,12 +1464,25 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   gap: 30px;
 }
 #index .recommended .recommended_right .recommended_cards .recommended_card {
+  position: relative;
   padding: 9px 12px;
   height: 120px;
   display: flex;
   align-items: start;
   border-radius: 12px;
   background: #1F2229;
+  transition: 0.2s ease;
+  border: 1px solid transparent;
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card:hover {
+  border: 1px solid #C99C38;
+}
+#index .recommended .recommended_right .recommended_cards .recommended_card .recommended_link {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 #index .recommended .recommended_right .recommended_cards .recommended_card img {
   height: 100%;
@@ -1493,6 +1517,8 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   line-height: 17.273px; /* 115.464% */
 }
 #index .recommended .recommended_right .recommended_cards .recommended_card .recommended_text p a {
+  position: relative;
+  z-index: 2;
   text-decoration: underline;
   transition: 0.2s linear;
 }

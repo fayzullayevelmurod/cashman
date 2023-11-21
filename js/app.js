@@ -128,3 +128,11 @@ $(document).ready(function(){
 	}
 	
 });
+
+// let phone_active = document.querySelector('.sign_up_btns');
+// let tabs_btn = document.querySelector('.sign_up_btns .tabs_btn');
+
+// tabs_btn.addEventListener('click', () => {
+// 	phone_active.classList.toggle('active')
+
+// })

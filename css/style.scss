@@ -850,6 +850,16 @@ header{
                     background: #3561FF;
                 }
             }
+            .defulat {
+                display: block;
+            }
+            .phone_active {
+                display: none;
+            }
+
+            .phone_active.active{
+                display: block;
+            }
             input{
                 border-radius: 12px;
                 border: 1px solid #2A2E37;
@@ -1018,7 +1028,7 @@ header{
                 white-space: nowrap;
                 color: #B8BABF;
                 font-family: 'Golos Text VF',sans-serif;
-                font-size: 14.83px;
+                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -1029,7 +1039,7 @@ header{
             &:hover{
                 a{
                     color: #CFCFCF;
-                    font-weight: 700;
+                    // font-weight: 700;
                 }
             }
         }
@@ -1252,7 +1262,7 @@ header{
         justify-content: space-between;
         flex-wrap: wrap;
         .card_wrapper{
-            cursor: pointer;
+            // cursor: pointer;
             flex-basis: 200px;
             border: 1px solid transparent;
             margin-bottom: 36px;
@@ -1389,6 +1399,12 @@ header{
                 padding: 30px 31px;
                 margin: 0 auto;
                 gap: 50px;
+
+                .swiper-button-disabled {
+                    opacity: .3;
+                    cursor: default !important;
+                }
+
                 .mySwiper2{
                     .swiper-slide{
                         overflow: hidden;
@@ -1535,13 +1551,30 @@ header{
                 display: flex;
                 flex-direction: column;
                 gap: 30px;
+                
                 .recommended_card{
+                    position: relative;
                     padding: 9px 12px;
                     height: 120px;
                     display: flex;
                     align-items: start;
                     border-radius: 12px;
                     background: #1F2229;
+                    transition: .2s ease;
+                    border: 1px solid transparent;
+
+                    &:hover {
+                        border: 1px solid #C99C38;
+                    }
+
+                    .recommended_link {
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                    }
+
                     img{
                         height: 100%;
                     }
@@ -1573,6 +1606,8 @@ header{
                             font-weight: 400;
                             line-height: 17.273px; /* 115.464% */
                             a{
+                                position: relative;
+                                z-index: 2;
                                 text-decoration: underline;
                                 transition: .2s linear;
                                 &:hover{
