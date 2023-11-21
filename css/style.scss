@@ -626,6 +626,7 @@ header{
             }
         }
         form{
+            width: 100%;
             border-bottom: 1px solid #494C53;
             padding: 0 30px;
             .sign_up_btns{
@@ -655,6 +656,20 @@ header{
                 .active_tab{
                     border-radius: 10px;
                     background: #3561FF;
+                }
+            }
+            .defulat {
+                input[type="tel"] {
+                    display: none;
+                }
+            }
+
+            .defulat.active {
+                input[type="tel"] {
+                    display: block;
+                }
+                input[type="email"] {
+                    display: none;
                 }
             }
             input{
@@ -819,6 +834,7 @@ header{
             }
         }
         form{
+            width: 100%;
             border-bottom: 1px solid #494C53;
             padding: 0 30px;
             .sign_up_btns{
@@ -851,10 +867,18 @@ header{
                 }
             }
             .defulat {
-                display: block;
+                input[type="tel"] {
+                    display: none;
+                }
             }
-            .phone_active {
-                display: none;
+
+            .defulat.active {
+                input[type="tel"] {
+                    display: block;
+                }
+                input[type="email"] {
+                    display: none;
+                }
             }
 
             .phone_active.active{

@@ -126,13 +126,24 @@ $(document).ready(function(){
 			$('.bg_sign').removeClass('active')
 		})
 	}
+
+	$('.sign_up_btns .tabs_btn').each(function(index, el) {
+		$(el).click(function(e) {
+			e.preventDefault()
+			let atr = $(this).attr('data-type')
+
+			if (atr == 'email') {
+				$('.defulat').removeClass('active')
+			} else {
+				$('.defulat').addClass('active')
+			}
+
+			$('.sign_up_btns .tabs_btn').removeClass('active_tab') 
+
+			$(this).addClass('active_tab')
+
+		})
+	});
+
 	
 });
-
-// let phone_active = document.querySelector('.sign_up_btns');
-// let tabs_btn = document.querySelector('.sign_up_btns .tabs_btn');
-
-// tabs_btn.addEventListener('click', () => {
-// 	phone_active.classList.toggle('active')
-
-// })

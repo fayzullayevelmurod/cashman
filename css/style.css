@@ -582,6 +582,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   opacity: 0.8;
 }
 #index .sign_up form {
+  width: 100%;
   border-bottom: 1px solid #494C53;
   padding: 0 30px;
 }
@@ -613,6 +614,15 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
 #index .sign_up form .sign_up_btns .active_tab {
   border-radius: 10px;
   background: #3561FF;
+}
+#index .sign_up form .defulat input[type=tel] {
+  display: none;
+}
+#index .sign_up form .defulat.active input[type=tel] {
+  display: block;
+}
+#index .sign_up form .defulat.active input[type=email] {
+  display: none;
 }
 #index .sign_up form input {
   border-radius: 12px;
@@ -773,6 +783,7 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   opacity: 0.8;
 }
 #index .sign_in form {
+  width: 100%;
   border-bottom: 1px solid #494C53;
   padding: 0 30px;
 }
@@ -805,10 +816,13 @@ header .header_wrapper .header_buttons .header_btn_two:hover {
   border-radius: 10px;
   background: #3561FF;
 }
-#index .sign_in form .defulat {
+#index .sign_in form .defulat input[type=tel] {
+  display: none;
+}
+#index .sign_in form .defulat.active input[type=tel] {
   display: block;
 }
-#index .sign_in form .phone_active {
+#index .sign_in form .defulat.active input[type=email] {
   display: none;
 }
 #index .sign_in form .phone_active.active {
