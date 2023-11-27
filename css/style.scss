@@ -1707,17 +1707,10 @@ header{
         a{
             margin-right: 80px;
             margin-bottom: 20px;
-        }
-        .height_logo1{
-            height: 30px;
-            img{
-                height: 100%;
-            }
-        }
-        .height_logo2{
-            height: 42px;
-            img{
-                height: 100%;
+            height: auto;
+            width: 130px;
+            img {
+                width: 100%;
             }
         }
     }
@@ -1726,11 +1719,18 @@ header{
         display: flex;
         align-items: center;
         gap: 30px;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
-        // .noactive_link{
-        //     border: 1px solid red;
-        // }
+        .noactive_link {
+            width: 130px;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: 50px;
+                object-fit: contain;
+            }
+        }
     }
 }
 #game_map{
